@@ -558,8 +558,13 @@
       <span>Total</span>
       <span id="cartTotalAmount"></span>
     </div>
-    <a class="btn-gold btn-full" id="cartCheckoutBtn" href="#" target="_blank" style="display:block;text-decoration:none;margin-top:16px;">Checkout via WhatsApp</a>
-    <div style="font-size:11px;color:var(--muted);margin-top:10px;text-align:center;">You'll confirm your order and delivery details directly with us on WhatsApp.</div>
+    <div id="cartPayInfo" class="hidden" style="font-size:13px;background:var(--navy3);border:1px solid rgba(232,200,116,0.2);border-radius:8px;padding:12px;margin-top:14px;">
+      <div style="font-weight:700;margin-bottom:4px;">Pay via MTN Mobile Money</div>
+      <div>+237 670 303 644</div>
+      <div style="color:var(--muted);">Name on account: JAHFORT AWONANG</div>
+    </div>
+    <a class="btn-gold btn-full" id="cartCheckoutBtn" href="#" target="_blank" style="display:block;text-decoration:none;margin-top:12px;">Send Order & Payment Proof on WhatsApp</a>
+    <div style="font-size:11px;color:var(--muted);margin-top:10px;text-align:center;">Pay via MoMo above, then tap the button to send us your order and payment screenshot.</div>
   </div>
 </div>
 
@@ -1231,7 +1236,8 @@ function setPriceMode(btn, mode){
 }
 
 function renderReadyProducts(){
-  document.getElementById("readyProductGrid").innerHTML = READY_PRODUCTS.map(p => `
+  document.getElementById("readyProductGrid").innerHTML = READY_PRODUCTS.map(p => {
+    return `
     <div class="prod-card">
       <img src="${p.img}" alt="">
       <div class="prod-body">
@@ -1243,7 +1249,8 @@ function renderReadyProducts(){
         <button class="btn-full" onclick="addToCart('${p.id}')">${t("add_to_cart")}</button>
       </div>
     </div>
-  `).join("");
+  `;
+  }).join("");
 }
 
 // -- Basket / Cart --
@@ -1282,12 +1289,14 @@ function renderCart(){
   const listEl = document.getElementById("cartItemsList");
   const emptyEl = document.getElementById("cartEmptyState");
   const totalRow = document.getElementById("cartTotalRow");
+  const payInfo = document.getElementById("cartPayInfo");
   const checkoutBtn = document.getElementById("cartCheckoutBtn");
 
   if(ids.length === 0){
     listEl.innerHTML = "";
     emptyEl.classList.remove("hidden");
     totalRow.classList.add("hidden");
+    payInfo.classList.add("hidden");
     checkoutBtn.classList.add("btn-disabled");
     checkoutBtn.removeAttribute("href");
     return;
@@ -1321,10 +1330,11 @@ function renderCart(){
   }).join("");
 
   totalRow.classList.remove("hidden");
+  payInfo.classList.remove("hidden");
   document.getElementById("cartTotalAmount").textContent = fmt(total);
 
   const modeLabel = priceMode === "retail" ? "Retail" : "Wholesale";
-  const message = `Hi J.A Services, I'd like to order the following (${modeLabel} pricing):\n\n${lines.join("\n")}\n\nTotal: ${fmt(total)}\n\nPlease confirm availability and delivery.`;
+  const message = `Hi J.A Services, I've paid for the following order (${modeLabel} pricing):\n\n${lines.join("\n")}\n\nTotal: ${fmt(total)}\n\nHere is my payment proof. Please confirm and arrange delivery.`;
   checkoutBtn.href = waLink(message);
 }
 
