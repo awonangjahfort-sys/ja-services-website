@@ -213,9 +213,56 @@
   .info-box{ background:var(--navy2); border:1px solid rgba(232,200,116,0.2); border-radius:14px; padding:28px; }
   .feature-list{ display:grid; grid-template-columns:1fr; gap:14px; margin-bottom:28px; }
   @media(min-width:640px){ .feature-list{ grid-template-columns:1fr 1fr; } }
-  .feature-item{ display:flex; gap:10px; align-items:flex-start; font-size:14px; color:var(--cream); }
+  .feature-item{ display:flex; gap:12px; align-items:flex-start; font-size:14px; color:var(--cream); padding:10px 0; border-bottom:1px solid rgba(232,200,116,0.08); }
+  .feature-item:last-child{ border-bottom:none; }
+  .feature-item svg{ flex-shrink:0; width:20px; height:20px; color:var(--gold2); margin-top:1px; }
+  .feature-item span{ font-weight:600; }
+  .mc-hook{ font-size:17px; font-weight:700; color:var(--gold2); margin-bottom:14px; line-height:1.4; }
+  .founder-line{ display:flex; gap:10px; align-items:flex-start; font-size:13px; color:#C9D2E3; background:var(--navy3); border:1px solid rgba(232,200,116,0.2); border-radius:10px; padding:12px 14px; margin-bottom:20px; }
+  .founder-line svg{ flex-shrink:0; width:18px; height:18px; color:var(--gold2); margin-top:1px; }
+  .social-row{ margin-top:20px; display:flex; flex-wrap:wrap; gap:12px; }
+  .social-btn{
+    display:flex; align-items:center; gap:8px; font-size:13px; font-weight:600; color:var(--cream);
+    background:var(--navy2); border:1px solid rgba(232,200,116,0.25); border-radius:8px; padding:10px 14px;
+    text-decoration:none; transition:transform .15s var(--ease-soft), border-color .15s;
+  }
+  .social-btn:hover, .social-btn:active{ border-color:var(--gold2); transform:translateY(-2px); }
+  .social-btn svg{ width:16px; height:16px; flex-shrink:0; }
+  .footer-social{ display:flex; gap:16px; }
+  .footer-social a{ color:var(--muted); transition:color .15s; }
+  .footer-social a:hover{ color:var(--gold2); }
+  .footer-social svg{ width:18px; height:18px; }
+  .cart-btn{ position:relative; background:var(--navy2); border:1px solid rgba(232,200,116,0.3); border-radius:8px; width:38px; height:38px; display:flex; align-items:center; justify-content:center; color:var(--cream); transition:border-color .15s; }
+  .cart-btn:hover, .cart-btn:active{ border-color:var(--gold2); }
+  .cart-btn svg{ width:18px; height:18px; }
+  .cart-count{ position:absolute; top:-6px; right:-6px; background:var(--gold2); color:var(--navy); font-size:10px; font-weight:800; width:17px; height:17px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
+  .cart-row{ display:flex; gap:12px; align-items:center; padding:12px 0; border-bottom:1px solid rgba(232,200,116,0.12); }
+  .cart-row img{ width:52px; height:52px; object-fit:cover; border-radius:8px; flex-shrink:0; }
+  .cart-row-name{ font-size:13px; font-weight:600; margin-bottom:2px; }
+  .cart-row-price{ font-size:12px; color:var(--muted); }
+  .cart-qty{ display:flex; align-items:center; gap:8px; }
+  .cart-qty button{ width:24px; height:24px; border-radius:6px; background:var(--navy3); border:1px solid rgba(232,200,116,0.25); color:var(--cream); font-weight:700; }
+  .cart-remove{ font-size:11px; color:#E88686; text-decoration:underline; background:none; margin-left:10px; }
+  .cart-total-row{ display:flex; justify-content:space-between; align-items:center; padding-top:16px; font-weight:700; font-size:15px; }
   .feature-item svg{ width:16px; height:16px; color:var(--gold2); margin-top:2px; flex-shrink:0; }
   .price-line{ display:flex; align-items:center; justify-content:space-between; border-top:1px solid rgba(232,200,116,0.2); padding-top:24px; flex-wrap:wrap; gap:16px; }
+  .tier-grid{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  @media (max-width:560px){ .tier-grid{ grid-template-columns:1fr; } }
+  .tier-card{ position:relative; background:var(--navy3); border:1px solid rgba(232,200,116,0.25); border-radius:12px; padding:20px; text-align:left; transition:transform .2s var(--ease-soft), box-shadow .2s var(--ease-soft); }
+  .tier-card:hover, .tier-card:active{ transform:translateY(-3px); box-shadow:0 10px 24px rgba(0,0,0,0.3); }
+  .tier-card.tier-premium{ border-color:var(--gold2); background:linear-gradient(160deg, var(--navy3), var(--navy2)); }
+  .tier-badge{ position:absolute; top:-11px; right:16px; background:var(--gold2); color:var(--navy); font-size:10px; font-weight:800; padding:3px 10px; border-radius:20px; letter-spacing:.03em; }
+  .tier-name{ font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--gold2); margin-bottom:6px; }
+  .tier-price{ font-size:20px; font-weight:800; }
+  .tier-usd{ font-size:12px; color:var(--muted); margin-bottom:10px; }
+  .tier-note{ font-size:12px; color:#C9D2E3; line-height:1.5; margin-bottom:16px; min-height:52px; }
+  .import-banner{
+    margin-top:22px; background:linear-gradient(120deg, var(--navy2), var(--navy3));
+    border:1px solid rgba(232,200,116,0.3); border-radius:14px; padding:20px 22px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+  }
+  .import-banner-title{ font-size:16px; font-weight:700; margin-bottom:4px; }
+  .import-banner-sub{ font-size:13px; color:var(--muted); max-width:420px; }
   .price-big{ font-size:26px; font-weight:900; color:var(--gold2); }
 
   .pay-option{
@@ -324,6 +371,22 @@
     </div>
     <h2 id="importTitle" data-i18n="import_title">Browse categories, book a consultation</h2>
     <p class="sub" id="importSub" data-i18n="import_sub">No prices are shown here -- every product is sourced individually. Pick a category, choose a product, and book a slot with us.</p>
+
+    <div class="import-banner">
+      <div>
+        <div class="import-banner-title">Not sure where to start?</div>
+        <div class="import-banner-sub">Book a free consultation and we'll help you find the right product to import.</div>
+      </div>
+      <button class="btn-gold" onclick="openBooking(GENERAL_CONSULT_PRODUCT)">Book Consultation</button>
+    </div>
+
+    <div class="social-row">
+      <a href="https://chat.whatsapp.com/EQCkLkERn077wAdNXlX7sS?s=cl&p=a&mlu=4" target="_blank" class="social-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        Join the J.A Importation WhatsApp Community
+      </a>
+    </div>
+
     <div style="height:28px"></div>
     <div id="categoryGrid" class="cat-grid"></div>
     <div id="productSection" class="hidden">
@@ -344,34 +407,61 @@
     <p class="sub" style="margin-bottom:28px;" data-i18n="mc_sub">Learn how to source, negotiate and import goods from China yourself -- from finding verified suppliers to handling shipping and customs. Enroll and get instant access to our private WhatsApp group.</p>
 
     <div id="mcStepInfo" class="info-box">
+      <div class="mc-hook">Everything you need to start importing profitably from China -- even with zero experience.</div>
+      <div class="founder-line">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6z"/><path d="m9 12 2 2 4-4"/></svg>
+        <span>Importing from China since 2023 -- proven quality products, delivered on time, across every category we source.</span>
+      </div>
       <div class="feature-list">
-        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg><span data-i18n="mc_f1">Finding & vetting verified suppliers</span></div>
-        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg><span data-i18n="mc_f2">Negotiating price & MOQs</span></div>
-        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg><span data-i18n="mc_f3">Understanding shipping terms (FOB, CIF)</span></div>
-        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg><span data-i18n="mc_f4">Customs & import duties in Cameroon</span></div>
-        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg><span data-i18n="mc_f5">Consolidating shipments to save cost</span></div>
-        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg><span data-i18n="mc_f6">Pricing your goods for resale</span></div>
+        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21 21-4.3-4.3"/><circle cx="11" cy="11" r="8"/><path d="m8 11 2 2 4-4"/></svg><span data-i18n="mc_f1">Finding & vetting verified suppliers</span></div>
+        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span data-i18n="mc_f2">Negotiating price & MOQs</span></div>
+        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76"/><path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"/><path d="M12 10V4"/><path d="M9 4h6"/></svg><span data-i18n="mc_f3">Understanding shipping terms (FOB, CIF)</span></div>
+        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6"/><path d="M9 17h6"/></svg><span data-i18n="mc_f4">Customs & import duties in Cameroon</span></div>
+        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="M3.29 7 12 12l8.71-5"/><path d="M12 22V12"/></svg><span data-i18n="mc_f5">Consolidating shipments to save cost</span></div>
+        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l7.29-7.29c.94-.94.94-2.48 0-3.42L12 2Z"/><path d="M7 7h.01"/></svg><span data-i18n="mc_f6">Pricing your goods for resale</span></div>
+        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg><span>Setting up your Facebook Marketplace page</span></div>
+        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><span>Setting up WhatsApp Business</span></div>
+        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3Z"/></svg><span>Using AI tools to run your business</span></div>
+        <div class="feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg><span>Running online marketing on Facebook & WhatsApp</span></div>
       </div>
-      <div class="price-line">
-        <div><div class="price-big">25,000 FCFA</div><div style="font-size:12px;color:var(--muted);" data-i18n="mc_price_note">One-time -- includes WhatsApp group access</div></div>
-        <button class="btn-gold" onclick="mcStep('pay')" data-i18n="mc_enroll">Enroll Now</button>
+
+      <h3 style="font-size:15px;font-weight:700;margin:26px 0 14px;">Choose your plan</h3>
+      <div class="tier-grid">
+        <div class="tier-card" id="tierStandardCard">
+          <div class="tier-name">Standard</div>
+          <div class="tier-price">20,000 FCFA</div>
+          <div class="tier-usd">$35 USD (fees included)</div>
+          <div class="tier-note">Full training, all topics above</div>
+          <button class="btn-gold btn-full" onclick="selectTier('standard')">Choose Standard</button>
+        </div>
+        <div class="tier-card tier-premium" id="tierPremiumCard">
+          <div class="tier-badge">MOST POPULAR</div>
+          <div class="tier-name">Premium</div>
+          <div class="tier-price">25,000 FCFA</div>
+          <div class="tier-usd">$45 USD (fees included)</div>
+          <div class="tier-note">Everything in Standard + a free Mystery Box, imported together with the group during the class</div>
+          <button class="btn-gold btn-full" onclick="selectTier('premium')">Choose Premium</button>
+        </div>
       </div>
+      <div style="font-size:11px;color:var(--muted);margin-top:10px;">Includes WhatsApp group access.</div>
     </div>
 
     <div id="mcStepPay" class="info-box hidden" style="max-width:420px;">
       <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;" data-i18n="mc_choose_pay">Choose payment method</h3>
       <button class="pay-option" data-method="momo" onclick="selectPay(this,'momo')" data-i18n="pay_momo">MTN Mobile Money</button>
-      <button class="pay-option" data-method="orange" onclick="selectPay(this,'orange')" data-i18n="pay_orange">Orange Money</button>
       <button class="pay-option" data-method="bank" onclick="selectPay(this,'bank')" data-i18n="pay_bank">Bank Transfer</button>
-      <button class="btn-gold btn-full btn-disabled" id="payBtn" onclick="mcStep('done')" style="margin-top:8px;" data-i18n="mc_pay_btn">Pay 25,000 FCFA</button>
+      <div id="momoDetails" class="hidden" style="font-size:13px;background:var(--navy3);border:1px solid rgba(232,200,116,0.2);border-radius:8px;padding:12px;margin-top:10px;">
+        Send payment to <strong>+237 670 303 644</strong><br>Name on account: <strong>JAHFORT AWONANG</strong>
+      </div>
+      <button class="btn-gold btn-full btn-disabled" id="payBtn" onclick="mcStep('done')" style="margin-top:8px;">Pay</button>
       <button style="width:100%;text-align:center;font-size:12px;color:var(--muted);background:none;margin-top:12px;" onclick="mcStep('info')" data-i18n="back">Back</button>
     </div>
 
     <div id="mcStepDone" class="info-box hidden" style="max-width:420px; text-align:center;">
       <div style="font-size:42px;margin-bottom:8px;">&#10003;</div>
       <h3 style="font-size:18px;font-weight:700;margin-bottom:8px;" data-i18n="mc_done_title">You're enrolled</h3>
-      <p style="font-size:14px;color:var(--muted);margin-bottom:20px;" data-i18n="mc_done_p">Tap below to join the private WhatsApp group and get your class materials.</p>
-      <button class="btn-gold" data-i18n="mc_join">Join WhatsApp Group</button>
+      <p style="font-size:14px;color:var(--muted);margin-bottom:20px;">Send us a screenshot of your payment on WhatsApp so we can confirm your seat and add you to the group.</p>
+      <a class="btn-gold btn-full" id="mcWaProofBtn" href="#" target="_blank" style="display:block;text-decoration:none;">Send Payment Proof on WhatsApp</a>
     </div>
   </div>
 </div>
@@ -388,9 +478,19 @@
         <button class="active" data-mode="retail" onclick="setPriceMode(this,'retail')" data-i18n="retail">Retail</button>
         <button data-mode="wholesale" onclick="setPriceMode(this,'wholesale')" data-i18n="wholesale">Wholesale</button>
       </div>
+      <button class="cart-btn" onclick="openCart()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+        <span id="cartCount" class="cart-count hidden">0</span>
+      </button>
     </div>
     <div id="readyProductGrid" class="prod-grid ready"></div>
-    <div class="callout" data-i18n="delivery_note">Delivery available across Cameroon -- paid via MoMo, Orange Money or bank transfer at checkout</div>
+    <div class="social-row">
+      <a href="https://chat.whatsapp.com/CcQ4psUxHwTD9dlvoBQ0Lb?s=cl&p=a&mlu=4" target="_blank" class="social-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        Join the J.A Products WhatsApp Community
+      </a>
+    </div>
+    <div class="callout">Delivery available across Cameroon -- paid via MoMo or bank transfer at checkout</div>
   </div>
 </div>
 
@@ -429,8 +529,10 @@
     <div id="modalSentState" class="hidden" style="text-align:center;padding:20px 0;">
       <div style="font-size:38px;margin-bottom:8px;">&#10003;</div>
       <h3 style="font-size:18px;font-weight:700;margin-bottom:6px;" data-i18n="request_sent">Request sent</h3>
-      <p style="font-size:13px;color:var(--muted);" id="modalSentText"></p>
-      <button style="margin-top:16px;font-size:13px;font-weight:600;color:var(--gold2);text-decoration:underline;background:none;" onclick="closeModal()" data-i18n="close">Close</button>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:16px;" id="modalSentText"></p>
+      <a class="btn-gold btn-full" id="modalWaBtn" href="#" target="_blank" style="display:block;text-decoration:none;margin-bottom:10px;">Message Us on WhatsApp Now</a>
+      <a class="pay-option" id="modalEmailBtn" href="#" style="display:block;text-decoration:none;margin-bottom:10px;">Or Email Us</a>
+      <button style="font-size:13px;font-weight:600;color:var(--gold2);text-decoration:underline;background:none;" onclick="closeModal()" data-i18n="close">Close</button>
     </div>
   </div>
 </div>
@@ -446,11 +548,40 @@
   </div>
 </div>
 
+<div class="modal-overlay" id="cartModal">
+  <div class="modal" style="max-width:440px;">
+    <button class="modal-close" onclick="closeCart()">&times;</button>
+    <h3 style="font-size:18px;font-weight:700;margin-bottom:16px;">Your Basket</h3>
+    <div id="cartEmptyState" class="hidden" style="text-align:center;padding:20px 0;color:var(--muted);font-size:13px;">Your basket is empty.</div>
+    <div id="cartItemsList"></div>
+    <div id="cartTotalRow" class="cart-total-row hidden">
+      <span>Total</span>
+      <span id="cartTotalAmount"></span>
+    </div>
+    <a class="btn-gold btn-full" id="cartCheckoutBtn" href="#" target="_blank" style="display:block;text-decoration:none;margin-top:16px;">Checkout via WhatsApp</a>
+    <div style="font-size:11px;color:var(--muted);margin-top:10px;text-align:center;">You'll confirm your order and delivery details directly with us on WhatsApp.</div>
+  </div>
+</div>
+
 <div class="footer">
   <div class="footer-inner">
     <div class="logo-row" style="cursor:default;"><img class="logo-img" src="data:image/jpeg;base64,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" alt="J.A Services" style="width:52px;height:36px;object-fit:contain;border-radius:6px;background:#fff;"><div class="logo-text"><div class="t1">J.A SERVICES</div><div class="t2" data-i18n="tagline">IMPORTING QUALITY</div></div></div>
     <div class="footer-links">
       <span data-i18n="nav_importation">Importation</span><span data-i18n="nav_masterclass">Masterclass</span><span data-i18n="nav_products">Products</span>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/share/1N4RX8umg7/" target="_blank" title="Facebook" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="https://whatsapp.com/channel/0029Vb6u7X3LdQeVi0UIil3V" target="_blank" title="WhatsApp Channel" aria-label="WhatsApp Channel">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+      </a>
+      <a href="https://wa.me/237670303644" target="_blank" title="WhatsApp" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      </a>
+      <a href="mailto:j.aservices237@gmail.com" title="Email" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+      </a>
     </div>
     <div style="font-size:11px;color:var(--muted);" data-i18n="footer_tag">Connecting markets, delivering value everywhere.</div>
   </div>
@@ -1096,6 +1227,7 @@ function setPriceMode(btn, mode){
   document.querySelectorAll(".toggle-group button").forEach(b=>b.classList.remove("active"));
   btn.classList.add("active");
   renderReadyProducts();
+  if(Object.keys(cart).length) renderCart();
 }
 
 function renderReadyProducts(){
@@ -1108,21 +1240,115 @@ function renderReadyProducts(){
         ${priceMode==="retail"
           ? `<div class="prod-price">${fmt(p.retail)}</div>`
           : `<div class="prod-price">${fmt(p.wholesale)}<small>${t("from_units")} ${p.moqW} ${t("units_suffix")}</small></div>`}
-        <button class="btn-full">${t("add_to_cart")}</button>
+        <button class="btn-full" onclick="addToCart('${p.id}')">${t("add_to_cart")}</button>
       </div>
     </div>
   `).join("");
 }
 
+// -- Basket / Cart --
+let cart = {}; // { productId: qty }
+function addToCart(id){
+  cart[id] = (cart[id] || 0) + 1;
+  updateCartCount();
+  openCart();
+}
+function changeQty(id, delta){
+  cart[id] = (cart[id] || 0) + delta;
+  if(cart[id] <= 0) delete cart[id];
+  updateCartCount();
+  renderCart();
+}
+function removeFromCart(id){
+  delete cart[id];
+  updateCartCount();
+  renderCart();
+}
+function updateCartCount(){
+  const count = Object.values(cart).reduce((a,b)=>a+b, 0);
+  const el = document.getElementById("cartCount");
+  el.textContent = count;
+  el.classList.toggle("hidden", count === 0);
+}
+function openCart(){
+  renderCart();
+  document.getElementById("cartModal").classList.add("show");
+}
+function closeCart(){
+  document.getElementById("cartModal").classList.remove("show");
+}
+function renderCart(){
+  const ids = Object.keys(cart);
+  const listEl = document.getElementById("cartItemsList");
+  const emptyEl = document.getElementById("cartEmptyState");
+  const totalRow = document.getElementById("cartTotalRow");
+  const checkoutBtn = document.getElementById("cartCheckoutBtn");
+
+  if(ids.length === 0){
+    listEl.innerHTML = "";
+    emptyEl.classList.remove("hidden");
+    totalRow.classList.add("hidden");
+    checkoutBtn.classList.add("btn-disabled");
+    checkoutBtn.removeAttribute("href");
+    return;
+  }
+  emptyEl.classList.add("hidden");
+  checkoutBtn.classList.remove("btn-disabled");
+
+  let total = 0;
+  let lines = [];
+  listEl.innerHTML = ids.map(id => {
+    const p = READY_PRODUCTS.find(x => x.id === id);
+    const unitPrice = priceMode === "retail" ? p.retail : p.wholesale;
+    const qty = cart[id];
+    const lineTotal = unitPrice * qty;
+    total += lineTotal;
+    lines.push(`${p.name} x${qty} -- ${fmt(lineTotal)}`);
+    return `
+      <div class="cart-row">
+        <img src="${p.img}" alt="">
+        <div style="flex:1;">
+          <div class="cart-row-name">${p.name}</div>
+          <div class="cart-row-price">${fmt(unitPrice)} each</div>
+        </div>
+        <div class="cart-qty">
+          <button onclick="changeQty('${id}',-1)">-</button>
+          <span>${qty}</span>
+          <button onclick="changeQty('${id}',1)">+</button>
+        </div>
+        <button class="cart-remove" onclick="removeFromCart('${id}')">Remove</button>
+      </div>`;
+  }).join("");
+
+  totalRow.classList.remove("hidden");
+  document.getElementById("cartTotalAmount").textContent = fmt(total);
+
+  const modeLabel = priceMode === "retail" ? "Retail" : "Wholesale";
+  const message = `Hi J.A Services, I'd like to order the following (${modeLabel} pricing):\n\n${lines.join("\n")}\n\nTotal: ${fmt(total)}\n\nPlease confirm availability and delivery.`;
+  checkoutBtn.href = waLink(message);
+}
+
+let mcSelectedTier = null;
+function selectTier(tier){
+  mcSelectedTier = tier;
+  const label = tier === "premium" ? "Pay 25,000 FCFA ($45)" : "Pay 20,000 FCFA ($35)";
+  document.getElementById("payBtn").textContent = label;
+  mcStep("pay");
+}
 function mcStep(step){
   document.getElementById("mcStepInfo").classList.toggle("hidden", step!=="info");
   document.getElementById("mcStepPay").classList.toggle("hidden", step!=="pay");
   document.getElementById("mcStepDone").classList.toggle("hidden", step!=="done");
+  if(step === "done"){
+    const tierLabel = mcSelectedTier === "premium" ? "Premium (25,000 FCFA)" : "Standard (20,000 FCFA)";
+    document.getElementById("mcWaProofBtn").href = waLink(`Hi J.A Services, I just paid for the ${tierLabel} Masterclass. Here is my payment proof:`);
+  }
 }
 function selectPay(btn, method){
   document.querySelectorAll(".pay-option").forEach(b=>b.classList.remove("selected"));
   btn.classList.add("selected");
   document.getElementById("payBtn").classList.remove("btn-disabled");
+  document.getElementById("momoDetails").classList.toggle("hidden", method !== "momo");
 }
 
 function renderAdminTable(){
@@ -1138,6 +1364,24 @@ function renderAdminTable(){
   `).join("");
 }
 
+const GENERAL_CONSULT_PRODUCT = {
+  id: "GENERAL",
+  name: { en: "General Importation Consultation", fr: "Consultation générale d'importation" },
+  desc: { en: "Tell us what you're looking to import and we'll help you find the right product and supplier.", fr: "Dites-nous ce que vous voulez importer et nous vous aiderons à trouver le bon produit et fournisseur." }
+};
+
+// -- Contact & social links --
+const WHATSAPP_NUMBER = "237670303644";
+const CONTACT_EMAIL = "j.aservices237@gmail.com";
+function emailLink(subject, body){ return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`; }
+const MOMO_NUMBER = "+237 670 303 644";
+const MOMO_NAME = "JAHFORT AWONANG";
+const FB_PAGE_URL = "https://www.facebook.com/share/1N4RX8umg7/";
+const WA_CHANNEL_URL = "https://whatsapp.com/channel/0029Vb6u7X3LdQeVi0UIil3V";
+const WA_COMMUNITY_URL = "https://chat.whatsapp.com/KymfLjL8tTx7zHnuJmTQcd";
+const WA_IMPORT_GROUP_URL = "https://chat.whatsapp.com/EQCkLkERn077wAdNXlX7sS?s=cl&p=a&mlu=4";
+const WA_PRODUCTS_GROUP_URL = "https://chat.whatsapp.com/CcQ4psUxHwTD9dlvoBQ0Lb?s=cl&p=a&mlu=4";
+function waLink(text){ return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`; }
 function openBooking(p){
   bookingProduct = p;
   document.getElementById("modalProdId").textContent = p.id;
@@ -1154,6 +1398,11 @@ function submitBooking(){
   document.getElementById("modalFormState").classList.add("hidden");
   document.getElementById("modalSentState").classList.remove("hidden");
   document.getElementById("modalSentText").textContent = `${t("reach_out")} ${loc(bookingProduct.name)}.`;
+  document.getElementById("modalWaBtn").href = waLink(`Hi J.A Services, I just submitted a booking request for: ${loc(bookingProduct.name)} (${bookingProduct.id}). Can you confirm?`);
+  document.getElementById("modalEmailBtn").href = emailLink(
+    `Booking request: ${loc(bookingProduct.name)}`,
+    `Hi J.A Services,\n\nI'd like to book a consultation for: ${loc(bookingProduct.name)} (${bookingProduct.id}).\n\nThanks!`
+  );
 }
 
 renderImportation();
@@ -1163,5 +1412,3 @@ setView("home");
 </script>
 </body>
 </html>
-
-
