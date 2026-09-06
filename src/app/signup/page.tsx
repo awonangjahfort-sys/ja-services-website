@@ -1,109 +1,94 @@
-import { createClient } from "@/lib/supabase/server";
-import { signOut } from "@/lib/actions/auth";
-import { redirect } from "next/navigation";
+import { signUp } from "@/lib/actions/auth";
+import Link from "next/link";
 
-export default async function AccountPage() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (!user) {
-    redirect("/signin");
-  }
-
-  const { data: profile } = await supabase
-    .from("profiles")
-    .select("full_name, phone, phone_verified")
-    .eq("id", user.id)
-    .single();
-
-  const { data: enrollments } = await supabase
-    .from("enrollments")
-    .select("id, status, masterclass_tiers(name)")
-    .eq("user_id", user.id);
-
-  const { data: orders } = await supabase
-    .from("orders")
-    .select("id, status, total_xaf, created_at")
-    .eq("user_id", user.id)
-    .order("created_at", { ascending: false });
-
-  const navy = "#16264F";
-  const navy2 = "#1E3364";
-  const gold = "#E8C874";
-  const cream = "#F2EFE8";
-  const muted = "#9FB0D1";
+export default async function SignUpPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ error?: string }>;
+}) {
+  const { error } = await searchParams;
 
   return (
-    <main style={{ background: navy, color: cream, minHeight: "100vh", width: "100%" }} className="px-6 py-12">
-    <div className="mx-auto w-full max-w-2xl">
-      <div className="mb-8 flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-bold" style={{ color: "#fff" }}>
-            {profile?.full_name || "My account"}
-          </h1>
-          <p className="text-sm" style={{ color: muted }}>
-            {user.email} · {profile?.phone}
-            {!profile?.phone_verified && (
-              <span
-                className="ml-2 rounded px-2 py-0.5 text-xs"
-                style={{ background: "rgba(232,200,116,0.15)", color: gold }}
-              >
-                Phone not verified
-              </span>
-            )}
-          </p>
-        </div>
-        <form action={signOut}>
-          <button
-            className="rounded px-4 py-2 text-sm"
-            style={{ border: "1px solid rgba(232,200,116,0.3)", color: cream }}
-          >
-            Sign out
-          </button>
-        </form>
-      </div>
+    <main
+      style={{ background: "#16264F", color: "#F2EFE8", minHeight: "100vh", width: "100%" }}
+      className="flex flex-col justify-center px-6 py-12"
+    >
+    <div className="mx-auto w-full max-w-sm">
+      <h1 className="mb-1 text-2xl font-bold" style={{ color: "#fff" }}>
+        Create your account
+      </h1>
+      <p className="mb-6 text-sm" style={{ color: "#C9D2E3" }}>
+        For Masterclass enrollment and J.A Products orders.
+      </p>
 
-      <section className="mb-8">
-        <h2 className="mb-3 text-lg font-semibold" style={{ color: gold }}>
-          Masterclass enrollments
-        </h2>
-        {!enrollments?.length && <p className="text-sm" style={{ color: muted }}>No enrollments yet.</p>}
-        <ul className="flex flex-col gap-2">
-          {enrollments?.map((e) => (
-            <li
-              key={e.id}
-              className="flex items-center justify-between rounded px-4 py-3"
-              style={{ background: navy2, border: "1px solid rgba(232,200,116,0.2)" }}
-            >
-              <span>{(e.masterclass_tiers as unknown as { name: string })?.name}</span>
-              <span className="text-sm capitalize" style={{ color: muted }}>{e.status}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
+      {error && (
+        <p
+          className="mb-4 rounded px-3 py-2 text-sm"
+          style={{ background: "rgba(232,134,134,0.12)", color: "#E88686" }}
+        >
+          {error}
+        </p>
+      )}
 
-      <section>
-        <h2 className="mb-3 text-lg font-semibold" style={{ color: gold }}>
-          Orders
-        </h2>
-        {!orders?.length && <p className="text-sm" style={{ color: muted }}>No orders yet.</p>}
-        <ul className="flex flex-col gap-2">
-          {orders?.map((o) => (
-            <li
-              key={o.id}
-              className="flex items-center justify-between rounded px-4 py-3"
-              style={{ background: navy2, border: "1px solid rgba(232,200,116,0.2)" }}
-            >
-              <span>Order #{o.id.slice(0, 8)}</span>
-              <span className="text-sm">{o.total_xaf.toLocaleString()} XAF</span>
-              <span className="text-sm capitalize" style={{ color: muted }}>{o.status}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
+      <form action={signUp} className="flex flex-col gap-4">
+        <Field label="Full name" name="fullName" required />
+        <Field label="Phone number" name="phone" type="tel" placeholder="6XXXXXXXX" required />
+        <Field label="Email" name="email" type="email" required />
+        <Field label="Password" name="password" type="password" minLength={6} required />
+
+        <button
+          type="submit"
+          className="mt-2 rounded py-2 font-bold"
+          style={{ background: "#E8C874", color: "#16264F" }}
+        >
+          Create account
+        </button>
+      </form>
+
+      <p className="mt-6 text-center text-sm" style={{ color: "#9FB0D1" }}>
+        Already have an account?{" "}
+        <Link href="/signin" style={{ color: "#E8C874", fontWeight: 600 }}>
+          Sign in
+        </Link>
+      </p>
     </div>
     </main>
+  );
+}
+
+function Field({
+  label,
+  name,
+  type = "text",
+  required,
+  placeholder,
+  minLength,
+}: {
+  label: string;
+  name: string;
+  type?: string;
+  required?: boolean;
+  placeholder?: string;
+  minLength?: number;
+}) {
+  return (
+    <div>
+      <label className="mb-1 block text-sm font-medium" style={{ color: "#C9D2E3" }}>
+        {label}
+      </label>
+      <input
+        name={name}
+        type={type}
+        required={required}
+        placeholder={placeholder}
+        minLength={minLength}
+        className="w-full rounded px-3 py-2 outline-none"
+        style={{
+          background: "#0F1B38",
+          border: "1px solid rgba(232,200,116,0.25)",
+          color: "#F2EFE8",
+        }}
+      />
+    </div>
   );
 }
