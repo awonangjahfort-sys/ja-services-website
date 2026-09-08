@@ -20,7 +20,7 @@ export default async function VerifyEmailPage({
           Check your email
         </h1>
         <p className="mb-6 text-sm" style={{ color: "#C9D2E3" }}>
-          We sent a 6-digit code to <strong>{email}</strong>. Enter it below to finish creating
+          We sent a code to <strong>{email}</strong>. Enter it below to finish creating
           your account.
         </p>
 
@@ -45,16 +45,16 @@ export default async function VerifyEmailPage({
           <input type="hidden" name="email" value={email} />
           <div>
             <label className="mb-1 block text-sm font-medium" style={{ color: "#C9D2E3" }}>
-              6-digit code
+              Verification code
             </label>
             <input
               name="token"
               required
-              maxLength={6}
+              maxLength={10}
               inputMode="numeric"
               autoFocus
-              placeholder="123456"
-              className="w-full rounded px-3 py-3 text-center text-2xl tracking-[0.5em] outline-none"
+              placeholder="Enter code"
+              className="w-full rounded px-3 py-3 text-center text-2xl tracking-[0.3em] outline-none"
               style={{
                 background: "#0F1B38",
                 border: "1px solid rgba(232,200,116,0.25)",
