@@ -16,7 +16,6 @@ export async function signUp(formData: FormData) {
     password,
     options: {
       data: { full_name: fullName, phone }, // read by the handle_new_user() trigger
-      emailRedirectTo: `${process.env.NEXT_PUBLIC_SITE_URL}/auth/callback`,
     },
   });
 
@@ -24,7 +23,28 @@ export async function signUp(formData: FormData) {
     redirect(`/signup?error=${encodeURIComponent(error.message)}`);
   }
 
-  redirect("/signin?message=Check your email to confirm your account");
+  redirect(`/verify-email?email=${encodeURIComponent(email)}`);
+}
+
+export async function verifyEmailOtp(formData: FormData) {
+  const email = String(formData.get("email"));
+  const token = String(formData.get("token"));
+
+  const supabase = await createClient();
+  const { error } = await supabase.auth.verifyOtp({ email, token, type: "signup" });
+
+  if (error) {
+    redirect(`/verify-email?email=${encodeURIComponent(email)}&error=${encodeURIComponent(error.message)}`);
+  }
+
+  redirect("/account");
+}
+
+export async function resendEmailOtp(formData: FormData) {
+  const email = String(formData.get("email"));
+  const supabase = await createClient();
+  await supabase.auth.resend({ type: "signup", email });
+  redirect(`/verify-email?email=${encodeURIComponent(email)}&message=Code resent`);
 }
 
 export async function signIn(formData: FormData) {
