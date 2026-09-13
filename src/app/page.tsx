@@ -558,7 +558,7 @@ const SITE_BODY_HTML = `
       <div>+237 670 303 644</div>
       <div style="color:var(--muted);">Name on account: JAHFORT AWONANG</div>
     </div>
-    <a class="btn-gold btn-full" id="cartCheckoutBtn" href="#" target="_blank" style="display:block;text-decoration:none;margin-top:12px;">Send Order & Payment Proof on WhatsApp</a>
+    <a class="btn-gold btn-full" id="cartCheckoutBtn" href="#" target="_blank" onclick="return handleCheckoutClick(event)" style="display:block;text-decoration:none;margin-top:12px;">Send Order & Payment Proof on WhatsApp</a>
     <div style="font-size:11px;color:var(--muted);margin-top:10px;text-align:center;">Pay via MoMo above, then tap the button to send us your order and payment screenshot.</div>
   </div>
 </div>
