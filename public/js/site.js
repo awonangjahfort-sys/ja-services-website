@@ -516,7 +516,7 @@ function setView(v){
     b.classList.toggle("active", b.dataset.tab===v || (v==="admin" && b.dataset.tab==="importation"));
   });
   if(v==="importation") renderImportation();
-  if(v==="products") renderReadyProducts();
+  if(v==="products"){ renderReadyProducts(); renderNewArrivals(); }
   if(v==="admin") renderAdminTable();
   window.scrollTo(0,0);
   window.dispatchEvent(new CustomEvent("ja:view-changed", { detail: { view: v } }));
@@ -642,6 +642,48 @@ function renderReadyProducts(){
     </div>
   `;
   }).join("");
+}
+
+// -- New Arrivals (products added by the admin via /admin/products) --
+let newArrivals = [];
+async function renderNewArrivals(){
+  const grid = document.getElementById("newArrivalsGrid");
+  const heading = document.getElementById("newArrivalsHeading");
+  try{
+    const res = await fetch("/api/products");
+    const data = await res.json();
+    newArrivals = data.products || [];
+  }catch(e){
+    newArrivals = [];
+  }
+  if(!newArrivals.length){
+    heading.classList.add("hidden");
+    grid.innerHTML = "";
+    return;
+  }
+  heading.classList.remove("hidden");
+  grid.innerHTML = newArrivals.map(p => {
+    const img = (p.images && p.images[0]) || "";
+    const videoHtml = p.video_url ? `<video src="${p.video_url}" controls style="width:100%;border-radius:8px 8px 0 0;"></video>` : "";
+    return `
+    <div class="prod-card">
+      ${videoHtml || `<img src="${img}" alt="">`}
+      <div class="prod-body">
+        <div class="prod-name">${p.name}</div>
+        <div class="prod-desc">${p.description || ""}</div>
+        <div class="prod-price">${fmt(p.price_xaf)}</div>
+        <button class="btn-full" onclick="orderNewArrival('${p.id}')">${t("add_to_cart")}</button>
+      </div>
+    </div>
+  `;
+  }).join("");
+}
+async function orderNewArrival(id){
+  if(!(await requireAuth())) return;
+  const p = newArrivals.find(x => x.id === id);
+  if(!p) return;
+  const message = `Hi J.A Services, I'd like to order: ${p.name} -- ${fmt(p.price_xaf)}. Please confirm availability and payment details.`;
+  window.open(waLink(message), "_blank");
 }
 
 // -- Basket / Cart --
@@ -807,7 +849,8 @@ const WA_COMMUNITY_URL = "https://chat.whatsapp.com/KymfLjL8tTx7zHnuJmTQcd";
 const WA_IMPORT_GROUP_URL = "https://chat.whatsapp.com/EQCkLkERn077wAdNXlX7sS?s=cl&p=a&mlu=4";
 const WA_PRODUCTS_GROUP_URL = "https://chat.whatsapp.com/CcQ4psUxHwTD9dlvoBQ0Lb?s=cl&p=a&mlu=4";
 function waLink(text){ return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`; }
-function openBooking(p){
+async function openBooking(p){
+  if(!(await requireAuth())) return;
   bookingProduct = p;
   document.getElementById("modalProdId").textContent = p.id;
   document.getElementById("modalProdName").textContent = loc(p.name);
