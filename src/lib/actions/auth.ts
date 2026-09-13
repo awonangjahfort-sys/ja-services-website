@@ -50,6 +50,7 @@ export async function resendEmailOtp(formData: FormData) {
 export async function signIn(formData: FormData) {
   const email = String(formData.get("email"));
   const password = String(formData.get("password"));
+  const next = String(formData.get("next") || "/account");
 
   const supabase = await createClient();
   const { error } = await supabase.auth.signInWithPassword({ email, password });
@@ -58,7 +59,7 @@ export async function signIn(formData: FormData) {
     redirect(`/signin?error=${encodeURIComponent(error.message)}`);
   }
 
-  redirect("/account");
+  redirect(next);
 }
 
 export async function signOut() {
