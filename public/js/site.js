@@ -730,7 +730,31 @@ function renderCart(){
 }
 
 let mcSelectedTier = null;
-function selectTier(tier){
+async function requireAuth(){
+  try{
+    const res = await fetch("/api/auth/status");
+    const data = await res.json();
+    if(!data.loggedIn){
+      window.location.href = "/signin?next=" + encodeURIComponent("/");
+      return false;
+    }
+    return true;
+  }catch(e){
+    window.location.href = "/signin?next=" + encodeURIComponent("/");
+    return false;
+  }
+}
+function handleCheckoutClick(event){
+  event.preventDefault();
+  const href = event.currentTarget.getAttribute("href");
+  if(event.currentTarget.classList.contains("btn-disabled") || !href || href === "#") return false;
+  requireAuth().then(ok => {
+    if(ok) window.open(href, "_blank");
+  });
+  return false;
+}
+async function selectTier(tier){
+  if(!(await requireAuth())) return;
   mcSelectedTier = tier;
   const label = tier === "premium" ? "Pay 25,000 FCFA ($45)" : "Pay 20,000 FCFA ($35)";
   document.getElementById("payBtn").textContent = label;
@@ -796,7 +820,9 @@ function closeModal(){
   document.getElementById("bookingModal").classList.remove("show");
 }
 function submitBooking(){
-  document.getElementById("modalFormState").classList.add("hidden");
+  requireAuth().then(ok => {
+    if(!ok) return;
+    document.getElementById("modalFormState").classList.add("hidden");
   document.getElementById("modalSentState").classList.remove("hidden");
   document.getElementById("modalSentText").textContent = `${t("reach_out")} ${loc(bookingProduct.name)}.`;
   document.getElementById("modalWaBtn").href = waLink(`Hi J.A Services, I just submitted a booking request for: ${loc(bookingProduct.name)} (${bookingProduct.id}). Can you confirm?`);
@@ -804,6 +830,7 @@ function submitBooking(){
     `Booking request: ${loc(bookingProduct.name)}`,
     `Hi J.A Services,\n\nI'd like to book a consultation for: ${loc(bookingProduct.name)} (${bookingProduct.id}).\n\nThanks!`
   );
+  });
 }
 
 renderImportation();
