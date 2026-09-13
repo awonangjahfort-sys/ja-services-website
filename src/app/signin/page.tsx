@@ -4,9 +4,9 @@ import Link from "next/link";
 export default async function SignInPage({
   searchParams,
 }: {
-  searchParams: Promise<{ error?: string; message?: string }>;
+  searchParams: Promise<{ error?: string; message?: string; next?: string }>;
 }) {
-  const { error, message } = await searchParams;
+  const { error, message, next } = await searchParams;
 
   return (
     <main
@@ -39,6 +39,7 @@ export default async function SignInPage({
       )}
 
       <form action={signIn} className="flex flex-col gap-4">
+        <input type="hidden" name="next" value={next || "/account"} />
         <div>
           <label className="mb-1 block text-sm font-medium" style={{ color: "#C9D2E3" }}>
             Email
