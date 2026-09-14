@@ -1,5 +1,6 @@
 import { signUp } from "@/lib/actions/auth";
 import Link from "next/link";
+import { SubmitButton } from "@/components/SubmitButton";
 
 export default async function SignUpPage({
   searchParams,
@@ -36,13 +37,13 @@ export default async function SignUpPage({
         <Field label="Email" name="email" type="email" required />
         <Field label="Password" name="password" type="password" minLength={6} required />
 
-        <button
-          type="submit"
+        <SubmitButton
+          loadingText="Creating account..."
           className="mt-2 rounded py-2 font-bold"
           style={{ background: "#E8C874", color: "#16264F" }}
         >
           Create account
-        </button>
+        </SubmitButton>
       </form>
 
       <p className="mt-6 text-center text-sm" style={{ color: "#9FB0D1" }}>
