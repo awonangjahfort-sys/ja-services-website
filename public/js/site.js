@@ -683,6 +683,7 @@ async function orderNewArrival(id){
   const p = newArrivals.find(x => x.id === id);
   if(!p) return;
   const message = `Hi J.A Services, I'd like to order: ${p.name} -- ${fmt(p.price_xaf)}. Please confirm availability and payment details.`;
+  await saveRequest("product_order", p.name, p.price_xaf);
   window.open(waLink(message), "_blank");
 }
 
@@ -769,6 +770,8 @@ function renderCart(){
   const modeLabel = priceMode === "retail" ? "Retail" : "Wholesale";
   const message = `Hi J.A Services, I've paid for the following order (${modeLabel} pricing):\n\n${lines.join("\n")}\n\nTotal: ${fmt(total)}\n\nHere is my payment proof. Please confirm and arrange delivery.`;
   checkoutBtn.href = waLink(message);
+  window.cartCheckoutSummary = lines.join(", ");
+  window.cartCheckoutTotal = total;
 }
 
 let mcSelectedTier = null;
@@ -791,7 +794,9 @@ function handleCheckoutClick(event){
   const href = event.currentTarget.getAttribute("href");
   if(event.currentTarget.classList.contains("btn-disabled") || !href || href === "#") return false;
   requireAuth().then(ok => {
-    if(ok) window.open(href, "_blank");
+    if(!ok) return;
+    saveRequest("product_order", window.cartCheckoutSummary || "Product order", window.cartCheckoutTotal || null);
+    window.open(href, "_blank");
   });
   return false;
 }
@@ -802,12 +807,25 @@ async function selectTier(tier){
   document.getElementById("payBtn").textContent = label;
   mcStep("pay");
 }
-function mcStep(step){
+async function saveRequest(type, summary, amountXaf){
+  try{
+    await fetch("/api/purchase-requests", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({ type, summary, amountXaf })
+    });
+  }catch(e){
+    // Non-fatal -- don't block the WhatsApp flow if this fails.
+  }
+}
+async function mcStep(step){
   document.getElementById("mcStepInfo").classList.toggle("hidden", step!=="info");
   document.getElementById("mcStepPay").classList.toggle("hidden", step!=="pay");
   document.getElementById("mcStepDone").classList.toggle("hidden", step!=="done");
   if(step === "done"){
     const tierLabel = mcSelectedTier === "premium" ? "Premium (25,000 FCFA)" : "Standard (20,000 FCFA)";
+    const amount = mcSelectedTier === "premium" ? 25000 : 20000;
+    await saveRequest("masterclass", `Masterclass -- ${tierLabel}`, amount);
     document.getElementById("mcWaProofBtn").href = waLink(`Hi J.A Services, I just paid for the ${tierLabel} Masterclass. Here is my payment proof:`);
   }
 }
@@ -868,6 +886,7 @@ function submitBooking(){
     document.getElementById("modalFormState").classList.add("hidden");
   document.getElementById("modalSentState").classList.remove("hidden");
   document.getElementById("modalSentText").textContent = `${t("reach_out")} ${loc(bookingProduct.name)}.`;
+  saveRequest("consultation", `Consultation -- ${loc(bookingProduct.name)} (${bookingProduct.id})`, null);
   document.getElementById("modalWaBtn").href = waLink(`Hi J.A Services, I just submitted a booking request for: ${loc(bookingProduct.name)} (${bookingProduct.id}). Can you confirm?`);
   document.getElementById("modalEmailBtn").href = emailLink(
     `Booking request: ${loc(bookingProduct.name)}`,
