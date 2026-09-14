@@ -1,4 +1,5 @@
 import { verifyEmailOtp, resendEmailOtp } from "@/lib/actions/auth";
+import { SubmitButton } from "@/components/SubmitButton";
 
 export default async function VerifyEmailPage({
   searchParams,
@@ -62,20 +63,24 @@ export default async function VerifyEmailPage({
               }}
             />
           </div>
-          <button
-            type="submit"
+          <SubmitButton
+            loadingText="Verifying..."
             className="mt-2 rounded py-2 font-bold"
             style={{ background: gold, color: navy }}
           >
             Verify and continue
-          </button>
+          </SubmitButton>
         </form>
 
         <form action={resendEmailOtp} className="mt-4 text-center">
           <input type="hidden" name="email" value={email} />
-          <button type="submit" className="text-sm underline" style={{ color: "#9FB0D1" }}>
+          <SubmitButton
+            loadingText="Sending..."
+            className="text-sm underline"
+            style={{ color: "#9FB0D1", background: "transparent" }}
+          >
             Didn&apos;t get a code? Resend
-          </button>
+          </SubmitButton>
         </form>
       </div>
     </main>
