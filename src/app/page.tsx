@@ -46,7 +46,10 @@ const SITE_CSS = `  :root{
     display:flex; align-items:center; gap:6px; font-size:12px; font-weight:600;
     padding:8px 12px; border-radius:6px; border:1px solid rgba(232,200,116,0.4);
     color:var(--gold2); background:transparent; white-space:nowrap;
+    transition: background .15s var(--ease-soft), transform .1s var(--ease-soft);
   }
+  .admin-btn:hover{ background:rgba(232,200,116,0.1); }
+  .admin-btn:active{ transform: scale(0.96); background:rgba(232,200,116,0.2); }
   .admin-btn.active{ background:var(--gold2); color:var(--navy); border-color:var(--gold2); }
 
   .lang-select{
@@ -479,6 +482,8 @@ const SITE_BODY_HTML = `
       </button>
     </div>
     <div id="readyProductGrid" class="prod-grid ready"></div>
+    <h2 id="newArrivalsHeading" style="margin:32px 0 14px;font-size:18px;" class="hidden">New Arrivals</h2>
+    <div id="newArrivalsGrid" class="prod-grid ready"></div>
     <div class="social-row">
       <a href="https://chat.whatsapp.com/CcQ4psUxHwTD9dlvoBQ0Lb?s=cl&p=a&mlu=4" target="_blank" class="social-btn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
