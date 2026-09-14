@@ -28,6 +28,13 @@ export default function AdminDashboardPage() {
   const [checking, setChecking] = useState(true);
   const [isAdmin, setIsAdmin] = useState(false);
   const [requests, setRequests] = useState<Request[]>([]);
+  const [stats, setStats] = useState({
+    totalCustomers: 0,
+    uniqueVisitors: 0,
+    pendingCount: 0,
+    confirmedCount: 0,
+    confirmedRevenue: 0,
+  });
   const [filter, setFilter] = useState<"all" | "pending" | "confirmed">("pending");
 
   useEffect(() => {
@@ -66,6 +73,29 @@ export default function AdminDashboardPage() {
       .select("*, profiles(full_name, phone)")
       .order("created_at", { ascending: false });
     setRequests((data as unknown as Request[]) || []);
+    loadStats();
+  }
+
+  async function loadStats() {
+    const [customersRes, visitorsRes, allRequestsRes] = await Promise.all([
+      supabase.from("profiles").select("id", { count: "exact", head: true }),
+      supabase.from("visitor_events").select("session_id"),
+      supabase.from("purchase_requests").select("status, amount_xaf"),
+    ]);
+
+    const uniqueSessions = new Set((visitorsRes.data || []).map((v) => v.session_id)).size;
+    const allRequests = allRequestsRes.data || [];
+    const pendingCount = allRequests.filter((r) => r.status === "pending").length;
+    const confirmedRequests = allRequests.filter((r) => r.status === "confirmed");
+    const confirmedRevenue = confirmedRequests.reduce((sum, r) => sum + (r.amount_xaf || 0), 0);
+
+    setStats({
+      totalCustomers: customersRes.count || 0,
+      uniqueVisitors: uniqueSessions,
+      pendingCount,
+      confirmedCount: confirmedRequests.length,
+      confirmedRevenue,
+    });
   }
 
   async function markConfirmed(id: string) {
@@ -108,6 +138,14 @@ export default function AdminDashboardPage() {
   return (
     <main style={{ background: navy, color: cream, minHeight: "100vh" }} className="px-6 py-10">
       <div className="mx-auto max-w-4xl">
+        <div className="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-5">
+          <StatCard label="Customers" value={stats.totalCustomers} />
+          <StatCard label="Site visitors" value={stats.uniqueVisitors} />
+          <StatCard label="Pending" value={stats.pendingCount} />
+          <StatCard label="Confirmed" value={stats.confirmedCount} />
+          <StatCard label="Revenue confirmed" value={`${stats.confirmedRevenue.toLocaleString()} XAF`} />
+        </div>
+
         <div className="mb-6 flex items-center justify-between">
           <h1 className="text-2xl font-bold" style={{ color: "#fff" }}>
             Requests to confirm
@@ -194,5 +232,21 @@ export default function AdminDashboardPage() {
         </div>
       </div>
     </main>
+  );
+}
+
+function StatCard({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div
+      className="rounded p-3"
+      style={{ background: navy2, border: "1px solid rgba(232,200,116,0.2)" }}
+    >
+      <div className="text-xs" style={{ color: muted }}>
+        {label}
+      </div>
+      <div className="text-lg font-bold" style={{ color: gold }}>
+        {value}
+      </div>
+    </div>
   );
 }
