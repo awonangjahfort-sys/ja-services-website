@@ -1,5 +1,6 @@
 import { signIn } from "@/lib/actions/auth";
 import Link from "next/link";
+import { SubmitButton } from "@/components/SubmitButton";
 
 export default async function SignInPage({
   searchParams,
@@ -64,13 +65,13 @@ export default async function SignInPage({
             style={{ background: "#0F1B38", border: "1px solid rgba(232,200,116,0.25)", color: "#F2EFE8" }}
           />
         </div>
-        <button
-          type="submit"
+        <SubmitButton
+          loadingText="Signing in..."
           className="mt-2 rounded py-2 font-bold"
           style={{ background: "#E8C874", color: "#16264F" }}
         >
           Sign in
-        </button>
+        </SubmitButton>
       </form>
 
       <p className="mt-6 text-center text-sm" style={{ color: "#9FB0D1" }}>
