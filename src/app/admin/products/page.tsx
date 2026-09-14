@@ -169,9 +169,14 @@ export default function AdminProductsPage() {
   return (
     <main style={{ background: navy, color: cream, minHeight: "100vh" }} className="px-6 py-10">
       <div className="mx-auto max-w-3xl">
-        <h1 className="mb-6 text-2xl font-bold" style={{ color: "#fff" }}>
-          Add a product
-        </h1>
+        <div className="mb-6 flex items-center justify-between">
+          <h1 className="text-2xl font-bold" style={{ color: "#fff" }}>
+            Add a product
+          </h1>
+          <a href="/admin/dashboard" style={{ color: gold, fontSize: 14 }}>
+            View requests to confirm →
+          </a>
+        </div>
 
         {message && (
           <p
