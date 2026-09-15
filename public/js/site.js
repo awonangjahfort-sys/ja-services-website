@@ -793,10 +793,13 @@ function handleCheckoutClick(event){
   event.preventDefault();
   const href = event.currentTarget.getAttribute("href");
   if(event.currentTarget.classList.contains("btn-disabled") || !href || href === "#") return false;
-  requireAuth().then(ok => {
+  requireAuth().then(async ok => {
     if(!ok) return;
-    saveRequest("product_order", window.cartCheckoutSummary || "Product order", window.cartCheckoutTotal || null);
+    await saveRequest("product_order", window.cartCheckoutSummary || "Product order", window.cartCheckoutTotal || null);
     window.open(href, "_blank");
+    cart = {};
+    updateCartCount();
+    renderCart();
   });
   return false;
 }
