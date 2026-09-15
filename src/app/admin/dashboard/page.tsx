@@ -111,6 +111,15 @@ export default function AdminDashboardPage() {
     load();
   }
 
+  const STAGES = ["pending", "confirmed", "processing", "shipped", "delivered"];
+  async function advanceStage(id: string, currentStatus: string) {
+    const idx = STAGES.indexOf(currentStatus);
+    const next = STAGES[idx + 1];
+    if (!next) return;
+    await supabase.from("purchase_requests").update({ status: next }).eq("id", id);
+    load();
+  }
+
   if (checking) {
     return (
       <main style={{ background: navy, color: cream, minHeight: "100vh" }} className="p-8">
@@ -225,6 +234,16 @@ export default function AdminDashboardPage() {
                     </button>
                   </>
                 )}
+                {r.type === "product_order" &&
+                  ["confirmed", "processing", "shipped"].includes(r.status) && (
+                    <button
+                      onClick={() => advanceStage(r.id, r.status)}
+                      className="ml-auto rounded px-3 py-1 text-sm font-semibold"
+                      style={{ background: gold, color: navy }}
+                    >
+                      Mark as {STAGES[STAGES.indexOf(r.status) + 1]}
+                    </button>
+                  )}
               </div>
             </div>
           ))}
