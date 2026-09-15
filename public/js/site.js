@@ -464,9 +464,9 @@ function loc(val){ return (val && typeof val === "object") ? (val[currentLang] |
 function renderSlider(images, prodId){
   if(!images || images.length === 0) return "";
   if(images.length === 1){
-    return `<img src="${images[0]}" alt="">`;
+    return `<img src="${images[0]}" alt="" loading="lazy" decoding="async">`;
   }
-  const imgsHtml = images.map(src => `<img src="${src}" alt="">`).join("");
+  const imgsHtml = images.map(src => `<img src="${src}" alt="" loading="lazy" decoding="async">`).join("");
   const dotsHtml = images.map((_, i) => `<span class="dot${i===0?" active":""}" onclick="event.stopPropagation(); goToSlide('${prodId}',${i})"></span>`).join("");
   return `
     <div class="img-slider" id="slider-${prodId}" data-index="0" data-count="${images.length}"
@@ -630,7 +630,7 @@ function renderReadyProducts(){
   document.getElementById("readyProductGrid").innerHTML = READY_PRODUCTS.map(p => {
     return `
     <div class="prod-card">
-      <img src="${p.img}" alt="">
+      <img src="${p.img}" alt="" loading="lazy" decoding="async">
       <div class="prod-body">
         <div class="prod-name">${p.name}</div>
         <div class="prod-desc">${p.desc}</div>
@@ -667,7 +667,7 @@ async function renderNewArrivals(){
     const videoHtml = p.video_url ? `<video src="${p.video_url}" controls style="width:100%;border-radius:8px 8px 0 0;"></video>` : "";
     return `
     <div class="prod-card">
-      ${videoHtml || `<img src="${img}" alt="">`}
+      ${videoHtml || `<img src="${img}" alt="" loading="lazy" decoding="async">`}
       <div class="prod-body">
         <div class="prod-name">${p.name}</div>
         <div class="prod-desc">${p.description || ""}</div>
@@ -749,7 +749,7 @@ function renderCart(){
     lines.push(`${p.name} x${qty} -- ${fmt(lineTotal)}`);
     return `
       <div class="cart-row">
-        <img src="${p.img}" alt="">
+        <img src="${p.img}" alt="" loading="lazy" decoding="async">
         <div style="flex:1;">
           <div class="cart-row-name">${p.name}</div>
           <div class="cart-row-price">${fmt(unitPrice)} each</div>
