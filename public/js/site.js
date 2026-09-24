@@ -295,6 +295,18 @@ const SAMPLE_PRODUCTS = {
        {id:"HY-M2951",name:{en:"Watch, Pen, Wallet & Belt Gift Set",fr:"Coffret montre, stylo, portefeuille et ceinture"},desc:{en:"5-piece gift set featuring watch, pen, wallet & belt, presented in a gift box. Item weight: 0.50 kg.",fr:"Coffret cadeau 5 pièces comprenant montre, stylo, portefeuille et ceinture, présenté dans un coffret cadeau. Poids : 0.50 kg."},images:["HY-M2951-1.jpg","HY-M2951-2.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
        {id:"HY-M2951",name:{en:"Watch, Bracelet, Wallet & Belt Gift Set",fr:"Coffret montre, bracelet, portefeuille et ceinture"},desc:{en:"5-piece gift set featuring watch, bracelet, wallet & belt, presented in a gift box. Item weight: 0.50 kg.",fr:"Coffret cadeau 5 pièces comprenant montre, bracelet, portefeuille et ceinture, présenté dans un coffret cadeau. Poids : 0.50 kg."},images:["HY-M2951-1.jpg","HY-M2951-2.jpg"],cost:"Contact supplier",moq:"Contact supplier"}],
   ELC:[{id:"ELC-01",name:"TWS Wireless Earbuds",desc:"Bluetooth 5.0, charging case, 20hr battery life.",img:"https://picsum.photos/seed/earbud1/600/600",cost:3500,moq:"50 pcs"},
+  {id:"MIC-U101",name:{en:"Wireless Handheld Microphone (Single)",fr:"Microphone sans fil \u00e0 main (Simple)"},desc:{en:"Adjustable frequency, UHF 600-790MHz, 50m range, USB rechargeable, includes 2xAA batteries and accessories.",fr:"Fr\u00e9quence r\u00e9glable, UHF 600-790MHz, port\u00e9e 50m, rechargeable USB, inclut 2 piles AA et accessoires."},images:["MIC-U101.png"],cost:"\u00a590 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U102",name:{en:"Wireless Handheld Microphone (Dual)",fr:"Microphone sans fil \u00e0 main (Double)"},desc:{en:"2x handheld mics, adjustable frequency, UHF 600-790MHz, 50m range, USB rechargeable.",fr:"2 micros \u00e0 main, fr\u00e9quence r\u00e9glable, UHF 600-790MHz, port\u00e9e 50m, rechargeable USB."},images:["MIC-U102.png"],cost:"\u00a5145 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U101C",name:{en:"Wireless Conference Microphone (Single)",fr:"Microphone de conf\u00e9rence sans fil (Simple)"},desc:{en:"Gooseneck conference mic, adjustable frequency, UHF 600-790MHz, 50m range.",fr:"Micro col de cygne pour conf\u00e9rence, fr\u00e9quence r\u00e9glable, UHF 600-790MHz, port\u00e9e 50m."},images:["MIC-U101C.png"],cost:"\u00a5125 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U102C",name:{en:"Wireless Conference Microphone (Dual)",fr:"Microphone de conf\u00e9rence sans fil (Double)"},desc:{en:"2x gooseneck conference mics, adjustable frequency, UHF 600-790MHz, 50m range.",fr:"2 micros col de cygne pour conf\u00e9rence, fr\u00e9quence r\u00e9glable, UHF 600-790MHz, port\u00e9e 50m."},images:["MIC-U102C.png"],cost:"\u00a5210 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U381",name:{en:"Wireless Handheld Microphone (Fixed Frequency)",fr:"Microphone sans fil \u00e0 main (Fr\u00e9quence fixe)"},desc:{en:"Fixed frequency, UHF 600-790MHz, 30m range, half-metal body.",fr:"Fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m, corps semi-m\u00e9tallique."},images:["MIC-U381.png"],cost:"\u00a575 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U382",name:{en:"Wireless Handheld Microphone Dual (Fixed Frequency)",fr:"Microphone sans fil \u00e0 main Double (Fr\u00e9quence fixe)"},desc:{en:"2x handheld mics, fixed frequency, UHF 600-790MHz, 30m range.",fr:"2 micros \u00e0 main, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m."},images:["MIC-U382.png"],cost:"\u00a5115 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U381B",name:{en:"Wireless Headset Microphone (Single)",fr:"Micro-casque sans fil (Simple)"},desc:{en:"Headset mic, fixed frequency, UHF 600-790MHz, 30m range.",fr:"Micro-casque, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m."},images:["MIC-U381B.png"],cost:"\u00a575 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U382B",name:{en:"Wireless Headset Microphone (Dual)",fr:"Micro-casque sans fil (Double)"},desc:{en:"2x headset mics, fixed frequency, UHF 600-790MHz, 30m range.",fr:"2 micro-casques, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m."},images:["MIC-U382B.png"],cost:"\u00a5115 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U381C",name:{en:"Wireless Conference Microphone (Fixed Frequency, Single)",fr:"Microphone de conf\u00e9rence sans fil (Fr\u00e9quence fixe, Simple)"},desc:{en:"Gooseneck conference mic, fixed frequency, UHF 600-790MHz, 30m range.",fr:"Micro col de cygne pour conf\u00e9rence, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m."},images:["MIC-U381C.png"],cost:"\u00a5110 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U382C",name:{en:"Wireless Conference Microphone (Fixed Frequency, Dual)",fr:"Microphone de conf\u00e9rence sans fil (Fr\u00e9quence fixe, Double)"},desc:{en:"2x gooseneck conference mics, fixed frequency, UHF 600-790MHz, 30m range.",fr:"2 micros col de cygne pour conf\u00e9rence, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m."},images:["MIC-U382C.png"],cost:"\u00a5180 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U362",name:{en:"Wireless Handheld Microphone Dual (Fixed Frequency)",fr:"Microphone sans fil \u00e0 main Double (Fr\u00e9quence fixe)"},desc:{en:"2x handheld mics, fixed frequency, UHF 600-790MHz, 30m range, half-metal body.",fr:"2 micros \u00e0 main, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m, corps semi-m\u00e9tallique."},images:["MIC-U362.png"],cost:"\u00a5110 (factory price)",moq:"Contact supplier"},
+  {id:"MIC-U392",name:{en:"Wireless Handheld Microphone Dual (Fixed Frequency)",fr:"Microphone sans fil \u00e0 main Double (Fr\u00e9quence fixe)"},desc:{en:"2x handheld mics, fixed frequency, UHF 600-790MHz, 30m range, half-metal body.",fr:"2 micros \u00e0 main, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m, corps semi-m\u00e9tallique."},images:["MIC-U392.png"],cost:"\u00a5115 (factory price)",moq:"Contact supplier"},
        {id:"ELC-02",name:"Fast Charging Power Bank 20000mAh",desc:"Dual USB output, digital display, PD fast charge.",img:"https://picsum.photos/seed/power2/600/600",cost:4800,moq:"40 pcs"},
        {id:"ELC-03",name:"Smart Watch Fitness Tracker",desc:"Heart-rate monitor, step counter, phone notifications.",img:"https://picsum.photos/seed/watch3/600/600",cost:6200,moq:"20 pcs"}],
   HMK:[
@@ -464,9 +476,9 @@ function loc(val){ return (val && typeof val === "object") ? (val[currentLang] |
 function renderSlider(images, prodId){
   if(!images || images.length === 0) return "";
   if(images.length === 1){
-    return `<img src="${images[0]}" alt="">`;
+    return `<img src="${images[0]}" alt="" loading="lazy" decoding="async">`;
   }
-  const imgsHtml = images.map(src => `<img src="${src}" alt="">`).join("");
+  const imgsHtml = images.map(src => `<img src="${src}" alt="" loading="lazy" decoding="async">`).join("");
   const dotsHtml = images.map((_, i) => `<span class="dot${i===0?" active":""}" onclick="event.stopPropagation(); goToSlide('${prodId}',${i})"></span>`).join("");
   return `
     <div class="img-slider" id="slider-${prodId}" data-index="0" data-count="${images.length}"
@@ -516,7 +528,7 @@ function setView(v){
     b.classList.toggle("active", b.dataset.tab===v || (v==="admin" && b.dataset.tab==="importation"));
   });
   if(v==="importation") renderImportation();
-  if(v==="products") renderReadyProducts();
+  if(v==="products"){ renderReadyProducts(); renderNewArrivals(); }
   if(v==="admin") renderAdminTable();
   window.scrollTo(0,0);
   window.dispatchEvent(new CustomEvent("ja:view-changed", { detail: { view: v } }));
@@ -630,7 +642,7 @@ function renderReadyProducts(){
   document.getElementById("readyProductGrid").innerHTML = READY_PRODUCTS.map(p => {
     return `
     <div class="prod-card">
-      <img src="${p.img}" alt="">
+      <img src="${p.img}" alt="" loading="lazy" decoding="async">
       <div class="prod-body">
         <div class="prod-name">${p.name}</div>
         <div class="prod-desc">${p.desc}</div>
@@ -642,6 +654,49 @@ function renderReadyProducts(){
     </div>
   `;
   }).join("");
+}
+
+// -- New Arrivals (products added by the admin via /admin/products) --
+let newArrivals = [];
+async function renderNewArrivals(){
+  const grid = document.getElementById("newArrivalsGrid");
+  const heading = document.getElementById("newArrivalsHeading");
+  try{
+    const res = await fetch("/api/products");
+    const data = await res.json();
+    newArrivals = data.products || [];
+  }catch(e){
+    newArrivals = [];
+  }
+  if(!newArrivals.length){
+    heading.classList.add("hidden");
+    grid.innerHTML = "";
+    return;
+  }
+  heading.classList.remove("hidden");
+  grid.innerHTML = newArrivals.map(p => {
+    const img = (p.images && p.images[0]) || "";
+    const videoHtml = p.video_url ? `<video src="${p.video_url}" controls style="width:100%;border-radius:8px 8px 0 0;"></video>` : "";
+    return `
+    <div class="prod-card">
+      ${videoHtml || `<img src="${img}" alt="" loading="lazy" decoding="async">`}
+      <div class="prod-body">
+        <div class="prod-name">${p.name}</div>
+        <div class="prod-desc">${p.description || ""}</div>
+        <div class="prod-price">${fmt(p.price_xaf)}</div>
+        <button class="btn-full" onclick="orderNewArrival('${p.id}')">${t("add_to_cart")}</button>
+      </div>
+    </div>
+  `;
+  }).join("");
+}
+async function orderNewArrival(id){
+  if(!(await requireAuth())) return;
+  const p = newArrivals.find(x => x.id === id);
+  if(!p) return;
+  const message = `Hi J.A Services, I'd like to order: ${p.name} -- ${fmt(p.price_xaf)}. Please confirm availability and payment details.`;
+  await saveRequest("product_order", p.name, p.price_xaf);
+  window.open(waLink(message), "_blank");
 }
 
 // -- Basket / Cart --
@@ -706,7 +761,7 @@ function renderCart(){
     lines.push(`${p.name} x${qty} -- ${fmt(lineTotal)}`);
     return `
       <div class="cart-row">
-        <img src="${p.img}" alt="">
+        <img src="${p.img}" alt="" loading="lazy" decoding="async">
         <div style="flex:1;">
           <div class="cart-row-name">${p.name}</div>
           <div class="cart-row-price">${fmt(unitPrice)} each</div>
@@ -727,21 +782,65 @@ function renderCart(){
   const modeLabel = priceMode === "retail" ? "Retail" : "Wholesale";
   const message = `Hi J.A Services, I've paid for the following order (${modeLabel} pricing):\n\n${lines.join("\n")}\n\nTotal: ${fmt(total)}\n\nHere is my payment proof. Please confirm and arrange delivery.`;
   checkoutBtn.href = waLink(message);
+  window.cartCheckoutSummary = lines.join(", ");
+  window.cartCheckoutTotal = total;
 }
 
 let mcSelectedTier = null;
-function selectTier(tier){
+async function requireAuth(){
+  try{
+    const res = await fetch("/api/auth/status");
+    const data = await res.json();
+    if(!data.loggedIn){
+      window.location.href = "/signin?next=" + encodeURIComponent("/");
+      return false;
+    }
+    return true;
+  }catch(e){
+    window.location.href = "/signin?next=" + encodeURIComponent("/");
+    return false;
+  }
+}
+function handleCheckoutClick(event){
+  event.preventDefault();
+  const href = event.currentTarget.getAttribute("href");
+  if(event.currentTarget.classList.contains("btn-disabled") || !href || href === "#") return false;
+  requireAuth().then(async ok => {
+    if(!ok) return;
+    await saveRequest("product_order", window.cartCheckoutSummary || "Product order", window.cartCheckoutTotal || null);
+    window.open(href, "_blank");
+    cart = {};
+    updateCartCount();
+    renderCart();
+  });
+  return false;
+}
+async function selectTier(tier){
+  if(!(await requireAuth())) return;
   mcSelectedTier = tier;
   const label = tier === "premium" ? "Pay 25,000 FCFA ($45)" : "Pay 20,000 FCFA ($35)";
   document.getElementById("payBtn").textContent = label;
   mcStep("pay");
 }
-function mcStep(step){
+async function saveRequest(type, summary, amountXaf){
+  try{
+    await fetch("/api/purchase-requests", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({ type, summary, amountXaf })
+    });
+  }catch(e){
+    // Non-fatal -- don't block the WhatsApp flow if this fails.
+  }
+}
+async function mcStep(step){
   document.getElementById("mcStepInfo").classList.toggle("hidden", step!=="info");
   document.getElementById("mcStepPay").classList.toggle("hidden", step!=="pay");
   document.getElementById("mcStepDone").classList.toggle("hidden", step!=="done");
   if(step === "done"){
     const tierLabel = mcSelectedTier === "premium" ? "Premium (25,000 FCFA)" : "Standard (20,000 FCFA)";
+    const amount = mcSelectedTier === "premium" ? 25000 : 20000;
+    await saveRequest("masterclass", `Masterclass -- ${tierLabel}`, amount);
     document.getElementById("mcWaProofBtn").href = waLink(`Hi J.A Services, I just paid for the ${tierLabel} Masterclass. Here is my payment proof:`);
   }
 }
@@ -783,7 +882,8 @@ const WA_COMMUNITY_URL = "https://chat.whatsapp.com/KymfLjL8tTx7zHnuJmTQcd";
 const WA_IMPORT_GROUP_URL = "https://chat.whatsapp.com/EQCkLkERn077wAdNXlX7sS?s=cl&p=a&mlu=4";
 const WA_PRODUCTS_GROUP_URL = "https://chat.whatsapp.com/CcQ4psUxHwTD9dlvoBQ0Lb?s=cl&p=a&mlu=4";
 function waLink(text){ return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`; }
-function openBooking(p){
+async function openBooking(p){
+  if(!(await requireAuth())) return;
   bookingProduct = p;
   document.getElementById("modalProdId").textContent = p.id;
   document.getElementById("modalProdName").textContent = loc(p.name);
@@ -796,14 +896,18 @@ function closeModal(){
   document.getElementById("bookingModal").classList.remove("show");
 }
 function submitBooking(){
-  document.getElementById("modalFormState").classList.add("hidden");
+  requireAuth().then(ok => {
+    if(!ok) return;
+    document.getElementById("modalFormState").classList.add("hidden");
   document.getElementById("modalSentState").classList.remove("hidden");
   document.getElementById("modalSentText").textContent = `${t("reach_out")} ${loc(bookingProduct.name)}.`;
+  saveRequest("consultation", `Consultation -- ${loc(bookingProduct.name)} (${bookingProduct.id})`, null);
   document.getElementById("modalWaBtn").href = waLink(`Hi J.A Services, I just submitted a booking request for: ${loc(bookingProduct.name)} (${bookingProduct.id}). Can you confirm?`);
   document.getElementById("modalEmailBtn").href = emailLink(
     `Booking request: ${loc(bookingProduct.name)}`,
     `Hi J.A Services,\n\nI'd like to book a consultation for: ${loc(bookingProduct.name)} (${bookingProduct.id}).\n\nThanks!`
   );
+  });
 }
 
 renderImportation();

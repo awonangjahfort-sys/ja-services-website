@@ -1,58 +1,86 @@
 import { signIn } from "@/lib/actions/auth";
 import Link from "next/link";
+import { SubmitButton } from "@/components/SubmitButton";
 
 export default async function SignInPage({
   searchParams,
 }: {
-  searchParams: Promise<{ error?: string; message?: string }>;
+  searchParams: Promise<{ error?: string; message?: string; next?: string }>;
 }) {
-  const { error, message } = await searchParams;
+  const { error, message, next } = await searchParams;
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-sm flex-col justify-center px-6 py-12">
-      <h1 className="mb-1 text-2xl font-bold">Sign in</h1>
-      <p className="mb-6 text-sm text-gray-500">Welcome back to J.A Services.</p>
+    <main
+      style={{ background: "#16264F", color: "#F2EFE8", minHeight: "100vh", width: "100%" }}
+      className="flex flex-col justify-center px-6 py-12"
+    >
+    <div className="mx-auto w-full max-w-sm">
+      <h1 className="mb-1 text-2xl font-bold" style={{ color: "#fff" }}>
+        Sign in
+      </h1>
+      <p className="mb-6 text-sm" style={{ color: "#C9D2E3" }}>
+        Welcome back to J.A Services.
+      </p>
 
       {message && (
-        <p className="mb-4 rounded bg-green-50 px-3 py-2 text-sm text-green-700">{message}</p>
+        <p
+          className="mb-4 rounded px-3 py-2 text-sm"
+          style={{ background: "rgba(232,200,116,0.12)", color: "#E8C874" }}
+        >
+          {message}
+        </p>
       )}
       {error && (
-        <p className="mb-4 rounded bg-red-50 px-3 py-2 text-sm text-red-700">{error}</p>
+        <p
+          className="mb-4 rounded px-3 py-2 text-sm"
+          style={{ background: "rgba(232,134,134,0.12)", color: "#E88686" }}
+        >
+          {error}
+        </p>
       )}
 
       <form action={signIn} className="flex flex-col gap-4">
+        <input type="hidden" name="next" value={next || "/account"} />
         <div>
-          <label className="mb-1 block text-sm font-medium">Email</label>
+          <label className="mb-1 block text-sm font-medium" style={{ color: "#C9D2E3" }}>
+            Email
+          </label>
           <input
             name="email"
             type="email"
             required
-            className="w-full rounded border border-gray-300 px-3 py-2"
+            className="w-full rounded px-3 py-2 outline-none"
+            style={{ background: "#0F1B38", border: "1px solid rgba(232,200,116,0.25)", color: "#F2EFE8" }}
           />
         </div>
         <div>
-          <label className="mb-1 block text-sm font-medium">Password</label>
+          <label className="mb-1 block text-sm font-medium" style={{ color: "#C9D2E3" }}>
+            Password
+          </label>
           <input
             name="password"
             type="password"
             required
-            className="w-full rounded border border-gray-300 px-3 py-2"
+            className="w-full rounded px-3 py-2 outline-none"
+            style={{ background: "#0F1B38", border: "1px solid rgba(232,200,116,0.25)", color: "#F2EFE8" }}
           />
         </div>
-        <button
-          type="submit"
-          className="mt-2 rounded bg-black py-2 font-medium text-white hover:bg-gray-800"
+        <SubmitButton
+          loadingText="Signing in..."
+          className="mt-2 rounded py-2 font-bold"
+          style={{ background: "#E8C874", color: "#16264F" }}
         >
           Sign in
-        </button>
+        </SubmitButton>
       </form>
 
-      <p className="mt-6 text-center text-sm text-gray-500">
+      <p className="mt-6 text-center text-sm" style={{ color: "#9FB0D1" }}>
         Don&apos;t have an account?{" "}
-        <Link href="/signup" className="font-medium text-black underline">
+        <Link href="/signup" style={{ color: "#E8C874", fontWeight: 600 }}>
           Sign up
         </Link>
       </p>
+    </div>
     </main>
   );
 }

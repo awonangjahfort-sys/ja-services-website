@@ -1,11 +1,6 @@
 import Script from "next/script";
 import { VisitorTracker } from "@/components/VisitorTracker";
 
-// This page preserves the original static site's HTML/CSS/JS exactly,
-// migrated from the legacy index.html so the live site is unaffected.
-// Backend functionality is added via /api routes and /admin, /account pages
-// alongside this, not by touching this markup.
-
 const SITE_CSS = `  :root{
     --navy:#16264F; --navy2:#1E3364; --navy3:#0F1B38;
     --gold:#C79A3C; --gold2:#E8C874;
@@ -51,7 +46,10 @@ const SITE_CSS = `  :root{
     display:flex; align-items:center; gap:6px; font-size:12px; font-weight:600;
     padding:8px 12px; border-radius:6px; border:1px solid rgba(232,200,116,0.4);
     color:var(--gold2); background:transparent; white-space:nowrap;
+    transition: background .15s var(--ease-soft), transform .1s var(--ease-soft);
   }
+  .admin-btn:hover{ background:rgba(232,200,116,0.1); }
+  .admin-btn:active{ transform: scale(0.96); background:rgba(232,200,116,0.2); }
   .admin-btn.active{ background:var(--gold2); color:var(--navy); border-color:var(--gold2); }
 
   .lang-select{
@@ -314,10 +312,10 @@ const SITE_BODY_HTML = `
           <button class="lang-option" data-lang="fr" onclick="setLang('fr')">Fran&ccedil;ais <span>FR</span></button>
         </div>
       </div>
-      <button class="admin-btn" id="adminBtn" onclick="handleAdminBtnClick()">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-        <span id="adminBtnText">Login</span>
-      </button>
+      <a href="/account" class="admin-btn" style="text-decoration:none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+        <span>My Account</span>
+      </a>
     </div>
   </div>
 </div>
@@ -484,6 +482,8 @@ const SITE_BODY_HTML = `
       </button>
     </div>
     <div id="readyProductGrid" class="prod-grid ready"></div>
+    <h2 id="newArrivalsHeading" style="margin:32px 0 14px;font-size:18px;" class="hidden">New Arrivals</h2>
+    <div id="newArrivalsGrid" class="prod-grid ready"></div>
     <div class="social-row">
       <a href="https://chat.whatsapp.com/CcQ4psUxHwTD9dlvoBQ0Lb?s=cl&p=a&mlu=4" target="_blank" class="social-btn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
@@ -563,7 +563,7 @@ const SITE_BODY_HTML = `
       <div>+237 670 303 644</div>
       <div style="color:var(--muted);">Name on account: JAHFORT AWONANG</div>
     </div>
-    <a class="btn-gold btn-full" id="cartCheckoutBtn" href="#" target="_blank" style="display:block;text-decoration:none;margin-top:12px;">Send Order & Payment Proof on WhatsApp</a>
+    <a class="btn-gold btn-full" id="cartCheckoutBtn" href="#" target="_blank" onclick="return handleCheckoutClick(event)" style="display:block;text-decoration:none;margin-top:12px;">Send Order & Payment Proof on WhatsApp</a>
     <div style="font-size:11px;color:var(--muted);margin-top:10px;text-align:center;">Pay via MoMo above, then tap the button to send us your order and payment screenshot.</div>
   </div>
 </div>
