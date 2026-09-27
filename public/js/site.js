@@ -365,21 +365,7 @@ const SAMPLE_PRODUCTS = {
     {id:"IMP-18",name:{en:"Electric Stew Pot & Blender",fr:"Mijoteuse Électrique & Mixeur"},desc:{en:"Compact electric stew pot with glass lid, plus a portable rechargeable blender cup.",fr:"Mijoteuse électrique compacte avec couvercle en verre, et mixeur portable rechargeable."},images:["images/IMP-18_a.jpg","images/IMP-18_b.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
     {id:"IMP-19",name:{en:"Heated Lunch Mat & Bag",fr:"Set de Table & Sac Chauffant"},desc:{en:"Heated placemat and insulated heated lunch bag, keeps food warm while eating or travelling.",fr:"Set de table chauffant et sac isotherme chauffant, garde les repas au chaud à table ou en déplacement."},images:["images/IMP-19_a.jpg","images/IMP-19_b.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
   ],
-  BTY:[FIX INSTRUCTIONS (do these 2 find-and-replace edits first, in the BTY section of site.js):
-
-1. Find: images:["HERB-35.png"]
-   Replace with: images:["HERB-35FIX.png"]
-
-2. Find: images:["HERB-36.png"]
-   Replace with: images:["HERB-35FIX.png"]
-
-3. Find: images:["HERB-37.png"]
-   Replace with: images:["HERB-35FIX.png"]
-
-4. Find: images:["HERB-38.png"]
-   Replace with: images:["HERB-38FIX.png"]
-
-===== NEW PRODUCTS BELOW (paste into the BTY:[ array, same spot as before) =====
+BTY:[
 
   {id:"SUPP-01",name:{en:"Slippery Elm Bark Capsule (60pcs)",fr:"Capsule d'\u00e9corce d'orme rouge (60pcs)"},desc:{en:"Supports vaginal lubrication, vaginal moisturizer, boosts women's pleasure.",fr:"Favorise la lubrification vaginale, hydratant vaginal."},images:["SUPP-01.png"],cost:"$1.9-$2.4 (factory price)",moq:"Contact supplier"},
   {id:"SUPP-02",name:{en:"Yoni Bliss Slipper Capsules",fr:"Capsules Yoni Bliss Slipper"},desc:{en:"Intimate wetness, silky sensation, comfort and confidence.",fr:"Humidit\u00e9 intime, sensation soyeuse, confort et confiance."},images:["SUPP-02.png"],cost:"$1.9-$2.4 (factory price)",moq:"Contact supplier"},
@@ -431,10 +417,10 @@ const SAMPLE_PRODUCTS = {
   {id:"HERB-32",name:{en:"Vagina Tightening Capsule",fr:"Capsule resserrante vaginale"},desc:{en:"Improves grip and strength, restores natural elasticity, increases pleasure.",fr:"Am\u00e9liore la tonicit\u00e9, restaure l'\u00e9lasticit\u00e9 naturelle."},images:["HERB-32.png"],cost:"$0.3-$0.4 (factory price)",moq:"Contact supplier"},
   {id:"HERB-33",name:{en:"Madura Vagina Tightening Stick",fr:"B\u00e2ton resserrant vaginal Madura"},desc:{en:"Increases pleasure, restores lubrication, eliminates vaginal dryness.",fr:"Augmente le plaisir, restaure la lubrification, \u00e9limine la s\u00e9cheresse."},images:["HERB-33.png"],cost:"$1.9-$2.2 (factory price)",moq:"Contact supplier"},
   {id:"HERB-34",name:{en:"Flavored Yoni Oil (Rose/Lavender/Peach/Orange)",fr:"Huile Yoni parfum\u00e9e (Rose/Lavande/P\u00eache/Orange)"},desc:{en:"Refreshes and revitalizes, helps eliminate vaginal odor, helps vaginal rejuvenation.",fr:"Rafra\u00eechit et revitalise, aide \u00e0 \u00e9liminer les odeurs vaginales."},images:["HERB-34.png"],cost:"$1.78-$2.69 (factory price)",moq:"Contact supplier"},
-  {id:"HERB-35",name:{en:"Shuya Anion Sanitary Napkin (Day Used)",fr:"Serviette hygi\u00e9nique Shuya Anion (Usage de jour)"},desc:{en:"Active oxygen and anion, far-infrared sanitary napkin.",fr:"Oxyg\u00e8ne actif et anions, serviette hygi\u00e9nique infrarouge lointain."},images:["HERB-35.png"],cost:"$1.2-$1.65 (factory price)",moq:"Contact supplier"},
-  {id:"HERB-36",name:{en:"Shuya Anion Sanitary Napkin (Night Used)",fr:"Serviette hygi\u00e9nique Shuya Anion (Usage de nuit)"},desc:{en:"Active oxygen and anion, far-infrared sanitary napkin.",fr:"Oxyg\u00e8ne actif et anions, serviette hygi\u00e9nique infrarouge lointain."},images:["HERB-36.png"],cost:"$1.2-$1.65 (factory price)",moq:"Contact supplier"},
-  {id:"HERB-37",name:{en:"Shuya Anion Panty Liner",fr:"Protege-slip Shuya Anion"},desc:{en:"Active oxygen and anion, far-infrared panty liner.",fr:"Oxyg\u00e8ne actif et anions, protege-slip infrarouge lointain."},images:["HERB-37.png"],cost:"$1.2-$1.65 (factory price)",moq:"Contact supplier"},
-  {id:"HERB-38",name:{en:"Detox Foot Patches (10pcs/box)",fr:"Patchs de d\u00e9toxification pour pieds (10pcs/bo\u00eete)"},desc:{en:"Dispels toxins, relaxes muscles, replenishes vital essence.",fr:"Dissipe les toxines, d\u00e9tend les muscles, reconstitue l'\u00e9nergie vitale."},images:["HERB-38.png"],cost:"$0.99-$1.2 (factory price)",moq:"Contact supplier"},
+  {id:"HERB-35",name:{en:"Shuya Anion Sanitary Napkin (Day Used)",fr:"Serviette hygi\u00e9nique Shuya Anion (Usage de jour)"},desc:{en:"Active oxygen and anion, far-infrared sanitary napkin.",fr:"Oxyg\u00e8ne actif et anions, serviette hygi\u00e9nique infrarouge lointain."},images:["HERB-35FIX.png"],cost:"$1.2-$1.65 (factory price)",moq:"Contact supplier"},
+  {id:"HERB-36",name:{en:"Shuya Anion Sanitary Napkin (Night Used)",fr:"Serviette hygi\u00e9nique Shuya Anion (Usage de nuit)"},desc:{en:"Active oxygen and anion, far-infrared sanitary napkin.",fr:"Oxyg\u00e8ne actif et anions, serviette hygi\u00e9nique infrarouge lointain."},images:["HERB-36FIX.png"],cost:"$1.2-$1.65 (factory price)",moq:"Contact supplier"},
+  {id:"HERB-37",name:{en:"Shuya Anion Panty Liner",fr:"Protege-slip Shuya Anion"},desc:{en:"Active oxygen and anion, far-infrared panty liner.",fr:"Oxyg\u00e8ne actif et anions, protege-slip infrarouge lointain."},images:["HERB-37FIX.png"],cost:"$1.2-$1.65 (factory price)",moq:"Contact supplier"},
+  {id:"HERB-38",name:{en:"Detox Foot Patches (10pcs/box)",fr:"Patchs de d\u00e9toxification pour pieds (10pcs/bo\u00eete)"},desc:{en:"Dispels toxins, relaxes muscles, replenishes vital essence.",fr:"Dissipe les toxines, d\u00e9tend les muscles, reconstitue l'\u00e9nergie vitale."},images:["HERB-38FIX.png"],cost:"$0.99-$1.2 (factory price)",moq:"Contact supplier"},
     {id:"IMP-01",name:{en:"Detox Foot Patches",fr:"Patchs Détox pour les Pieds"},desc:{en:"Herbal patches worn on the feet overnight. Said to help remove dampness, relieve stress, and reduce odour. Several brands and packaging styles available.",fr:"Patchs à base de plantes portés sur les pieds la nuit. Aideraient à éliminer l'humidité, réduire le stress et les odeurs. Plusieurs marques et emballages disponibles."},images:["images/IMP-01_a.jpg","images/IMP-01_b.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
     {id:"IMP-03",name:{en:"Warm Therapy Patches",fr:"Patchs Chauffants Thérapeutiques"},desc:{en:"Self-heating patches for pain relief and warmth. Available for neck, knee, waist, foot, and general joint use. Heat lasts up to 6 hours.",fr:"Patchs auto-chauffants pour soulager la douleur et réchauffer. Disponibles pour le cou, le genou, la taille, le pied et les articulations. Chaleur jusqu'à 6 heures."},images:["images/IMP-03_a.jpg","images/IMP-03_b.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
     {id:"IMP-04",name:{en:"Menstrual Cramp Warm Patch",fr:"Patch Chauffant Anti-Crampes Menstruelles"},desc:{en:"Self-heating patch worn on the belly or waist to relieve menstrual pain and cramping.",fr:"Patch auto-chauffant porté sur le ventre ou la taille pour soulager les douleurs et crampes menstruelles."},images:["images/IMP-04_a.jpg","images/IMP-04_b.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
