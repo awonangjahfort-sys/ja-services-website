@@ -963,7 +963,12 @@ const SUBCATS = {
     { key:"bodycare",   icon:"\uD83E\uDDFC", en:"Body hygiene & soap",              fr:"Hygi\u00E8ne & savons",                    pri:2, test:i=>/^HERB-(03|28)$/.test(i.id) },
     { key:"patches",    icon:"\uD83E\uDE79", en:"Patches, pads & warmers",          fr:"Patchs, masques & chauffe-mains",     pri:1, test:i=>/^IMP-/.test(i.id)||i.id==="HERB-38" },
     { key:"supplements",icon:"\uD83D\uDC8A", en:"Supplements (capsules & gummies)", fr:"Compl\u00E9ments (g\u00E9lules & gummies)",     pri:1, test:i=>/^SUPP-/.test(i.id) },
-    { key:"teas",       icon:"\uD83C\uDF75", en:"Herbal teas, coffee & drinks",     fr:"Th\u00E9s, caf\u00E9s & boissons aux herbes",   pri:1, test:i=>/^TEA-/.test(i.id) }
+    { key:"teas",       icon:"\uD83C\uDF75", en:"Herbal teas, coffee & drinks",     fr:"Th\u00E9s, caf\u00E9s & boissons aux herbes",   pri:1, test:i=>/^TEA-/.test(i.id) },
+    { key:"perf_small",  icon:"\uD83E\uDDF4", en:"Perfumes 20-50ml & sets",         fr:"Parfums 20-50ml & coffrets",           pri:1, test:i=>/^GF-/.test(i.id) },
+    { key:"perf_mid",    icon:"\uD83C\uDF38", en:"Perfumes 50-200ml",                fr:"Parfums 50-200ml",                     pri:1, test:i=>/^GH-/.test(i.id) },
+    { key:"perf_mist",   icon:"\uD83D\uDCA8", en:"Fragrance mists 88ml",             fr:"Brumes parfum\u00e9es 88ml",           pri:1, test:i=>/^M100-/.test(i.id) },
+    { key:"perf_spray",  icon:"\uD83E\uDDF4", en:"Body sprays 110-250ml",            fr:"Sprays corporels 110-250ml",           pri:1, test:i=>/^YZ-/.test(i.id) },
+    { key:"perf_box",    icon:"\uD83D\uDCE6", en:"Perfume display boxes 30ml",       fr:"Coffrets pr\u00e9sentoirs parfum 30ml", pri:1, test:i=>/^AA\d/.test(i.id) }
   ]
 };
 
@@ -1597,3 +1602,34 @@ renderImportation();
 renderReadyProducts();
 applyTranslations();
 setView("home");
+
+
+/* ================= EXTRA CATALOG PACKS =================
+   New products live in /catalog/*.json (listed in /catalog/index.json).
+   Adding a batch = copy the new files into public/catalog + public/catalog-img and push. No code edit. */
+function resetCatalogCaches(){
+  Object.keys(SUB_CACHE).forEach(k=>delete SUB_CACHE[k]);
+  SEARCH_INDEX = null; PATH_MAP.clear();
+}
+(async function loadCatalogPacks(){
+  try{
+    const r = await fetch("/catalog/index.json", { cache:"no-cache" });
+    if(!r.ok) return;
+    const idx = await r.json();
+    const packs = await Promise.all((idx.files||[]).map(async f=>{
+      try{ const pr = await fetch("/catalog/"+f); return pr.ok ? await pr.json() : null; }catch(e){ return null; }
+    }));
+    let added = 0;
+    packs.forEach(d=>{
+      if(d && d.cat && Array.isArray(d.products)){
+        (SAMPLE_PRODUCTS[d.cat] = SAMPLE_PRODUCTS[d.cat] || []).push(...d.products);
+        added += d.products.length;
+      }
+    });
+    if(added){
+      resetCatalogCaches();
+      const v = document.getElementById("view-importation");
+      if(v && !v.classList.contains("hidden")) renderImportation();
+    }
+  }catch(e){ /* catalog packs are optional */ }
+})();
