@@ -294,7 +294,38 @@ const SAMPLE_PRODUCTS = {
        {id:"HY-M2368B",name:{en:"Watch, Bracelet, Wallet, Keychain & Cuff Pin Gift Set",fr:"Coffret montre, bracelet, portefeuille, porte-clés et épingle de manchette"},desc:{en:"6-piece gift set featuring watch, bracelet, wallet, keychain & cuff pin, presented in a gift box. Item weight: 0.40 kg. Carton volume: ~0.140 CBM.",fr:"Coffret cadeau 6 pièces comprenant montre, bracelet, portefeuille, porte-clés et épingle de manchette, présenté dans un coffret cadeau. Poids : 0.40 kg. Volume du carton : ~0.140 CBM."},images:["HY-M2368B-1.jpg","HY-M2368B-2.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
        {id:"HY-M2951",name:{en:"Watch, Pen, Wallet & Belt Gift Set",fr:"Coffret montre, stylo, portefeuille et ceinture"},desc:{en:"5-piece gift set featuring watch, pen, wallet & belt, presented in a gift box. Item weight: 0.50 kg.",fr:"Coffret cadeau 5 pièces comprenant montre, stylo, portefeuille et ceinture, présenté dans un coffret cadeau. Poids : 0.50 kg."},images:["HY-M2951-1.jpg","HY-M2951-2.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
        {id:"HY-M2951",name:{en:"Watch, Bracelet, Wallet & Belt Gift Set",fr:"Coffret montre, bracelet, portefeuille et ceinture"},desc:{en:"5-piece gift set featuring watch, bracelet, wallet & belt, presented in a gift box. Item weight: 0.50 kg.",fr:"Coffret cadeau 5 pièces comprenant montre, bracelet, portefeuille et ceinture, présenté dans un coffret cadeau. Poids : 0.50 kg."},images:["HY-M2951-1.jpg","HY-M2951-2.jpg"],cost:"Contact supplier",moq:"Contact supplier"}],
-  ELC:[{id:"MIC5-02",name:{en:"SM-9000",fr:"SM-9000"},desc:{en:"Wired microphone, model SM-9000. Contact us for full specifications, options and availability.",fr:"Microphone filaire, mod\u00e8le SM-9000. Contactez-nous pour les sp\u00e9cifications compl\u00e8tes et la disponibilit\u00e9."},images:["MIC5-02.jpg"],cost:"\u00a523 (factory price)",moq:"Contact supplier"},
+  ELC:[{id:"DL-LA",name:{en:"LA Series Line Array Speaker System",fr:"Syst\u00e8me d'enceintes line array s\u00e9rie LA"},desc:{en:"Dual 8/10/12-inch full range line array speakers (LA-2208, LA-2210, LA-2212), 18-inch subwoofers (LA-118S, LA-218S) and a 15-inch coaxial monitor (LA-15XT). For large sound reinforcement, touring shows, stadiums, theaters and concerts.",fr:"Enceintes line array pleine gamme doubles 8/10/12 pouces (LA-2208, LA-2210, LA-2212), caissons de basses 18 pouces (LA-118S, LA-218S) et retour coaxial 15 pouces (LA-15XT). Pour la sonorisation de grande envergure, tourn\u00e9es, stades, th\u00e9\u00e2tres et concerts."},images:["DL-LA.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-TP",name:{en:"TP Series Line Array Speaker System",fr:"Syst\u00e8me d'enceintes line array s\u00e9rie TP"},desc:{en:"Double 10-inch full range line array speakers TP-210 (passive) and TP-210P (active), with 18-inch subwoofers TP-118S (passive) and P-118SP (active). For large sound reinforcement, touring, sports venues, theaters and concerts.",fr:"Enceintes line array pleine gamme doubles 10 pouces TP-210 (passive) et TP-210P (active), avec caissons de basses 18 pouces TP-118S (passif) et P-118SP (actif). Pour la sonorisation de grande envergure, tourn\u00e9es, salles de sport, th\u00e9\u00e2tres et concerts."},images:["DL-TP.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-NE",name:{en:"NE Series Line Array Speaker System",fr:"Syst\u00e8me d'enceintes line array s\u00e9rie NE"},desc:{en:"Double 10-inch full range line array speaker with a matching single 18-inch subwoofer. For large sound reinforcement, touring performances, sports venues and theaters.",fr:"Enceinte line array pleine gamme double 10 pouces avec caisson de basses 18 pouces assorti. Pour la sonorisation de grande envergure, tourn\u00e9es, salles de sport et th\u00e9\u00e2tres."},images:["DL-NE.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-VR",name:{en:"VR Series Line Array Speaker System",fr:"Syst\u00e8me d'enceintes line array s\u00e9rie VR"},desc:{en:"Compact line array speakers VR-110P (single 10-inch) and VR-112P (single 12-inch), with subwoofers VR-115SP (15-inch) and VR-118SP (18-inch). For theaters, concerts, sports venues and large sound reinforcement.",fr:"Enceintes line array compactes VR-110P (10 pouces) et VR-112P (12 pouces), avec caissons de basses VR-115SP (15 pouces) et VR-118SP (18 pouces). Pour th\u00e9\u00e2tres, concerts, salles de sport et sonorisation de grande envergure."},images:["DL-VR.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-KD",name:{en:"KD Series Multi-Functional Speakers",fr:"Enceintes multifonctions s\u00e9rie KD"},desc:{en:"Full range speakers KD-508, KD-510, KD-512 (8/10/12-inch), KD-515 and KD-525 (single/double 15-inch) and subwoofers KD-518S and KD-528S (single/double 18-inch). For multi-function halls, conference halls, theaters, auditoriums and banquet halls.",fr:"Enceintes pleine gamme KD-508, KD-510, KD-512 (8/10/12 pouces), KD-515 et KD-525 (15 pouces simple/double) et caissons de basses KD-518S et KD-528S (18 pouces simple/double). Pour salles polyvalentes, salles de conf\u00e9rence, th\u00e9\u00e2tres, auditoriums et salles de banquet."},images:["DL-KD.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-CD",name:{en:"CD Series Multi-Functional Speakers",fr:"Enceintes multifonctions s\u00e9rie CD"},desc:{en:"Full range speakers CD-108, CD-110, CD-112 (8/10/12-inch), CD-115 and CD-215 (single/double 15-inch) and subwoofers CD-118S and CD-218S (18-inch). For multi-function halls, conference halls, theaters, auditoriums and banquet halls.",fr:"Enceintes pleine gamme CD-108, CD-110, CD-112 (8/10/12 pouces), CD-115 et CD-215 (15 pouces simple/double) et caissons de basses CD-118S et CD-218S (18 pouces). Pour salles polyvalentes, conf\u00e9rences, th\u00e9\u00e2tres, auditoriums et banquets."},images:["DL-CD.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-MU",name:{en:"MU Series Multi-Functional Speakers",fr:"Enceintes multifonctions s\u00e9rie MU"},desc:{en:"Full range speakers MU10, MU12 and MU15 (10/12/15-inch) plus the MU15S 15-inch subwoofer. For music bars, stage monitoring, theaters, street shows and entertainment venues.",fr:"Enceintes pleine gamme MU10, MU12 et MU15 (10/12/15 pouces) et caisson de basses MU15S 15 pouces. Pour bars musicaux, retours de sc\u00e8ne, th\u00e9\u00e2tres, spectacles de rue et lieux de divertissement."},images:["DL-MU.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-MX",name:{en:"MX Series Multi-Functional Speakers",fr:"Enceintes multifonctions s\u00e9rie MX"},desc:{en:"Full range speakers MX-8, MX-10, MX-12 (8/10/12-inch), MX-15 (15-inch), MX-25 (double 15-inch) and the MX-18S 18-inch subwoofer. For multi-function halls, conference halls, theaters, auditoriums and banquet halls.",fr:"Enceintes pleine gamme MX-8, MX-10, MX-12 (8/10/12 pouces), MX-15 (15 pouces), MX-25 (double 15 pouces) et caisson de basses MX-18S 18 pouces. Pour salles polyvalentes, conf\u00e9rences, th\u00e9\u00e2tres, auditoriums et banquets."},images:["DL-MX.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-AR",name:{en:"AR Series 18-inch Long-Throw Subwoofer",fr:"Caisson de basses longue port\u00e9e 18 pouces s\u00e9rie AR"},desc:{en:"18-inch long-throw subwoofers (two models) for KTV, indoor karaoke and high-end entertainment venues.",fr:"Caissons de basses longue port\u00e9e 18 pouces (deux mod\u00e8les) pour KTV, karaok\u00e9 int\u00e9rieur et lieux de divertissement haut de gamme."},images:["DL-AR.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-PV8",name:{en:"PV8 Series Active Column Speaker",fr:"Enceinte colonne active s\u00e9rie PV8"},desc:{en:"Active column speaker system: PV 8 (eight 3-inch column, 160W/320W/640W) with the PV 8S subwoofer. XLR/TRS combo inputs for mic, line or guitar, Bluetooth/USB/MP3. For high-end conferences, banquet bars, multi-function halls and music bars.",fr:"Syst\u00e8me d'enceintes colonnes actives : PV 8 (colonne huit haut-parleurs 3 pouces, 160W/320W/640W) avec caisson de basses PV 8S. Entr\u00e9es combo XLR/TRS micro, ligne ou guitare, Bluetooth/USB/MP3. Pour conf\u00e9rences haut de gamme, bars de banquet, salles polyvalentes et bars musicaux."},images:["DL-PV8.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-PV",name:{en:"PV Series Active Column Speaker System",fr:"Syst\u00e8me d'enceintes colonnes actives s\u00e9rie PV"},desc:{en:"Active column speaker system: PV-603 (six 3-inch column speaker) with the PV-12C 12-inch subwoofer and the PV-12C+ active 12-inch DSP ultra-low speaker. For high-end conferences, banquet bars, multi-function halls and music bars.",fr:"Syst\u00e8me d'enceintes colonnes actives : PV-603 (colonne six haut-parleurs 3 pouces) avec caisson de basses PV-12C 12 pouces et PV-12C+ actif 12 pouces avec DSP. Pour conf\u00e9rences haut de gamme, bars de banquet, salles polyvalentes et bars musicaux."},images:["DL-PV.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-IQ",name:{en:"IQ Series Multi-Functional Active Speaker",fr:"Enceinte active multifonction s\u00e9rie IQ"},desc:{en:"Active full range speakers IQ10, IQ12 and IQ15 (10/12/15-inch) with XLR/TRS combo input and Bluetooth/USB/MP3 function. For multi-function halls, conference rooms, theaters, auditoriums and banquet halls.",fr:"Enceintes actives pleine gamme IQ10, IQ12 et IQ15 (10/12/15 pouces) avec entr\u00e9e combo XLR/TRS et fonction Bluetooth/USB/MP3. Pour salles polyvalentes, salles de conf\u00e9rence, th\u00e9\u00e2tres, auditoriums et banquets."},images:["DL-IQ.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-MK",name:{en:"MK Series Entertainment Speaker (12-inch)",fr:"Enceinte de divertissement 12 pouces s\u00e9rie MK"},desc:{en:"MK12 single 12-inch full range entertainment speaker. For KTV, indoor karaoke and high-end entertainment venues.",fr:"Enceinte de divertissement pleine gamme MK12 12 pouces. Pour KTV, karaok\u00e9 int\u00e9rieur et lieux de divertissement haut de gamme."},images:["DL-MK.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-KS",name:{en:"KS Series Entertainment Speakers",fr:"Enceintes de divertissement s\u00e9rie KS"},desc:{en:"Full range entertainment speakers KS-10, KS-12 and KS-15 (10/12/15-inch). For KTV, indoor karaoke and entertainment venues.",fr:"Enceintes de divertissement pleine gamme KS-10, KS-12 et KS-15 (10/12/15 pouces). Pour KTV, karaok\u00e9 int\u00e9rieur et lieux de divertissement."},images:["DL-KS.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-TD",name:{en:"TD Series Entertainment Speakers",fr:"Enceintes de divertissement s\u00e9rie TD"},desc:{en:"Full range entertainment speakers TD-10 and TD-12 (10/12-inch). For KTV, indoor karaoke and entertainment venues.",fr:"Enceintes de divertissement pleine gamme TD-10 et TD-12 (10/12 pouces). Pour KTV, karaok\u00e9 int\u00e9rieur et lieux de divertissement."},images:["DL-TD.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-AD",name:{en:"AD Series Entertainment Speakers",fr:"Enceintes de divertissement s\u00e9rie AD"},desc:{en:"Full range entertainment speakers AD-10 and AD-12 (10/12-inch). For KTV, indoor karaoke and entertainment venues.",fr:"Enceintes de divertissement pleine gamme AD-10 et AD-12 (10/12 pouces). Pour KTV, karaok\u00e9 int\u00e9rieur et lieux de divertissement."},images:["DL-AD.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-SK",name:{en:"SK Series Subwoofers",fr:"Caissons de basses s\u00e9rie SK"},desc:{en:"SK 12B (single 12-inch) and SK 15B (single 15-inch) subwoofers.",fr:"Caissons de basses SK 12B (12 pouces) et SK 15B (15 pouces)."},images:["DL-SK.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-MINI",name:{en:"MINI Series Compact Speakers",fr:"Enceintes compactes s\u00e9rie MINI"},desc:{en:"MINI 2.4 (double 4.5-inch conference speaker), MINI 2.5 (double 5-inch conference speaker), MINI 4.3 (quad 3-inch column speaker) and MINI 10 (single 10-inch subwoofer). For KTV, caf\u00e9s and conference rooms.",fr:"MINI 2.4 (enceinte de conf\u00e9rence double 4,5 pouces), MINI 2.5 (double 5 pouces), MINI 4.3 (colonne quadruple 3 pouces) et MINI 10 (caisson de basses 10 pouces). Pour KTV, caf\u00e9s et salles de conf\u00e9rence."},images:["DL-MINI.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-SF",name:{en:"SF Series Waterproof Outdoor Speakers",fr:"Enceintes ext\u00e9rieures \u00e9tanches s\u00e9rie SF"},desc:{en:"Waterproof outdoor sound speakers SF8, SF10, SF12 and SF15 (8/10/12/15-inch). For outdoor performances and schools.",fr:"Enceintes ext\u00e9rieures \u00e9tanches SF8, SF10, SF12 et SF15 (8/10/12/15 pouces). Pour spectacles en plein air et \u00e9coles."},images:["DL-SF.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-PK",name:{en:"PK Series Class H Power Amplifier",fr:"Amplificateur de puissance classe H s\u00e9rie PK"},desc:{en:"Class H power amplifiers: PK-350 (300W), PK-450 (450W), PK-650 (600W), PK-850 (800W), PK-1050 (1000W) and PK-1250 (1200W).",fr:"Amplificateurs de puissance classe H : PK-350 (300W), PK-450 (450W), PK-650 (600W), PK-850 (800W), PK-1050 (1000W) et PK-1250 (1200W)."},images:["DL-PK.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-PX",name:{en:"PX Series Class H Power Amplifier",fr:"Amplificateur de puissance classe H s\u00e9rie PX"},desc:{en:"Class H power amplifiers: PX2000 (300W), PX4000 (400W), PX6000 (600W), PX8000 (800W) and PX10000 (1000W).",fr:"Amplificateurs de puissance classe H : PX2000 (300W), PX4000 (400W), PX6000 (600W), PX8000 (800W) et PX10000 (1000W)."},images:["DL-PX.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-UK",name:{en:"UK Series Class D Power Amplifier",fr:"Amplificateur de puissance classe D s\u00e9rie UK"},desc:{en:"Class D power amplifiers: UK-450 (300W), UK-650 (600W), UK-850 (800W), UK-1050 (1000W), UK-1350 (1300W), UK-1550 (1500W), plus compact models UK-408, UK-410, UK-412 and UK-415.",fr:"Amplificateurs de puissance classe D : UK-450 (300W), UK-650 (600W), UK-850 (800W), UK-1050 (1000W), UK-1350 (1300W), UK-1550 (1500W), ainsi que les mod\u00e8les compacts UK-408, UK-410, UK-412 et UK-415."},images:["DL-UK.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-DF",name:{en:"DF Series Class D Power Amplifier",fr:"Amplificateur de puissance classe D s\u00e9rie DF"},desc:{en:"Class D power amplifiers DF-1302, DF-1802 and DF-3002.",fr:"Amplificateurs de puissance classe D DF-1302, DF-1802 et DF-3002."},images:["DL-DF.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-DX",name:{en:"DX Series Class D Power Amplifier",fr:"Amplificateur de puissance classe D s\u00e9rie DX"},desc:{en:"Class D power amplifiers DX-22, DX-23, DX-24, DX-413, DX-420 and DX-430.",fr:"Amplificateurs de puissance classe D DX-22, DX-23, DX-24, DX-413, DX-420 et DX-430."},images:["DL-DX.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-DP",name:{en:"DP Series Digital Speaker Processor",fr:"Processeur num\u00e9rique pour enceintes s\u00e9rie DP"},desc:{en:"Digital audio processors DP36 and DP48 for speaker management, with programmable crossover, parametric equalizer, delay and limiter functions.",fr:"Processeurs audio num\u00e9riques DP36 et DP48 pour la gestion d'enceintes, avec filtre de r\u00e9partition programmable, \u00e9galiseur param\u00e9trique, d\u00e9lai et limiteur."},images:["DL-DP.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-DSP",name:{en:"DSP Series Digital Speaker Processor",fr:"Processeur num\u00e9rique pour enceintes s\u00e9rie DSP"},desc:{en:"Digital audio processors DSP360 and DSP480 for speaker management, with crossover, equalizer, delay and protection functions.",fr:"Processeurs audio num\u00e9riques DSP360 et DSP480 pour la gestion d'enceintes, avec filtre de r\u00e9partition, \u00e9galiseur, d\u00e9lai et protection."},images:["DL-DSP.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-GD66",name:{en:"GD66 Wireless Microphone System (Dual Channel)",fr:"Syst\u00e8me de micro sans fil GD66 (double canal)"},desc:{en:"Dual channel UHF wireless microphone system, 640-950MHz carrier band with 250 selectable frequency groups, PLL frequency synthesis, dual-tuner automatic signal selection, 1U metal chassis. Made for karaoke rooms.",fr:"Syst\u00e8me de micro sans fil UHF double canal, bande porteuse 640-950MHz avec 250 groupes de fr\u00e9quences, synth\u00e8se de fr\u00e9quence PLL, s\u00e9lection automatique du signal \u00e0 double tuner, ch\u00e2ssis m\u00e9tal 1U. Con\u00e7u pour les salles de karaok\u00e9."},images:["DL-GD66.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-GD99",name:{en:"GD99 True Diversity Wireless Microphone System",fr:"Syst\u00e8me de micro sans fil true diversity GD99"},desc:{en:"True diversity wireless microphone system, 651-697MHz, 100x2 adjustable channels, PLL, superheterodyne double conversion receiver, digital pilot, frequency response 60-13000Hz, SNR 50dB or better, receiving sensitivity -95dBm, 12VDC/2A.",fr:"Syst\u00e8me de micro sans fil true diversity, 651-697MHz, 100x2 canaux r\u00e9glables, PLL, r\u00e9cepteur superh\u00e9t\u00e9rodyne \u00e0 double conversion, pilote num\u00e9rique, r\u00e9ponse en fr\u00e9quence 60-13000Hz, rapport signal/bruit 50dB ou plus, sensibilit\u00e9 -95dBm, 12VDC/2A."},images:["DL-GD99.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-GD100M",name:{en:"GD100M True Diversity Wireless Microphone System",fr:"Syst\u00e8me de micro sans fil true diversity GD100M"},desc:{en:"True diversity wireless microphone system, 640-690MHz, transmit power 23dBm, dynamic range over 90dB, distortion under 0.5%, frequency response 30Hz-15kHz, receiving sensitivity better than -105dBm (20dB SINAD).",fr:"Syst\u00e8me de micro sans fil true diversity, 640-690MHz, puissance d'\u00e9mission 23dBm, dynamique sup\u00e9rieure \u00e0 90dB, distorsion inf\u00e9rieure \u00e0 0,5%, r\u00e9ponse en fr\u00e9quence 30Hz-15kHz, sensibilit\u00e9 meilleure que -105dBm (20dB SINAD)."},images:["DL-GD100M.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-GD200M",name:{en:"GD200M Two-Channel Wireless Microphone System",fr:"Syst\u00e8me de micro sans fil double canal GD200M"},desc:{en:"Two-channel wireless microphone receiver with 2 handheld microphones: 640-689.75MHz, 100x2 channels, PLL, true diversity superheterodyne double conversion receiver, digital pilot, frequency response 60-13000Hz, SNR 50dB or better, sensitivity -95dBm. Handheld runs on 2 AA batteries.",fr:"R\u00e9cepteur de micro sans fil double canal avec 2 micros \u00e0 main : 640-689,75MHz, 100x2 canaux, PLL, r\u00e9cepteur superh\u00e9t\u00e9rodyne true diversity \u00e0 double conversion, pilote num\u00e9rique, r\u00e9ponse 60-13000Hz, rapport signal/bruit 50dB ou plus, sensibilit\u00e9 -95dBm. Micro \u00e0 main aliment\u00e9 par 2 piles AA."},images:["DL-GD200M.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-FX",name:{en:"FX Series Analog Mixer",fr:"Console de mixage analogique s\u00e9rie FX"},desc:{en:"Analog mixers FX10, FX12, FX16, FX20, FX24 and FX32, with built-in DSP effects, 100mm faders, 48V phantom power and an MP3 player with Bluetooth/USB.",fr:"Consoles de mixage analogiques FX10, FX12, FX16, FX20, FX24 et FX32, avec effets DSP int\u00e9gr\u00e9s, faders de 100mm, alimentation fant\u00f4me 48V et lecteur MP3 avec Bluetooth/USB."},images:["DL-FX.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
+  {id:"DL-MR",name:{en:"MR Series Digital Mixer",fr:"Console de mixage num\u00e9rique s\u00e9rie MR"},desc:{en:"Digital mixers MR16, MR20, MR24 and MR32, with 10.1-inch touch screen, Linux-based system, 8 DCA groups, motorized faders and mic/line inputs from 12 up to 32 channels.",fr:"Consoles de mixage num\u00e9riques MR16, MR20, MR24 et MR32, avec \u00e9cran tactile 10,1 pouces, syst\u00e8me bas\u00e9 sur Linux, 8 groupes DCA, faders motoris\u00e9s et entr\u00e9es micro/ligne de 12 \u00e0 32 voies."},images:["DL-MR.jpg"],cost:"Contact supplier",moq:"Contact supplier"},{id:"MIC5-02",name:{en:"SM-9000",fr:"SM-9000"},desc:{en:"Wired microphone, model SM-9000. Contact us for full specifications, options and availability.",fr:"Microphone filaire, mod\u00e8le SM-9000. Contactez-nous pour les sp\u00e9cifications compl\u00e8tes et la disponibilit\u00e9."},images:["MIC5-02.jpg"],cost:"\u00a523 (factory price)",moq:"Contact supplier"},
   {id:"MIC5-03",name:{en:"BETA87C",fr:"BETA87C"},desc:{en:"Wired microphone, model BETA87C. Contact us for full specifications, options and availability.",fr:"Microphone filaire, mod\u00e8le BETA87C. Contactez-nous pour les sp\u00e9cifications compl\u00e8tes et la disponibilit\u00e9."},images:["MIC5-03.jpg"],cost:"\u00a528 (factory price)",moq:"Contact supplier"},
   {id:"MIC5-04",name:{en:"KSM9 (boxed set)",fr:"KSM9 (boxed set)"},desc:{en:"Wired microphone, model KSM9 (boxed set). Contact us for full specifications, options and availability.",fr:"Microphone filaire, mod\u00e8le KSM9 (boxed set). Contactez-nous pour les sp\u00e9cifications compl\u00e8tes et la disponibilit\u00e9."},images:["MIC5-04.jpg"],cost:"\u00a530 (factory price)",moq:"Contact supplier"},
   {id:"MIC5-05",name:{en:"YM63S",fr:"YM63S"},desc:{en:"Wired microphone, model YM63S. Contact us for full specifications, options and availability.",fr:"Microphone filaire, mod\u00e8le YM63S. Contactez-nous pour les sp\u00e9cifications compl\u00e8tes et la disponibilit\u00e9."},images:["MIC5-05.jpg"],cost:"\u00a524 (factory price)",moq:"Contact supplier"},
@@ -521,7 +552,7 @@ const SAMPLE_PRODUCTS = {
   {id:"MIC2-IE200",name:{en:"In-Ear Hi-Fi Headphones",fr:"\u00c9couteurs intra-auriculaires Hi-Fi"},desc:{en:"High-fidelity in-ear monitor headphones.",fr:"\u00c9couteurs intra-auriculaires haute fid\u00e9lit\u00e9."},images:["MIC2-IE200.png"],cost:"\u00a5100 (factory price)",moq:"Contact supplier"},
   {id:"MIC2-SLX240",name:{en:"Wireless Microphone System (Dual)",fr:"Syst\u00e8me de microphone sans fil (Double)"},desc:{en:"Professional wireless microphone system, 2-channel, 2x handheld transmitters.",fr:"Syst\u00e8me de microphone sans fil professionnel, 2 canaux, 2 \u00e9metteurs \u00e0 main."},images:["MIC2-SLX240.png"],cost:"\u00a5300 (factory price)",moq:"Contact supplier"},
   {id:"MIC2-MXA902",name:{en:"Digital Wireless Microphone Receiver (True Diversity)",fr:"R\u00e9cepteur de microphone num\u00e9rique sans fil (True Diversity)"},desc:{en:"Next-generation digital wireless microphone system with true diversity reception, 2x handheld transmitters.",fr:"Syst\u00e8me de microphone sans fil num\u00e9rique nouvelle g\u00e9n\u00e9ration avec r\u00e9ception true diversity, 2 \u00e9metteurs \u00e0 main."},images:["MIC2-MXA902.png"],cost:"\u00a5550 (factory price)",moq:"Contact supplier"},
-  {id:"MIC2-IE900",name:{en:"In-Ear Hi-Fi Headphones (Premium)",fr:"\u00c9couteurs intra-auriculaires Hi-Fi (Premium)"},desc:{en:"Premium high-resolution in-ear monitor headphones, includes carrying case.",fr:"\u00c9couteurs intra-auriculaires haute r\u00e9solution premium, inclut \u00e9tui de transport."},images:["MIC2-IE900.png"],cost:"\u00a5120 (factory price)",moq:"Contact supplier"},{id:"ELC-01",name:"TWS Wireless Earbuds",desc:"Bluetooth 5.0, charging case, 20hr battery life.",img:"https://picsum.photos/seed/earbud1/600/600",cost:3500,moq:"50 pcs"},
+  {id:"MIC2-IE900",name:{en:"In-Ear Hi-Fi Headphones (Premium)",fr:"\u00c9couteurs intra-auriculaires Hi-Fi (Premium)"},desc:{en:"Premium high-resolution in-ear monitor headphones, includes carrying case.",fr:"\u00c9couteurs intra-auriculaires haute r\u00e9solution premium, inclut \u00e9tui de transport."},images:["MIC2-IE900.png"],cost:"\u00a5120 (factory price)",moq:"Contact supplier"},
   {id:"MIC-U101",name:{en:"Wireless Handheld Microphone (Single)",fr:"Microphone sans fil \u00e0 main (Simple)"},desc:{en:"Adjustable frequency, UHF 600-790MHz, 50m range, USB rechargeable, includes 2xAA batteries and accessories.",fr:"Fr\u00e9quence r\u00e9glable, UHF 600-790MHz, port\u00e9e 50m, rechargeable USB, inclut 2 piles AA et accessoires."},images:["MIC-U101.png"],cost:"\u00a590 (factory price)",moq:"Contact supplier"},
   {id:"MIC-U102",name:{en:"Wireless Handheld Microphone (Dual)",fr:"Microphone sans fil \u00e0 main (Double)"},desc:{en:"2x handheld mics, adjustable frequency, UHF 600-790MHz, 50m range, USB rechargeable.",fr:"2 micros \u00e0 main, fr\u00e9quence r\u00e9glable, UHF 600-790MHz, port\u00e9e 50m, rechargeable USB."},images:["MIC-U102.png"],cost:"\u00a5145 (factory price)",moq:"Contact supplier"},
   {id:"MIC-U101C",name:{en:"Wireless Conference Microphone (Single)",fr:"Microphone de conf\u00e9rence sans fil (Simple)"},desc:{en:"Gooseneck conference mic, adjustable frequency, UHF 600-790MHz, 50m range.",fr:"Micro col de cygne pour conf\u00e9rence, fr\u00e9quence r\u00e9glable, UHF 600-790MHz, port\u00e9e 50m."},images:["MIC-U101C.png"],cost:"\u00a5125 (factory price)",moq:"Contact supplier"},
@@ -533,9 +564,7 @@ const SAMPLE_PRODUCTS = {
   {id:"MIC-U381C",name:{en:"Wireless Conference Microphone (Fixed Frequency, Single)",fr:"Microphone de conf\u00e9rence sans fil (Fr\u00e9quence fixe, Simple)"},desc:{en:"Gooseneck conference mic, fixed frequency, UHF 600-790MHz, 30m range.",fr:"Micro col de cygne pour conf\u00e9rence, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m."},images:["MIC-U381C.png"],cost:"\u00a5110 (factory price)",moq:"Contact supplier"},
   {id:"MIC-U382C",name:{en:"Wireless Conference Microphone (Fixed Frequency, Dual)",fr:"Microphone de conf\u00e9rence sans fil (Fr\u00e9quence fixe, Double)"},desc:{en:"2x gooseneck conference mics, fixed frequency, UHF 600-790MHz, 30m range.",fr:"2 micros col de cygne pour conf\u00e9rence, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m."},images:["MIC-U382C.png"],cost:"\u00a5180 (factory price)",moq:"Contact supplier"},
   {id:"MIC-U362",name:{en:"Wireless Handheld Microphone Dual (Fixed Frequency)",fr:"Microphone sans fil \u00e0 main Double (Fr\u00e9quence fixe)"},desc:{en:"2x handheld mics, fixed frequency, UHF 600-790MHz, 30m range, half-metal body.",fr:"2 micros \u00e0 main, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m, corps semi-m\u00e9tallique."},images:["MIC-U362.png"],cost:"\u00a5110 (factory price)",moq:"Contact supplier"},
-  {id:"MIC-U392",name:{en:"Wireless Handheld Microphone Dual (Fixed Frequency)",fr:"Microphone sans fil \u00e0 main Double (Fr\u00e9quence fixe)"},desc:{en:"2x handheld mics, fixed frequency, UHF 600-790MHz, 30m range, half-metal body.",fr:"2 micros \u00e0 main, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m, corps semi-m\u00e9tallique."},images:["MIC-U392.png"],cost:"\u00a5115 (factory price)",moq:"Contact supplier"},
-       {id:"ELC-02",name:"Fast Charging Power Bank 20000mAh",desc:"Dual USB output, digital display, PD fast charge.",img:"https://picsum.photos/seed/power2/600/600",cost:4800,moq:"40 pcs"},
-       {id:"ELC-03",name:"Smart Watch Fitness Tracker",desc:"Heart-rate monitor, step counter, phone notifications.",img:"https://picsum.photos/seed/watch3/600/600",cost:6200,moq:"20 pcs"}],
+  {id:"MIC-U392",name:{en:"Wireless Handheld Microphone Dual (Fixed Frequency)",fr:"Microphone sans fil \u00e0 main Double (Fr\u00e9quence fixe)"},desc:{en:"2x handheld mics, fixed frequency, UHF 600-790MHz, 30m range, half-metal body.",fr:"2 micros \u00e0 main, fr\u00e9quence fixe, UHF 600-790MHz, port\u00e9e 30m, corps semi-m\u00e9tallique."},images:["MIC-U392.png"],cost:"\u00a5115 (factory price)",moq:"Contact supplier"},],
   HMK:[
     {id:"IMP-16",name:{en:"Electric Lunch Box",fr:"Boîte à Déjeuner Électrique"},desc:{en:"Portable electric heated lunch box. Multiple sizes and colours available, works at home or in the car.",fr:"Boîte à déjeuner électrique portable et chauffante. Plusieurs tailles et couleurs disponibles, utilisable à la maison ou en voiture."},images:["images/IMP-16_a.jpg","images/IMP-16_b.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
     {id:"IMP-17",name:{en:"Electric Egg Cooker / Steamer",fr:"Cuiseur à Œufs / Vapeur Électrique"},desc:{en:"Electric egg cooker and steamer, available in several capacities from single to double layer.",fr:"Cuiseur à œufs et vapeur électrique, disponible en plusieurs capacités, simple ou double niveau."},images:["images/IMP-17_a.jpg","images/IMP-17_b.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
@@ -666,17 +695,13 @@ BTY:[{id:"TEA-01",name:{en:"Organic Mushroom Coffee (180g)",fr:"Caf\u00e9 aux ch
     {id:"IMP-13",name:{en:"Forehead Anti-Wrinkle Patch",fr:"Patch Anti-Rides Front"},desc:{en:"Hydrating patch for the forehead, designed to smooth skin and reduce fine lines.",fr:"Patch hydratant pour le front, conçu pour lisser la peau et réduire les ridules."},images:["images/IMP-13_a.jpg","images/IMP-13_b.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
     {id:"IMP-14",name:{en:"Hand & Foot Warmers",fr:"Chauffe-Mains et Chauffe-Pieds"},desc:{en:"Self-heating warmer packs for hands and feet, ideal for cold weather and outdoor use.",fr:"Sachets auto-chauffants pour les mains et les pieds, idéal par temps froid et en extérieur."},images:["images/IMP-14_a.jpg","images/IMP-14_b.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
   ],
-  AUT:[{id:"AUT-01",name:"Car Phone Mount & Charger",desc:"Wireless charging clamp, air-vent mount.",img:"https://picsum.photos/seed/carmount1/600/600",cost:3900,moq:"30 pcs"},
-       {id:"AUT-02",name:"Portable Tyre Inflator",desc:"12V, digital pressure gauge, auto shut-off.",img:"https://picsum.photos/seed/tyre2/600/600",cost:11500,moq:"10 pcs"}],
-  FUR:[{id:"FUR-01",name:"Foldable Study Desk",desc:"Space-saving fold design, laptop stand size.",img:"https://picsum.photos/seed/desk1/600/600",cost:15800,moq:"6 units"},
-       {id:"FUR-02",name:"LED Floor Lamp",desc:"Dimmable, 3 colour tones, remote control.",img:"https://picsum.photos/seed/lamp2/600/600",cost:9700,moq:"10 units"}],
-  SPT:[{id:"SPT-01",name:"Adjustable Dumbbell Set",desc:"5-25kg range, quick-lock adjustment, rubber grip.",img:"https://picsum.photos/seed/dumbbell1/600/600",cost:24500,moq:"5 sets"},
-       {id:"SPT-02",name:"Camping Tent (4-person)",desc:"Waterproof, easy pitch, carry bag included.",img:"https://picsum.photos/seed/tent2/600/600",cost:18300,moq:"8 units"}],
+  AUT:[],
+  FUR:[],
+  SPT:[],
   BBK:[
     {id:"IMP-15",name:{en:"Disposable Baby Bib",fr:"Bavoir Jetable pour Bébé"},desc:{en:"Soft, disposable baby bib with a built-in pocket to catch spills, keeps baby's clothes clean.",fr:"Bavoir jetable et doux pour bébé, avec poche intégrée pour récupérer les éclaboussures et garder les vêtements propres."},images:["images/IMP-15_a.jpg","images/IMP-15_b.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
   ],
-  IND:[{id:"IND-01",name:"Heat Sealing Machine",desc:"Impulse sealer for poly bags, bench-top size.",img:"https://picsum.photos/seed/seal1/600/600",cost:32000,moq:"3 units"},
-       {id:"IND-02",name:"Industrial Packaging Tape (bulk)",desc:"48mm x 100m rolls, carton sealing grade.",img:"https://picsum.photos/seed/tape2/600/600",cost:14200,moq:"1 carton (36 rolls)"}],
+  IND:[],
   JWL:[
     {id:"JWL-w2998",name:{en:"2-Piece Jewelry Set: Watch, Wallet (3 colour options)",fr:"2-Piece Coffret Bijoux: Montre, Portefeuille (3 coloris)"},desc:{en:"Available in 3 variants: Brown -- Watch + Wallet; Red -- Watch + Wallet; Purple -- Watch + Wallet. Weight: 0.4 kg.",fr:"Disponible en 3 variantes : Marron -- Montre + Portefeuille; Rouge -- Montre + Portefeuille; Violet -- Montre + Portefeuille. Poids : 0.4 kg."},images:["images/jewelry/JWL-w2998_1.jpg","images/jewelry/JWL-w2998_2.jpg","images/jewelry/JWL-w2998_3.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
     {id:"JWL-w2999",name:{en:"6-Piece Jewelry Set: Perfume, Wallet, Keychain (3 colour options)",fr:"6-Piece Coffret Bijoux: Parfum, Portefeuille, Porte-clés (3 coloris)"},desc:{en:"Available in 3 variants: 6-piece set, Red -- Perfume + Wallet + Keychain + Watch + Sunglasses + Gift Box; 6-piece set, Black -- Perfume + Wallet + Keychain + Watch + Sunglasses + Gift Box; 6-piece set, Brown -- Perfume + Wallet + Keychain + Watch + Sunglasses + Gift Box. Box size: 24x22x4.5 cm. Weight: 0.6 kg.",fr:"Disponible en 3 variantes : Ensemble de 6 pièces, Rouge -- Parfum + Portefeuille + Porte-clés + Montre + Lunettes de soleil + Coffret cadeau; Ensemble de 6 pièces, Noir -- Parfum + Portefeuille + Porte-clés + Montre + Lunettes de soleil + Coffret cadeau; Ensemble de 6 pièces, Marron -- Parfum + Portefeuille + Porte-clés + Montre + Lunettes de soleil + Coffret cadeau. Taille de la boîte : 24x22x4.5 cm. Poids : 0.6 kg."},images:["images/jewelry/JWL-w2999_1.jpg","images/jewelry/JWL-w2999_2.jpg","images/jewelry/JWL-w2999_3.jpg"],cost:"Contact supplier",moq:"Contact supplier"},
@@ -904,53 +929,86 @@ function logoutAdmin(){
   setView("home");
 }
 
-function showCategories(){
-  activeCat = null;
-  document.getElementById("productSection").classList.add("hidden");
-  document.getElementById("categoryGrid").classList.remove("hidden");
-  document.getElementById("importTitle").textContent = t("import_title");
-  document.getElementById("importSub").textContent = t("import_sub");
-  document.getElementById("importCrumbCat").classList.add("hidden");
-  document.getElementById("importCrumbBase").classList.remove("hidden");
+/* ================= IMPORTATION: SUB-CATEGORIES + SEARCH ================= */
+/* Each big category is split into smaller sections (e.g. Electronics -> Wireless microphones,
+   Wired microphones, Speakers...). Products are sorted into sections automatically from their
+   ID / name, so new products added later fall into the right section without extra work. */
+const SUBCATS = {
+  ELC: [
+    { key:"wireless",   icon:"\uD83C\uDFA4", en:"Wireless microphones",             fr:"Microphones sans fil",                dflt:true },
+    { key:"headset",    icon:"\uD83D\uDDE3\uFE0F", en:"Headset & lavalier microphones",   fr:"Micros-casques & cravates",           pri:6, test:i=>/headset|lavalier|\btie\b|\bhead\b/.test(i.n) },
+    { key:"conference", icon:"\uD83C\uDF99\uFE0F", en:"Conference microphones",           fr:"Micros de conf\u00E9rence",                pri:5, test:i=>/conference/.test(i.n) },
+    { key:"wired",      icon:"\uD83D\uDD0C", en:"Wired & studio microphones",       fr:"Micros filaires & studio",            pri:4, test:i=>/^MIC5-/.test(i.id)||/sm7b|sm7db|mv7|p120|at2035|3mic|recording microphone|usb gaming/.test(i.n) },
+    { key:"monitors",   icon:"\uD83C\uDFA7", en:"In-ear monitors & earphones",      fr:"Retours intra-auriculaires & \u00E9couteurs", pri:1, test:i=>/monitor|headphone|earphone/.test(i.n) },
+    { key:"speakers",   icon:"\uD83D\uDD0A", en:"Speakers & sound systems",         fr:"Enceintes & sonorisation",            pri:3, test:i=>/^DL-/.test(i.id)&&!/^DL-GD/.test(i.id) },
+    { key:"amps",       icon:"\u26A1", en:"Power amplifiers",                 fr:"Amplificateurs de puissance",         pri:2, test:i=>/^DL-(PK|PX|UK|DF|DX)$/.test(i.id) },
+    { key:"processors", icon:"\uD83C\uDF9B\uFE0F", en:"Mixers & audio processors",        fr:"Tables de mixage & processeurs audio", pri:2, test:i=>/^DL-(DP|DSP|FX|MR)$/.test(i.id) }
+  ],
+  FSH: [
+    { key:"watch",      icon:"\u231A", en:"Watch gift sets",                  fr:"Coffrets montres",                    pri:1, test:i=>/watch/.test(i.n) },
+    { key:"perfume",    icon:"\uD83E\uDDF4", en:"Perfume gift sets",                fr:"Coffrets parfums",                    pri:2, test:i=>/perfume/.test(i.n) },
+    { key:"sunglasses", icon:"\uD83D\uDD76\uFE0F", en:"Sunglasses gift sets",             fr:"Coffrets lunettes de soleil",         pri:3, test:i=>/sunglass/.test(i.n) },
+    { key:"wallet",     icon:"\uD83D\uDC5B", en:"Wallet & belt gift sets",          fr:"Coffrets portefeuilles & ceintures",  pri:4, test:i=>/wallet|card holder|belt|buckle/.test(i.n) },
+    { key:"other",      icon:"\uD83C\uDF81", en:"Pens, keychains & other sets",     fr:"Stylos, porte-cl\u00E9s & autres coffrets", dflt:true }
+  ],
+  JWL: [
+    { key:"jewelry",    icon:"\uD83D\uDC8D", en:"Jewelry sets (necklaces, bracelets, rings)", fr:"Coffrets bijoux (colliers, bracelets, bagues)", pri:2, test:i=>/necklace|bracelet|earring|\bring|handchain|pinback|brooch|hair ?clip|hairband|zircon/.test(i.n) },
+    { key:"beauty",     icon:"\uD83D\uDC84", en:"Beauty & perfume sets",            fr:"Coffrets beaut\u00E9 & parfum",            pri:1, test:i=>/perfume|lipstick|eyeshadow|palette|blush|nail|lip /.test(i.n) },
+    { key:"accessories",icon:"\uD83D\uDC5C", en:"Wallet, belt & accessory sets",    fr:"Coffrets portefeuille, ceinture & accessoires", pri:3, test:i=>/wallet|belt|sunglass|glasses|scarf|keychain|\bpen\b|power bank|notebook|\bfan\b/.test(i.n) },
+    { key:"other",      icon:"\u231A", en:"Watch gift sets & more",           fr:"Coffrets montres & autres",           dflt:true }
+  ],
+  BTY: [
+    { key:"feminine",   icon:"\uD83C\uDF38", en:"Feminine & intimate care",         fr:"Soins f\u00E9minins & intimes",            dflt:true },
+    { key:"hair",       icon:"\uD83D\uDC87", en:"Hair care",                        fr:"Soins des cheveux",                   pri:2, test:i=>/^HERB-(25|26)$/.test(i.id) },
+    { key:"bodycare",   icon:"\uD83E\uDDFC", en:"Body hygiene & soap",              fr:"Hygi\u00E8ne & savons",                    pri:2, test:i=>/^HERB-(03|28)$/.test(i.id) },
+    { key:"patches",    icon:"\uD83E\uDE79", en:"Patches, pads & warmers",          fr:"Patchs, masques & chauffe-mains",     pri:1, test:i=>/^IMP-/.test(i.id)||i.id==="HERB-38" },
+    { key:"supplements",icon:"\uD83D\uDC8A", en:"Supplements (capsules & gummies)", fr:"Compl\u00E9ments (g\u00E9lules & gummies)",     pri:1, test:i=>/^SUPP-/.test(i.id) },
+    { key:"teas",       icon:"\uD83C\uDF75", en:"Herbal teas, coffee & drinks",     fr:"Th\u00E9s, caf\u00E9s & boissons aux herbes",   pri:1, test:i=>/^TEA-/.test(i.id) }
+  ]
+};
+
+let activeSub = null;
+let importQuery = "";
+const IMP_PAGE = 48;
+let cardSeq = 0;
+let SEARCH_INDEX = null;
+const SUB_CACHE = {};
+const PATH_MAP = new Map();
+
+function normTxt(s){ return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,""); }
+function wordsOf(s){ return " " + normTxt(s).replace(/[^a-z0-9]+/g," ").trim() + " "; }
+function pNameEn(p){ return (p && p.name && typeof p.name==="object") ? (p.name.en||"") : String(p&&p.name||""); }
+function catItems(code){ return SAMPLE_PRODUCTS[code] || []; }
+function subOf(code, p){
+  const list = SUBCATS[code]; if(!list) return null;
+  const info = { id:String(p.id||""), n:pNameEn(p).toLowerCase() };
+  const tests = list.filter(s=>s.test).sort((a,b)=>a.pri-b.pri);
+  for(const s of tests){ if(s.test(info)) return s.key; }
+  const d = list.find(s=>s.dflt); return d ? d.key : list[0].key;
 }
-
-function renderImportation(){
-  const grid = document.getElementById("categoryGrid");
-  grid.innerHTML = CATEGORIES.map(c => {
-    const L = c[currentLang];
-    return `
-    <button class="cat-card" onclick="openCategory('${c.code}')">
-      <div class="cat-emoji">${c.icon}</div>
-      <div class="cat-name">${L.name}</div>
-      <div class="cat-blurb">${L.blurb}</div>
-      <div class="cat-count">${(SAMPLE_PRODUCTS[c.code]||[]).length} ${t("items_suffix")}</div>
-    </button>
-  `; }).join("");
-  if(activeCat){
-    openCategory(activeCat);
-  } else {
-    showCategories();
-  }
+function subMap(code){
+  if(!SUB_CACHE[code]) SUB_CACHE[code] = catItems(code).map(p=>subOf(code,p));
+  return SUB_CACHE[code];
 }
+function subItems(code, key){
+  if(key==="__all") return catItems(code);
+  const m = subMap(code);
+  return catItems(code).filter((p,i)=>m[i]===key);
+}
+function subCounts(code){
+  return (SUBCATS[code]||[]).map(s=>({ s, n:subItems(code,s.key).length })).filter(x=>x.n>0);
+}
+function subInfo(code, key){ return (SUBCATS[code]||[]).find(s=>s.key===key); }
 
-function openCategory(code){
-  activeCat = code;
-  const cat = CATEGORIES.find(c=>c.code===code);
-  const L = cat[currentLang];
-  document.getElementById("categoryGrid").classList.add("hidden");
-  document.getElementById("productSection").classList.remove("hidden");
-  document.getElementById("importTitle").textContent = L.name;
-  document.getElementById("importSub").textContent = L.blurb + (currentLang==="fr" ? ". Aucun prix affich\u00e9 -- r\u00e9servez une consultation pour le co\u00fbt et la quantit\u00e9 minimale." : ". No prices shown -- book a consultation for cost and MOQ.");
-  document.getElementById("importCrumbBase").classList.add("hidden");
-  document.getElementById("importCrumbCat").classList.remove("hidden");
-  document.getElementById("importCrumbCatName").textContent = L.name;
-
-  const items = SAMPLE_PRODUCTS[code] || [];
-  document.getElementById("importProductGrid").innerHTML = items.map(p => `
+function productCard(p, withPath){
+  const key = "s" + (cardSeq++);
+  const path = withPath ? PATH_MAP.get(p) : null;
+  return `
     <div class="prod-card">
-      ${renderSlider(p.images, p.id)}
+      ${renderSlider(p.images, key)}
       <div class="prod-body">
         <div class="prod-id">${p.id}</div>
+        ${path ? `<div class="prod-path">${path}</div>` : ""}
         <div class="prod-name">${loc(p.name)}</div>
         <div class="prod-desc">${loc(p.desc)}</div>
         ${isAdmin ? `
@@ -962,8 +1020,297 @@ function openCategory(code){
         ` : `<div class="no-price">${t("price_on_request")}</div>`}
         <button class="btn-full" onclick='openBooking(${JSON.stringify(p).replace(/'/g,"&apos;")})'>${t("book_consultation")}</button>
       </div>
-    </div>
-  `).join("");
+    </div>`;
+}
+
+/* Show products 48 at a time so long lists stay fast */
+function pagedInit(gridId, moreId, items, withPath){
+  const g = document.getElementById(gridId);
+  g.innerHTML = ""; g._items = items; g._shown = 0; g._path = !!withPath; g._more = moreId;
+  pagedMore(gridId);
+}
+function pagedMore(gridId){
+  const g = document.getElementById(gridId);
+  const next = g._items.slice(g._shown, g._shown + IMP_PAGE);
+  g.insertAdjacentHTML("beforeend", next.map(p=>productCard(p, g._path)).join(""));
+  g._shown += next.length;
+  const m = document.getElementById(g._more);
+  const left = g._items.length - g._shown;
+  if(m){
+    if(left > 0){
+      m.classList.remove("hidden");
+      m.textContent = currentLang==="fr" ? `Voir plus (${left} restants)` : `Show more (${left} left)`;
+    } else { m.classList.add("hidden"); }
+  }
+}
+
+function initImportUI(){
+  if(document.getElementById("impSearch")) return;
+  const style = document.createElement("style");
+  style.textContent = `
+    .imp-search{position:relative;margin:18px 0 6px;max-width:640px}
+    .imp-search .ic{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:15px;opacity:.75;pointer-events:none}
+    .imp-search input{width:100%;padding:13px 42px 13px 40px;border-radius:12px;border:1px solid rgba(232,200,116,.4);background:var(--navy3);color:var(--cream);font-size:16px;outline:none;font-family:inherit;-webkit-appearance:none;appearance:none}
+    .imp-search input::placeholder{color:var(--faint)}
+    .imp-search input::-webkit-search-cancel-button{-webkit-appearance:none}
+    .imp-search input:focus{border-color:var(--gold2);box-shadow:0 0 0 3px rgba(232,200,116,.15)}
+    .imp-search .clr{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;background:var(--navy2);color:var(--gold2);font-size:18px;line-height:1;display:none}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+    .chip{background:var(--navy2);color:var(--cream);border:1px solid rgba(232,200,116,.35);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:600;text-align:left}
+    .chip:hover{border-color:var(--gold2);background:var(--navy)}
+    .chip b{color:var(--gold2);font-weight:700}
+    .sr-count{font-size:13px;color:var(--muted);margin:6px 0 16px}
+    .more-btn{display:block;margin:22px auto 0;padding:12px 26px;border-radius:8px;background:var(--navy2);color:var(--gold2);border:1px solid rgba(232,200,116,.4);font-weight:700;font-size:13px}
+    .empty-box{background:var(--navy2);border:1px solid rgba(232,200,116,.25);border-radius:12px;padding:24px;max-width:560px}
+    .empty-ttl{font-weight:800;font-size:16px;color:var(--cream);margin-bottom:6px}
+    .empty-box p{color:var(--muted);font-size:13px;line-height:1.6;margin-bottom:16px}
+    .prod-path{font-size:10px;color:var(--muted);margin-bottom:6px}
+  `;
+  document.head.appendChild(style);
+
+  const sub = document.getElementById("importSub");
+  const box = document.createElement("div");
+  box.className = "imp-search"; box.id = "impSearchBox";
+  box.innerHTML = `<span class="ic">&#128269;</span><input id="impSearch" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button type="button" class="clr" id="impClear" aria-label="Clear">&times;</button>`;
+  sub.insertAdjacentElement("afterend", box);
+  const inp = document.getElementById("impSearch");
+  const clr = document.getElementById("impClear");
+  let timer = null;
+  inp.addEventListener("input", ()=>{
+    clr.style.display = inp.value ? "block" : "none";
+    clearTimeout(timer);
+    timer = setTimeout(()=>{ importQuery = normTxt(inp.value).replace(/[^a-z0-9]+/g," ").trim(); renderImportState(); }, 120);
+  });
+  inp.addEventListener("keydown", e=>{ if(e.key==="Enter"){ e.preventDefault(); inp.blur(); } });
+  clr.addEventListener("click", ()=>{ resetSearchBox(); renderImportState(); inp.focus(); });
+
+  const ps = document.getElementById("productSection");
+  const grid = document.getElementById("importProductGrid");
+  const subGrid = document.createElement("div");
+  subGrid.id = "subGrid"; subGrid.className = "cat-grid hidden";
+  ps.insertBefore(subGrid, grid);
+  const more = document.createElement("button");
+  more.id = "importMore"; more.type = "button"; more.className = "more-btn hidden";
+  more.addEventListener("click", ()=>pagedMore("importProductGrid"));
+  grid.insertAdjacentElement("afterend", more);
+  const empty = document.createElement("div");
+  empty.id = "importEmpty"; empty.className = "hidden";
+  more.insertAdjacentElement("afterend", empty);
+  const back = ps.querySelector(".back-btn");
+  if(back){ back.removeAttribute("data-i18n"); back.setAttribute("onclick", "goBackImport()"); }
+
+  const res = document.createElement("div");
+  res.id = "searchResults"; res.className = "hidden";
+  res.innerHTML = `<div id="srChips" class="chips"></div><div id="srCount" class="sr-count"></div><div id="srGrid" class="prod-grid import"></div><button id="srMore" type="button" class="more-btn hidden"></button><div id="srEmpty" class="hidden"></div>`;
+  document.getElementById("categoryGrid").insertAdjacentElement("afterend", res);
+  document.getElementById("srMore").addEventListener("click", ()=>pagedMore("srGrid"));
+}
+
+function resetSearchBox(){
+  importQuery = "";
+  const i = document.getElementById("impSearch"); if(i) i.value = "";
+  const c = document.getElementById("impClear"); if(c) c.style.display = "none";
+}
+function scrollToImportTop(){
+  const el = document.getElementById("impSearchBox") || document.getElementById("importTitle");
+  if(!el) return;
+  const y = el.getBoundingClientRect().top + window.pageYOffset - 72;
+  window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+}
+
+function showCategories(){ activeCat = null; activeSub = null; resetSearchBox(); renderImportState(); }
+function openCategory(code){ activeCat = code; activeSub = null; resetSearchBox(); renderImportState(); scrollToImportTop(); }
+function openSub(code, key){ activeCat = code; activeSub = key; resetSearchBox(); renderImportState(); scrollToImportTop(); }
+function goBackImport(){
+  if(activeSub && activeCat && subCounts(activeCat).length > 1){ activeSub = null; }
+  else { activeCat = null; activeSub = null; }
+  renderImportState(); scrollToImportTop();
+}
+
+function renderImportation(){
+  initImportUI();
+  document.getElementById("categoryGrid").innerHTML = CATEGORIES.map(c => {
+    const L = c[currentLang];
+    const n = catItems(c.code).length;
+    const countTxt = n > 0 ? `${n} ${t("items_suffix")}` : (currentLang==="fr" ? "Bient\u00f4t disponible" : "Coming soon");
+    return `
+    <button class="cat-card" onclick="openCategory('${c.code}')">
+      <div class="cat-emoji">${c.icon}</div>
+      <div class="cat-name">${L.name}</div>
+      <div class="cat-blurb">${L.blurb}</div>
+      <div class="cat-count">${countTxt}</div>
+    </button>
+  `; }).join("");
+  document.getElementById("impSearch").placeholder = currentLang==="fr"
+    ? "Rechercher un produit (ex. micro, th\u00e9, montre)\u2026"
+    : "Search products (e.g. microphone, tea, watch)\u2026";
+  renderImportState();
+}
+
+function buildSearchIndex(){
+  SEARCH_INDEX = [];
+  CATEGORIES.forEach(c=>{
+    const items = catItems(c.code);
+    const m = subMap(c.code);
+    items.forEach((p,i)=>{
+      const sc = m[i] ? subInfo(c.code, m[i]) : null;
+      const nm = (p.name && typeof p.name==="object") ? (p.name.en+" "+p.name.fr) : p.name;
+      const ds = (p.desc && typeof p.desc==="object") ? (p.desc.en+" "+p.desc.fr) : p.desc;
+      PATH_MAP.set(p, c.en.name + " \u203a " + (sc ? sc.en : ""));
+      SEARCH_INDEX.push({ p, c, sc, id:wordsOf(p.id), nameN:wordsOf(nm), descN:wordsOf(ds),
+        pathN:wordsOf(c.en.name+" "+c.fr.name+" "+(sc ? sc.en+" "+sc.fr : "")) });
+    });
+  });
+}
+const SEARCH_SYN = { mic:["microphone"], mics:["microphone"], micro:["microphone"], micros:["microphone"], watches:["watch","montre"], phones:["phone","telephone"] };
+function termAlts(term){
+  const a = [term];
+  if(SEARCH_SYN[term]) a.push(...SEARCH_SYN[term]);
+  if(term.length > 4 && term.endsWith("s")) a.push(term.slice(0,-1));
+  return a;
+}
+/* a search word must match the START of a word (so "tea" finds "tea bags" but not "steamer") */
+function hasAny(hay, alts){ return alts.some(a=>hay.indexOf(" "+a) !== -1); }
+
+function renderSearch(){
+  if(!SEARCH_INDEX) buildSearchIndex();
+  const terms = importQuery.split(/\s+/).filter(Boolean).map(termAlts);
+  const scored = [];
+  SEARCH_INDEX.forEach(it=>{
+    let score = 0;
+    for(const alts of terms){
+      let best = 0;
+      if(hasAny(it.nameN, alts)) best = 4;
+      else if(hasAny(it.id, alts)) best = 3;
+      else if(hasAny(it.pathN, alts)) best = 2;
+      else if(hasAny(it.descN, alts)) best = 1;
+      if(!best){ score = 0; break; }
+      score += best;
+    }
+    if(score > 0) scored.push({ it, score });
+  });
+  scored.sort((a,b)=>b.score - a.score);
+  const results = scored.map(x=>x.it.p);
+
+  // Matching categories / sections appear as tap-to-open chips
+  const chips = [];
+  CATEGORIES.forEach(c=>{
+    const cn = wordsOf(c.en.name+" "+c.fr.name);
+    const n = catItems(c.code).length;
+    if(n > 0 && terms.every(alts=>hasAny(cn, alts))){
+      chips.push(`<button type="button" class="chip" onclick="openCategory('${c.code}')">${c.icon} ${c[currentLang].name} <b>(${n})</b></button>`);
+    }
+    (SUBCATS[c.code]||[]).forEach(s=>{
+      const sn = wordsOf(s.en+" "+s.fr);
+      const cnt = subItems(c.code, s.key).length;
+      if(cnt > 0 && terms.every(alts=>hasAny(sn, alts))){
+        chips.push(`<button type="button" class="chip" onclick="openSub('${c.code}','${s.key}')">${s.icon} ${c[currentLang].name} \u203a ${s[currentLang]} <b>(${cnt})</b></button>`);
+      }
+    });
+  });
+  document.getElementById("srChips").innerHTML = chips.slice(0,10).join("");
+
+  const q = document.getElementById("impSearch").value.trim();
+  const countEl = document.getElementById("srCount");
+  const grid = document.getElementById("srGrid");
+  const more = document.getElementById("srMore");
+  const empty = document.getElementById("srEmpty");
+  if(results.length){
+    countEl.textContent = currentLang==="fr"
+      ? `${results.length} produit(s) trouv\u00e9(s) pour \u00ab ${q} \u00bb`
+      : `${results.length} product${results.length===1?"":"s"} found for \u201c${q}\u201d`;
+    grid.classList.remove("hidden"); empty.classList.add("hidden");
+    pagedInit("srGrid", "srMore", results, true);
+  } else {
+    countEl.textContent = "";
+    grid.innerHTML = ""; grid.classList.add("hidden"); more.classList.add("hidden");
+    empty.classList.remove("hidden");
+    empty.innerHTML = emptyBoxHTML(currentLang==="fr" ? `Aucun r\u00e9sultat pour \u00ab ${q} \u00bb` : `Nothing found for \u201c${q}\u201d`);
+  }
+}
+
+function emptyBoxHTML(title){
+  const fr = currentLang==="fr";
+  return `<div class="empty-box"><div class="empty-ttl">${title}</div>
+    <p>${fr ? "Nous ajoutons de nouveaux produits en permanence. Dites-nous ce que vous cherchez et nous le trouverons pour vous."
+            : "We add new products all the time. Tell us what you are looking for and we will source it for you."}</p>
+    <button type="button" class="btn-gold" onclick="openBooking(GENERAL_CONSULT_PRODUCT)">${t("book_consultation")}</button></div>`;
+}
+
+function renderImportState(){
+  initImportUI();
+  const $ = id => document.getElementById(id);
+  const catGrid = $("categoryGrid"), ps = $("productSection"), sr = $("searchResults");
+  const subGrid = $("subGrid"), list = $("importProductGrid"), more = $("importMore"), empty = $("importEmpty");
+  const back = ps.querySelector(".back-btn");
+  const crumbBase = $("importCrumbBase"), crumbCat = $("importCrumbCat"), crumbName = $("importCrumbCatName");
+  [catGrid, ps, sr, subGrid, list, more, empty].forEach(el=>el.classList.add("hidden"));
+  const fr = currentLang==="fr";
+
+  if(importQuery.length >= 2){
+    $("importTitle").textContent = fr ? "R\u00e9sultats de recherche" : "Search results";
+    $("importSub").textContent = fr ? "Touchez une section ou un produit pour continuer." : "Tap a section or a product to continue.";
+    crumbCat.classList.add("hidden"); crumbBase.classList.remove("hidden");
+    renderSearch();
+    sr.classList.remove("hidden");
+    return;
+  }
+
+  if(!activeCat){
+    catGrid.classList.remove("hidden");
+    $("importTitle").textContent = t("import_title");
+    $("importSub").textContent = t("import_sub");
+    crumbCat.classList.add("hidden"); crumbBase.classList.remove("hidden");
+    return;
+  }
+
+  const cat = CATEGORIES.find(c=>c.code===activeCat);
+  const L = cat[currentLang];
+  const note = fr ? ". Aucun prix affich\u00e9 -- r\u00e9servez une consultation pour le co\u00fbt et la quantit\u00e9 minimale."
+                  : ". No prices shown -- book a consultation for cost and MOQ.";
+  const items = catItems(activeCat);
+  const subs = subCounts(activeCat);
+  ps.classList.remove("hidden");
+  crumbBase.classList.add("hidden"); crumbCat.classList.remove("hidden");
+  $("importTitle").textContent = L.name;
+  $("importSub").textContent = L.blurb + note;
+  crumbName.textContent = L.name;
+  back.textContent = fr ? "\u2190 Toutes les cat\u00e9gories" : "\u2190 All categories";
+
+  if(!items.length){
+    empty.classList.remove("hidden");
+    empty.innerHTML = emptyBoxHTML(fr ? "Aucun produit pour le moment" : "No products here yet");
+    return;
+  }
+
+  if(subs.length > 1 && !activeSub){
+    $("importSub").textContent = (fr ? "Choisissez une section pour voir uniquement ces produits." : "Choose a section to see only those products.") + note;
+    subGrid.innerHTML = subs.map(({s,n}) => `
+      <button class="cat-card" onclick="openSub('${activeCat}','${s.key}')">
+        <div class="cat-emoji">${s.icon}</div>
+        <div class="cat-name">${s[currentLang]}</div>
+        <div class="cat-count">${n} ${t("items_suffix")}</div>
+      </button>`).join("") + `
+      <button class="cat-card" onclick="openSub('${activeCat}','__all')">
+        <div class="cat-emoji">&#128218;</div>
+        <div class="cat-name">${fr ? "Tout voir" : "View everything"}</div>
+        <div class="cat-count">${items.length} ${t("items_suffix")}</div>
+      </button>`;
+    subGrid.classList.remove("hidden");
+    return;
+  }
+
+  let shown = items;
+  if(activeSub){
+    shown = subItems(activeCat, activeSub);
+    const s = subInfo(activeCat, activeSub);
+    const label = activeSub==="__all" ? (fr ? "Tout voir" : "View everything") : (s ? s[currentLang] : "");
+    $("importTitle").textContent = label;
+    crumbName.textContent = L.name + " \u203a " + label;
+    back.textContent = (fr ? "\u2190 Retour \u00e0 " : "\u2190 Back to ") + L.name;
+  }
+  list.classList.remove("hidden");
+  pagedInit("importProductGrid", "importMore", shown, false);
 }
 
 function setPriceMode(btn, mode){
