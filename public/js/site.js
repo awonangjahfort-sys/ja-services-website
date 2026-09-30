@@ -140,7 +140,7 @@ const CATEGORIES = [
   { code:"ELC", en:{name:"Electronics & Gadgets", blurb:"Phones, audio, smart devices"}, fr:{name:"\u00c9lectronique & Gadgets", blurb:"T\u00e9l\u00e9phones, audio, objets connect\u00e9s"}, icon:"\ud83d\udcf1" },
   { code:"HMK", en:{name:"Home & Kitchen", blurb:"Appliances, cookware, storage"}, fr:{name:"Maison & Cuisine", blurb:"\u00c9lectrom\u00e9nager, ustensiles, rangement"}, icon:"\ud83c\udf73" },
   { code:"BTY", en:{name:"Beauty & Personal Care", blurb:"Skincare, tools, cosmetics"}, fr:{name:"Beaut\u00e9 & Soins", blurb:"Soins de la peau, outils, cosm\u00e9tiques"}, icon:"\ud83d\udc84" },
-  { code:"AUT", en:{name:"Automotive Parts", blurb:"Parts, accessories, tools"}, fr:{name:"Pi\u00e8ces Automobiles", blurb:"Pi\u00e8ces, accessoires, outils"}, icon:"\ud83d\ude97" },
+  { code:"AUT", en:{name:"Automotive & Vehicles", blurb:"Used cars, parts, accessories, tools"}, fr:{name:"Automobile & V\u00e9hicules", blurb:"Voitures d'occasion, pi\u00e8ces, accessoires, outils"}, icon:"\ud83d\ude97" },
   { code:"FUR", en:{name:"Furniture & Decor", blurb:"Home & office furnishing"}, fr:{name:"Meubles & D\u00e9coration", blurb:"Mobilier maison et bureau"}, icon:"\ud83d\udecb\ufe0f" },
   { code:"SPT", en:{name:"Sports & Outdoor", blurb:"Fitness, camping, outdoor gear"}, fr:{name:"Sport & Plein Air", blurb:"Fitness, camping, \u00e9quipement ext\u00e9rieur"}, icon:"\ud83c\udfcb\ufe0f" },
   { code:"BBK", en:{name:"Baby & Kids", blurb:"Toys, gear, clothing"}, fr:{name:"B\u00e9b\u00e9 & Enfants", blurb:"Jouets, \u00e9quipements, v\u00eatements"}, icon:"\ud83e\uddf8" },
