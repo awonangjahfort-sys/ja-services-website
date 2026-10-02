@@ -1,0 +1,240 @@
+{
+ "cat": "FSH",
+ "products": [
+  {
+   "id": "WD-01",
+   "name": {
+    "en": "Belted blazer dress with contrast lapel",
+    "fr": "Robe blazer ceinturée à revers contrasté"
+   },
+   "desc": {
+    "en": "Orange double-breasted blazer dress with white contrast lapel, gold buttons, gold brooch and white belt. Elbow-length sleeves, knee-length. Contact us for sizes and availability.",
+    "fr": "Robe blazer croisée orange avec revers blanc contrasté, boutons dorés, broche dorée et ceinture blanche. Manches mi-longues, longueur genou. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wd-orange-blazer-dress.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WD-02",
+   "name": {
+    "en": "Sleeveless wrap blazer dress with flower buckle",
+    "fr": "Robe blazer portefeuille sans manches à boucle fleur"
+   },
+   "desc": {
+    "en": "Elegant sleeveless wrap dress with notch lapel and belted waist with a gold flower buckle. Available in cream, burgundy, sky blue, white and purple. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Robe portefeuille élégante sans manches, col cranté et taille ceinturée avec boucle fleur dorée. Disponible en crème, bordeaux, bleu ciel, blanc et violet. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wd-wrap-dress-rack.jpg",
+    "/catalog-img/fashion/wd-wrap-dress-blue.jpg",
+    "/catalog-img/fashion/wd-wrap-dress-burgundy.jpg",
+    "/catalog-img/fashion/wd-wrap-dress-purple.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WD-03",
+   "name": {
+    "en": "Double-breasted blazer maxi dress with chain belt",
+    "fr": "Robe longue blazer croisée à ceinture chaîne"
+   },
+   "desc": {
+    "en": "Long short-sleeve blazer dress with double-breasted gold buttons, pleated skirt and gold chain belt. Available in brown, purple, red-orange and green. Contact us for sizes and availability.",
+    "fr": "Robe blazer longue à manches courtes, boutons dorés croisés, jupe plissée et ceinture chaîne dorée. Disponible en marron, violet, rouge-orangé et vert. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wd-chain-belt-dress.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WD-04",
+   "name": {
+    "en": "Long-sleeve wrap dress with lace cuffs",
+    "fr": "Robe portefeuille manches longues à poignets en dentelle"
+   },
+   "desc": {
+    "en": "Long shawl-collar wrap dress with button front and lace-trimmed cuffs. Available in white, black, brown and magenta. Contact us for sizes and availability.",
+    "fr": "Robe portefeuille longue à col châle, boutonnée devant, poignets bordés de dentelle. Disponible en blanc, noir, marron et magenta. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wd-lace-cuff-dress.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WD-05",
+   "name": {
+    "en": "Pleated blazer dress with belt",
+    "fr": "Robe blazer plissée ceinturée"
+   },
+   "desc": {
+    "en": "Short-sleeve blazer dress with double-breasted jewel buttons, matching belt and pleated skirt. Available in light green, dark green, orange and magenta. Contact us for sizes and availability.",
+    "fr": "Robe blazer à manches courtes, boutons bijoux croisés, ceinture assortie et jupe plissée. Disponible en vert clair, vert foncé, orange et magenta. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wd-pleated-dress.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WD-06",
+   "name": {
+    "en": "Brown coat dress with printed scarf belt",
+    "fr": "Robe manteau marron avec écharpe-ceinture imprimée"
+   },
+   "desc": {
+    "en": "Long-sleeve brown coat dress with button front and a printed cowrie-pattern scarf that ties as a belt. Contact us for sizes and availability.",
+    "fr": "Robe manteau marron à manches longues, boutonnée devant, avec écharpe à motif cauris nouée en ceinture. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wd-brown-coat-scarf-dress.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WD-07",
+   "name": {
+    "en": "Brown blazer dress with wide waistband",
+    "fr": "Robe blazer marron à large ceinture"
+   },
+   "desc": {
+    "en": "Long-sleeve brown blazer dress with deep V lapel, wide fitted waistband, flap pockets and button-front skirt. Contact us for sizes and availability.",
+    "fr": "Robe blazer marron à manches longues, revers en V profond, large ceinture ajustée, poches à rabat et jupe boutonnée. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wd-brown-waistband-dress.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WK-01",
+   "name": {
+    "en": "Striped kaftan / boubou dresses (models 7029, 7062, 7032)",
+    "fr": "Robes caftan / boubou rayées (modèles 7029, 7062, 7032)"
+   },
+   "desc": {
+    "en": "Loose, flowing striped kaftan dresses, one size fits many. Model 7029: crochet flower buttons and fringe hem. Model 7062: double buttons and black fringe. Model 7032: multi-stripe with drawstring front. Each model comes in 3 colourways. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Robes caftan rayées amples et fluides, taille unique. Modèle 7029 : boutons fleurs au crochet et ourlet frangé. Modèle 7062 : double boutonnage et franges noires. Modèle 7032 : rayures multicolores avec cordon devant. Chaque modèle existe en 3 coloris. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wk-7029.jpg",
+    "/catalog-img/fashion/wk-7062.jpg",
+    "/catalog-img/fashion/wk-7032.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WT-01",
+   "name": {
+    "en": "Women's wide-leg trousers (3 styles)",
+    "fr": "Pantalons larges femme (3 styles)"
+   },
+   "desc": {
+    "en": "Flowing high-waist wide-leg trousers in 3 styles: tie-waist (black, burgundy, brown, blue, white, beige), wrap-front with button (orange, burgundy, white, brown, black) and linen-look asymmetric wrap (mustard, light grey, dark brown, navy). Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Pantalons larges taille haute et fluides en 3 styles : taille à nouer (noir, bordeaux, marron, bleu, blanc, beige), portefeuille boutonné (orange, bordeaux, blanc, marron, noir) et portefeuille asymétrique aspect lin (moutarde, gris clair, marron foncé, marine). Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wt-tie-waist.jpg",
+    "/catalog-img/fashion/wt-wrap-button.jpg",
+    "/catalog-img/fashion/wt-linen-wrap.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WT-02",
+   "name": {
+    "en": "Leopard print wide-leg trousers with belt",
+    "fr": "Pantalon large imprimé léopard avec ceinture"
+   },
+   "desc": {
+    "en": "Satin-finish leopard print wide-leg trousers with brown belt and gold buckle. Available in 3 prints: white/black, gold and brown. Contact us for sizes and availability.",
+    "fr": "Pantalon large imprimé léopard satiné avec ceinture marron et boucle dorée. Disponible en 3 imprimés : blanc/noir, doré et marron. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wt-leopard.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WV-01",
+   "name": {
+    "en": "Lace-trim asymmetric vest",
+    "fr": "Gilet asymétrique bordé de dentelle"
+   },
+   "desc": {
+    "en": "Long sleeveless V-neck vest with button front and asymmetric hem trimmed in black lace. Available in black, white and brown. Contact us for sizes and availability.",
+    "fr": "Gilet long sans manches, col V boutonné, ourlet asymétrique bordé de dentelle noire. Disponible en noir, blanc et marron. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wv-lace-vest.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WV-02",
+   "name": {
+    "en": "Beaded halter-neck top",
+    "fr": "Top dos nu à col perlé"
+   },
+   "desc": {
+    "en": "Light textured halter-neck top with ruffled collar, decorative beads and elastic hem. Available in cream, brown, orange, white and black. Contact us for sizes and availability.",
+    "fr": "Top dos nu léger et texturé, col froncé orné de perles et ourlet élastique. Disponible en crème, marron, orange, blanc et noir. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/wv-beaded-halter.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WS-01",
+   "name": {
+    "en": "Halter top & wide-leg trousers set with lace hem",
+    "fr": "Ensemble top dos nu & pantalon large à ourlet dentelle"
+   },
+   "desc": {
+    "en": "Two-piece set: high-neck halter top with asymmetric lace hem and matching wide-leg trousers. Satin version in orange, brown, white, olive, red and black; also in brown polka dot. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Ensemble deux pièces : top dos nu col montant à ourlet asymétrique en dentelle et pantalon large assorti. Version satinée en orange, marron, blanc, olive, rouge et noir ; aussi en marron à pois. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ws-satin-halter-set.jpg",
+    "/catalog-img/fashion/ws-polka-halter-set.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "WS-02",
+   "name": {
+    "en": "Pinstripe sleeveless blazer & trousers set",
+    "fr": "Ensemble blazer sans manches & pantalon à fines rayures"
+   },
+   "desc": {
+    "en": "Two-piece pinstripe set: double-breasted sleeveless blazer with flap pockets and high-waist wide-leg trousers. Available in brown, lilac, black and white. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Ensemble deux pièces à fines rayures : blazer croisé sans manches à poches à rabat et pantalon large taille haute. Disponible en marron, lilas, noir et blanc. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ws-vest-set-brown-model.jpg",
+    "/catalog-img/fashion/ws-vest-set-lilac-model.jpg",
+    "/catalog-img/fashion/ws-vest-set-black-model.jpg",
+    "/catalog-img/fashion/ws-vest-set-white-model.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  }
+ ]
+}

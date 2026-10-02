@@ -1,0 +1,253 @@
+{
+ "cat": "FSH",
+ "products": [
+  {
+   "id": "MS-DC323A",
+   "name": {
+    "en": "Daniel Collin 3-piece suit, 323 series (blue & dark)",
+    "fr": "Costume 3 pièces Daniel Collin, série 323 (bleu & foncé)"
+   },
+   "desc": {
+    "en": "Daniel Collin 3-piece suit: jacket, double-breasted waistcoat and trousers. Peak lapel. Models: 323-23 royal blue, 323-25 dark navy, 323-20 charcoal. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Costume 3 pièces Daniel Collin : veste, gilet croisé et pantalon. Revers en pointe. Modèles : 323-23 bleu roi, 323-25 marine foncé, 323-20 anthracite. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ms-dc-323-23.jpg",
+    "/catalog-img/fashion/ms-dc-323-25.jpg",
+    "/catalog-img/fashion/ms-dc-323-20.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MS-DC323B",
+   "name": {
+    "en": "Daniel Collin 3-piece suit, 323 series (colours)",
+    "fr": "Costume 3 pièces Daniel Collin, série 323 (couleurs)"
+   },
+   "desc": {
+    "en": "Daniel Collin 3-piece suit: jacket, double-breasted waistcoat and trousers. Peak lapel. Models: 323-10 dusty pink, 323-28 camel, 323-4 sage green. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Costume 3 pièces Daniel Collin : veste, gilet croisé et pantalon. Revers en pointe. Modèles : 323-10 rose poudré, 323-28 camel, 323-4 vert sauge. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ms-dc-323-10.jpg",
+    "/catalog-img/fashion/ms-dc-323-28.jpg",
+    "/catalog-img/fashion/ms-dc-323-4.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MS-DC203",
+   "name": {
+    "en": "Daniel Collin 3-piece suit, 203 series",
+    "fr": "Costume 3 pièces Daniel Collin, série 203"
+   },
+   "desc": {
+    "en": "Daniel Collin 3-piece suit: jacket, double-breasted waistcoat and trousers. Slim notch lapel. Models: 203-1A light blue check, 203-7 sky blue, 203-10 navy. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Costume 3 pièces Daniel Collin : veste, gilet croisé et pantalon. Revers cranté slim. Modèles : 203-1A bleu clair à carreaux, 203-7 bleu ciel, 203-10 marine. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ms-dc-203-1a.jpg",
+    "/catalog-img/fashion/ms-dc-203-7.jpg",
+    "/catalog-img/fashion/ms-dc-203-10.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MS-DCBLU",
+   "name": {
+    "en": "Daniel Collin 3-piece suit, royal blue & pinstripe",
+    "fr": "Costume 3 pièces Daniel Collin, bleu roi & rayures"
+   },
+   "desc": {
+    "en": "Daniel Collin 3-piece suit: jacket, double-breasted waistcoat and trousers. Models: 292-2 royal blue, 371-78 blue pinstripe, 371-80 navy pinstripe (371 models come with chain lapel pin). Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Costume 3 pièces Daniel Collin : veste, gilet croisé et pantalon. Modèles : 292-2 bleu roi, 371-78 bleu à rayures, 371-80 marine à rayures (modèles 371 avec broche chaînette). Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ms-dc-292-2.jpg",
+    "/catalog-img/fashion/ms-dc-371-78.jpg",
+    "/catalog-img/fashion/ms-dc-371-80.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MS-DCTEX",
+   "name": {
+    "en": "Daniel Collin 3-piece suit, textured & herringbone",
+    "fr": "Costume 3 pièces Daniel Collin, texturé & chevrons"
+   },
+   "desc": {
+    "en": "Daniel Collin 3-piece suit: jacket, double-breasted waistcoat and trousers. Models: 720-21 textured blue, 720-22 textured grey, 227-5 navy herringbone. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Costume 3 pièces Daniel Collin : veste, gilet croisé et pantalon. Modèles : 720-21 bleu texturé, 720-22 gris texturé, 227-5 marine à chevrons. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ms-dc-720-21.jpg",
+    "/catalog-img/fashion/ms-dc-720-22.jpg",
+    "/catalog-img/fashion/ms-dc-227-5.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MS-DCCHK",
+   "name": {
+    "en": "Daniel Collin 3-piece suit, check & jacquard",
+    "fr": "Costume 3 pièces Daniel Collin, carreaux & jacquard"
+   },
+   "desc": {
+    "en": "Daniel Collin 3-piece suit: jacket, double-breasted waistcoat and trousers. Models: 856-1 beige-grey check, 856-2 light grey check, 292-3 sage floral jacquard. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Costume 3 pièces Daniel Collin : veste, gilet croisé et pantalon. Modèles : 856-1 carreaux beige-gris, 856-2 carreaux gris clair, 292-3 jacquard floral sauge. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ms-dc-856-1.jpg",
+    "/catalog-img/fashion/ms-dc-856-2.jpg",
+    "/catalog-img/fashion/ms-dc-292-3.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MS-DC36A",
+   "name": {
+    "en": "Daniel Collin double-breasted 2-piece suit, 36 series (dark)",
+    "fr": "Costume croisé 2 pièces Daniel Collin, série 36 (foncé)"
+   },
+   "desc": {
+    "en": "Double-breasted peak-lapel jacket and trousers. Colours: black, navy (36-Blue), royal blue (36-AYL), dark grey-green (36-Gray). Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Veste croisée à revers en pointe et pantalon. Couleurs : noir, marine (36-Blue), bleu roi (36-AYL), gris-vert foncé (36-Gray). Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ms-dc-36-black.jpg",
+    "/catalog-img/fashion/ms-dc-36-blue.jpg",
+    "/catalog-img/fashion/ms-dc-36-ayl.jpg",
+    "/catalog-img/fashion/ms-dc-36-gray.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MS-DC36B",
+   "name": {
+    "en": "Daniel Collin double-breasted 2-piece suit, 36 series (colours)",
+    "fr": "Costume croisé 2 pièces Daniel Collin, série 36 (couleurs)"
+   },
+   "desc": {
+    "en": "Double-breasted peak-lapel jacket and trousers. Colours: brown, green, beige (36-3K), maroon. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Veste croisée à revers en pointe et pantalon. Couleurs : marron, vert, beige (36-3K), bordeaux. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ms-dc-36-brown.jpg",
+    "/catalog-img/fashion/ms-dc-36-green.jpg",
+    "/catalog-img/fashion/ms-dc-36-3k.jpg",
+    "/catalog-img/fashion/ms-dc-36-maroon.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MS-DR8211",
+   "name": {
+    "en": "DARO Uomo double-breasted suit DR8211-A18",
+    "fr": "Costume croisé DARO Uomo DR8211-A18"
+   },
+   "desc": {
+    "en": "Dark green double-breasted peak-lapel suit with gold crest buttons and chain lapel pin, with matching trousers. Contact us for sizes and availability.",
+    "fr": "Costume croisé vert foncé à revers en pointe, boutons dorés à blason et broche chaînette, avec pantalon assorti. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/ms-daro-dr8211-a18.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MSH-LOAF",
+   "name": {
+    "en": "DARO Uomo leather loafers (DR6307, DR6572, PX6531)",
+    "fr": "Mocassins en cuir DARO Uomo (DR6307, DR6572, PX6531)"
+   },
+   "desc": {
+    "en": "Genuine leather men's loafers. DR6307: perforated driving loafer in black, brown, blue. DR6572: pebbled monk-strap loafer in brown, black, coffee (sizes 40-46). PX6531: tassel loafer in black, coffee. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Mocassins homme en cuir véritable. DR6307 : mocassin perforé en noir, marron, bleu. DR6572 : mocassin à boucle en cuir grainé en marron, noir, café (pointures 40-46). PX6531 : mocassin à pampilles en noir, café. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/msh-dr6307.jpg",
+    "/catalog-img/fashion/msh-dr6572.jpg",
+    "/catalog-img/fashion/msh-px6531.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MSH-CAPTOE",
+   "name": {
+    "en": "DARO Uomo cap-toe oxford shoes (PX6616, PX6615)",
+    "fr": "Richelieus à bout droit DARO Uomo (PX6616, PX6615)"
+   },
+   "desc": {
+    "en": "Classic lace-up cap-toe oxfords in genuine leather. PX6616: black or coffee. PX6615: black or brown. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Richelieus classiques à bout droit en cuir véritable. PX6616 : noir ou café. PX6615 : noir ou marron. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/msh-px6616.jpg",
+    "/catalog-img/fashion/msh-px6615.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MSH-WHOLE",
+   "name": {
+    "en": "DARO Uomo wholecut oxford shoes (PX6620, PX6617)",
+    "fr": "Richelieus d'une seule pièce DARO Uomo (PX6620, PX6617)"
+   },
+   "desc": {
+    "en": "Sleek wholecut lace-up oxfords in genuine leather. PX6620: plain, black or coffee. PX6617: with decorative strap detail, black or coffee. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Richelieus élégants d'une seule pièce en cuir véritable. PX6620 : unis, noir ou café. PX6617 : avec détail de bride décorative, noir ou café. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/msh-px6620.jpg",
+    "/catalog-img/fashion/msh-px6617.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MSH-CROC",
+   "name": {
+    "en": "DARO Uomo croc-texture leather shoes (DR6510, PX6618)",
+    "fr": "Chaussures cuir effet croco DARO Uomo (DR6510, PX6618)"
+   },
+   "desc": {
+    "en": "Dress shoes with croc-embossed leather. DR6510: derby with croc side panel in black, brown, blue. PX6618: fully croc-embossed lace-up in black or brown. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Chaussures habillées en cuir embossé effet croco. DR6510 : derby avec empiècement croco en noir, marron, bleu. PX6618 : à lacets entièrement effet croco en noir ou marron. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/msh-dr6510.jpg",
+    "/catalog-img/fashion/msh-px6618.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MSH-FORMAL",
+   "name": {
+    "en": "DARO Uomo wingtip & derby shoes (DR6619, PX6627)",
+    "fr": "Chaussures à bout golf & derbies DARO Uomo (DR6619, PX6627)"
+   },
+   "desc": {
+    "en": "Genuine leather dress shoes. DR6619: wingtip oxford in black, coffee, blue. PX6627: pebbled-leather derby in black or coffee. Swipe the photos to see each colour/model. Contact us for sizes and availability.",
+    "fr": "Chaussures habillées en cuir véritable. DR6619 : richelieu à bout golf en noir, café, bleu. PX6627 : derby en cuir grainé en noir ou café. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les tailles et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/fashion/msh-dr6619.jpg",
+    "/catalog-img/fashion/msh-px6627.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  }
+ ]
+}

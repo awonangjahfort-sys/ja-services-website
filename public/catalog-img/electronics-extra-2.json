@@ -1,0 +1,54 @@
+{
+ "cat": "ELC",
+ "products": [
+  {
+   "id": "CAM-HC-WXF990",
+   "name": {
+    "en": "Panasonic HC-WXF990 4K camcorder",
+    "fr": "Caméscope 4K Panasonic HC-WXF990"
+   },
+   "desc": {
+    "en": "Panasonic 4K camcorder with 25x zoom, Hybrid O.I.S. stabilisation, Wi-Fi, 5.1ch zoom microphone with wind shield, and eye viewfinder. Contact us for condition, accessories and availability.",
+    "fr": "Caméscope 4K Panasonic avec zoom 25x, stabilisation Hybrid O.I.S., Wi-Fi, micro zoom 5.1 canaux avec anti-vent et viseur. Contactez-nous pour l'état, les accessoires et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/elec2/camcorder-wxf990-front.jpg",
+    "/catalog-img/elec2/camcorder-wxf990-side.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "MX-MG16XU",
+   "name": {
+    "en": "16-channel mixing console MG16XU",
+    "fr": "Table de mixage 16 canaux MG16XU"
+   },
+   "desc": {
+    "en": "16-channel analogue mixer with mic/line inputs, one-knob compressors, built-in digital effects, USB audio, 48V phantom power, aux and group outputs. Contact us for full specifications and availability.",
+    "fr": "Table de mixage analogique 16 canaux avec entrées micro/ligne, compresseurs à un bouton, effets numériques intégrés, audio USB, alimentation fantôme 48V, sorties aux et groupes. Contactez-nous pour les spécifications complètes et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/elec2/mixer-mg16xu.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "LC-SUNNY512",
+   "name": {
+    "en": "Stexcel Sunny 512 DMX lighting controller",
+    "fr": "Contrôleur d'éclairage DMX Stexcel Sunny 512"
+   },
+   "desc": {
+    "en": "DMX 512 lighting console for moving heads and stage lights: 16 channel faders, scanner select 1-32, scene and chase banks, LCD display. Contact us for full specifications and availability.",
+    "fr": "Console d'éclairage DMX 512 pour lyres et projecteurs de scène : 16 faders de canaux, sélection de scanners 1-32, banques de scènes et de chenillards, écran LCD. Contactez-nous pour les spécifications complètes et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/elec2/dmx-sunny512.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  }
+ ]
+}
