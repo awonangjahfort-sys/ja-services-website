@@ -1,0 +1,89 @@
+{
+ "cat": "BTY",
+ "products": [
+  {
+   "id": "HAIR-BUNDLES",
+   "name": {
+    "en": "Human hair bundles (6 textures)",
+    "fr": "Tissages cheveux humains (6 textures)"
+   },
+   "desc": {
+    "en": "Natural black human hair weave bundles in 6 textures: straight, deep wave, kinky curly, natural wave, body wave and yaki straight. Contact us for lengths, prices and availability.",
+    "fr": "Tissages en cheveux humains noir naturel en 6 textures : lisse, deep wave, kinky curly, natural wave, body wave et yaki. Contactez-nous pour les longueurs, prix et disponibilité."
+   },
+   "images": [
+    "/catalog-img/hair/hair-bundles.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HAIR-WIG-BOB",
+   "name": {
+    "en": "Straight bob lace front wig",
+    "fr": "Perruque carré lisse lace front"
+   },
+   "desc": {
+    "en": "Short straight bob lace front wig, natural black, with middle part and natural-looking hairline. Contact us for lengths and availability.",
+    "fr": "Perruque carré court lisse lace front, noir naturel, raie au milieu et naissance des cheveux naturelle. Contactez-nous pour les longueurs et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/hair/wig-bob-straight.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HAIR-WIG-LONG",
+   "name": {
+    "en": "Long lace front wigs (body wave & deep wave)",
+    "fr": "Perruques longues lace front (body wave & deep wave)"
+   },
+   "desc": {
+    "en": "Long lace front wigs: body wave with honey-blonde highlights, deep wave with brown highlights, and body wave in burgundy (99J). Swipe the photos to see each colour/model. Contact us for lengths and availability.",
+    "fr": "Perruques longues lace front : body wave avec mèches blond miel, deep wave avec mèches marron, et body wave bordeaux (99J). Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les longueurs et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/hair/wig-body-wave-highlight.jpg",
+    "/catalog-img/hair/wig-deep-wave-highlight.jpg",
+    "/catalog-img/hair/wig-body-wave-burgundy.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HAIR-WIG-SHOP",
+   "name": {
+    "en": "Assorted wigs: curly, wavy & coloured",
+    "fr": "Perruques assorties : bouclées, ondulées & colorées"
+   },
+   "desc": {
+    "en": "Wide selection of wigs in stock at our supplier: curly bobs, long curly and deep wave, body wave, ombre and bright colours (ginger, burgundy, blonde, pink, purple). Tell us the style and colour you want. Swipe the photos to see each colour/model. Contact us for lengths and availability.",
+    "fr": "Large choix de perruques en stock chez notre fournisseur : carrés bouclés, longues bouclées et deep wave, body wave, ombré et couleurs vives (cuivré, bordeaux, blond, rose, violet). Dites-nous le style et la couleur souhaités. Faites glisser les photos pour voir chaque couleur/modèle. Contactez-nous pour les longueurs et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/hair/wigs-shop-1.jpg",
+    "/catalog-img/hair/wigs-curly.jpg",
+    "/catalog-img/hair/wigs-long.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HAIR-WIG-KINKY",
+   "name": {
+    "en": "Kinky straight wigs",
+    "fr": "Perruques kinky straight"
+   },
+   "desc": {
+    "en": "Long kinky straight wigs with a natural blow-out texture. Colours include black, brown, highlighted, copper and burgundy. Contact us for lengths and availability.",
+    "fr": "Perruques longues kinky straight à texture naturelle type brushing. Couleurs : noir, marron, méché, cuivré et bordeaux. Contactez-nous pour les longueurs et la disponibilité."
+   },
+   "images": [
+    "/catalog-img/hair/wigs-kinky-straight.jpg"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  }
+ ]
+}

@@ -935,6 +935,8 @@ function logoutAdmin(){
    ID / name, so new products added later fall into the right section without extra work. */
 const SUBCATS = {
   ELC: [
+    { key:"lighting",   icon:"\uD83D\uDCA1", en:"Stage lighting & controllers",     fr:"\u00C9clairage de sc\u00E8ne & contr\u00F4leurs", pri:0, test:i=>/^MT-|^LC-/.test(i.id) },
+    { key:"cameras",    icon:"\uD83D\uDCF9", en:"Cameras & camcorders",             fr:"Cam\u00E9ras & cam\u00E9scopes",          pri:0, test:i=>/^CAM-/.test(i.id) },
     { key:"wireless",   icon:"\uD83C\uDFA4", en:"Wireless microphones",             fr:"Microphones sans fil",                dflt:true },
     { key:"headset",    icon:"\uD83D\uDDE3\uFE0F", en:"Headset & lavalier microphones",   fr:"Micros-casques & cravates",           pri:6, test:i=>/headset|lavalier|\btie\b|\bhead\b/.test(i.n) },
     { key:"conference", icon:"\uD83C\uDF99\uFE0F", en:"Conference microphones",           fr:"Micros de conf\u00E9rence",                pri:5, test:i=>/conference/.test(i.n) },
@@ -942,9 +944,15 @@ const SUBCATS = {
     { key:"monitors",   icon:"\uD83C\uDFA7", en:"In-ear monitors & earphones",      fr:"Retours intra-auriculaires & \u00E9couteurs", pri:1, test:i=>/monitor|headphone|earphone/.test(i.n) },
     { key:"speakers",   icon:"\uD83D\uDD0A", en:"Speakers & sound systems",         fr:"Enceintes & sonorisation",            pri:3, test:i=>/^DL-/.test(i.id)&&!/^DL-GD/.test(i.id) },
     { key:"amps",       icon:"\u26A1", en:"Power amplifiers",                 fr:"Amplificateurs de puissance",         pri:2, test:i=>/^DL-(PK|PX|UK|DF|DX)$/.test(i.id) },
-    { key:"processors", icon:"\uD83C\uDF9B\uFE0F", en:"Mixers & audio processors",        fr:"Tables de mixage & processeurs audio", pri:2, test:i=>/^DL-(DP|DSP|FX|MR)$/.test(i.id) }
+    { key:"processors", icon:"\uD83C\uDF9B\uFE0F", en:"Mixers & audio processors",        fr:"Tables de mixage & processeurs audio", pri:2, test:i=>/^DL-(DP|DSP|FX|MR)$/.test(i.id)||/^MX-/.test(i.id) }
   ],
   FSH: [
+    { key:"dresses",    icon:"\uD83D\uDC57", en:"Women's dresses & kaftans",        fr:"Robes & caftans femme",               pri:0, test:i=>/^W[DK]-/.test(i.id) },
+    { key:"womenwear",  icon:"\uD83D\uDC5A", en:"Women's trousers, tops & sets",    fr:"Pantalons, hauts & ensembles femme",  pri:0, test:i=>/^W[TVS]-/.test(i.id) },
+    { key:"suits",      icon:"\uD83E\uDD35", en:"Men's suits",                      fr:"Costumes homme",                      pri:0, test:i=>/^MS-/.test(i.id) },
+    { key:"shoes",      icon:"\uD83D\uDC5E", en:"Men's shoes",                      fr:"Chaussures homme",                    pri:0, test:i=>/^MSH-/.test(i.id) },
+    { key:"bags",       icon:"\uD83D\uDC5C", en:"Handbags & tote bags",             fr:"Sacs \u00E0 main & sacs cabas",          pri:0, test:i=>/^HB-/.test(i.id) },
+    { key:"backpacks",  icon:"\uD83C\uDF92", en:"School bags & backpacks",          fr:"Cartables & sacs \u00E0 dos",            pri:0, test:i=>/^BP-/.test(i.id) },
     { key:"watch",      icon:"\u231A", en:"Watch gift sets",                  fr:"Coffrets montres",                    pri:1, test:i=>/watch/.test(i.n) },
     { key:"perfume",    icon:"\uD83E\uDDF4", en:"Perfume gift sets",                fr:"Coffrets parfums",                    pri:2, test:i=>/perfume/.test(i.n) },
     { key:"sunglasses", icon:"\uD83D\uDD76\uFE0F", en:"Sunglasses gift sets",             fr:"Coffrets lunettes de soleil",         pri:3, test:i=>/sunglass/.test(i.n) },
@@ -958,6 +966,7 @@ const SUBCATS = {
     { key:"other",      icon:"\u231A", en:"Watch gift sets & more",           fr:"Coffrets montres & autres",           dflt:true }
   ],
   BTY: [
+    { key:"wigs",       icon:"\uD83D\uDC87\u200D\u2640\uFE0F", en:"Wigs & hair extensions",  fr:"Perruques & extensions",              pri:0, test:i=>/^HAIR-/.test(i.id) },
     { key:"feminine",   icon:"\uD83C\uDF38", en:"Feminine & intimate care",         fr:"Soins f\u00E9minins & intimes",            dflt:true },
     { key:"hair",       icon:"\uD83D\uDC87", en:"Hair care",                        fr:"Soins des cheveux",                   pri:2, test:i=>/^HERB-(25|26)$/.test(i.id) },
     { key:"bodycare",   icon:"\uD83E\uDDFC", en:"Body hygiene & soap",              fr:"Hygi\u00E8ne & savons",                    pri:2, test:i=>/^HERB-(03|28)$/.test(i.id) },

@@ -1,0 +1,262 @@
+{
+ "cat": "FSH",
+ "products": [
+  {
+   "id": "BP-B077",
+   "name": {
+    "en": "Kids' school backpack",
+    "fr": "Sac à dos scolaire enfant"
+   },
+   "desc": {
+    "en": "Kids' school backpack. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos scolaire enfant. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B077-01.webp",
+    "/catalog-img/bags/BP-B077-02.webp",
+    "/catalog-img/bags/BP-B077-03.webp",
+    "/catalog-img/bags/BP-B077-04.webp",
+    "/catalog-img/bags/BP-B077-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "BP-B078",
+   "name": {
+    "en": "Kids' school backpack",
+    "fr": "Sac à dos scolaire enfant"
+   },
+   "desc": {
+    "en": "Kids' school backpack. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos scolaire enfant. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B078-01.webp",
+    "/catalog-img/bags/BP-B078-02.webp",
+    "/catalog-img/bags/BP-B078-03.webp",
+    "/catalog-img/bags/BP-B078-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "BP-B079",
+   "name": {
+    "en": "Laptop backpack with USB port",
+    "fr": "Sac à dos ordinateur avec port USB"
+   },
+   "desc": {
+    "en": "Laptop backpack with USB port. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos ordinateur avec port USB. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B079-01.webp",
+    "/catalog-img/bags/BP-B079-02.webp",
+    "/catalog-img/bags/BP-B079-03.webp",
+    "/catalog-img/bags/BP-B079-04.webp",
+    "/catalog-img/bags/BP-B079-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "BP-B122",
+   "name": {
+    "en": "Kids' school backpack",
+    "fr": "Sac à dos scolaire enfant"
+   },
+   "desc": {
+    "en": "Kids' school backpack. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos scolaire enfant. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B122-01.webp",
+    "/catalog-img/bags/BP-B122-02.webp",
+    "/catalog-img/bags/BP-B122-03.webp",
+    "/catalog-img/bags/BP-B122-04.webp",
+    "/catalog-img/bags/BP-B122-05.webp",
+    "/catalog-img/bags/BP-B122-06.webp",
+    "/catalog-img/bags/BP-B122-07.webp",
+    "/catalog-img/bags/BP-B122-08.webp",
+    "/catalog-img/bags/BP-B122-09.webp",
+    "/catalog-img/bags/BP-B122-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "BP-B123",
+   "name": {
+    "en": "Girls' school backpack with bunny",
+    "fr": "Sac à dos scolaire fille avec lapin"
+   },
+   "desc": {
+    "en": "Girls' school backpack with bunny. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos scolaire fille avec lapin. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B123-01.webp",
+    "/catalog-img/bags/BP-B123-02.webp",
+    "/catalog-img/bags/BP-B123-03.webp",
+    "/catalog-img/bags/BP-B123-04.webp",
+    "/catalog-img/bags/BP-B123-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "BP-B124",
+   "name": {
+    "en": "Kids' school backpack",
+    "fr": "Sac à dos scolaire enfant"
+   },
+   "desc": {
+    "en": "Kids' school backpack. Available in 9 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos scolaire enfant. Disponible en 9 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B124-01.webp",
+    "/catalog-img/bags/BP-B124-02.webp",
+    "/catalog-img/bags/BP-B124-03.webp",
+    "/catalog-img/bags/BP-B124-04.webp",
+    "/catalog-img/bags/BP-B124-05.webp",
+    "/catalog-img/bags/BP-B124-06.webp",
+    "/catalog-img/bags/BP-B124-07.webp",
+    "/catalog-img/bags/BP-B124-08.webp",
+    "/catalog-img/bags/BP-B124-09.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "BP-B125",
+   "name": {
+    "en": "Kids' unicorn school backpack",
+    "fr": "Sac à dos scolaire licorne"
+   },
+   "desc": {
+    "en": "Kids' unicorn school backpack. Available in 11 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos scolaire licorne. Disponible en 11 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B125-01.webp",
+    "/catalog-img/bags/BP-B125-02.webp",
+    "/catalog-img/bags/BP-B125-03.webp",
+    "/catalog-img/bags/BP-B125-04.webp",
+    "/catalog-img/bags/BP-B125-05.webp",
+    "/catalog-img/bags/BP-B125-06.webp",
+    "/catalog-img/bags/BP-B125-07.webp",
+    "/catalog-img/bags/BP-B125-08.webp",
+    "/catalog-img/bags/BP-B125-09.webp",
+    "/catalog-img/bags/BP-B125-10.webp",
+    "/catalog-img/bags/BP-B125-11.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "BP-B126",
+   "name": {
+    "en": "Kids' school backpack",
+    "fr": "Sac à dos scolaire enfant"
+   },
+   "desc": {
+    "en": "Kids' school backpack. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos scolaire enfant. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B126-01.webp",
+    "/catalog-img/bags/BP-B126-02.webp",
+    "/catalog-img/bags/BP-B126-03.webp",
+    "/catalog-img/bags/BP-B126-04.webp",
+    "/catalog-img/bags/BP-B126-05.webp",
+    "/catalog-img/bags/BP-B126-06.webp",
+    "/catalog-img/bags/BP-B126-07.webp",
+    "/catalog-img/bags/BP-B126-08.webp",
+    "/catalog-img/bags/BP-B126-09.webp",
+    "/catalog-img/bags/BP-B126-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "BP-B127",
+   "name": {
+    "en": "Kids' school backpack",
+    "fr": "Sac à dos scolaire enfant"
+   },
+   "desc": {
+    "en": "Kids' school backpack. Available in 17 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos scolaire enfant. Disponible en 17 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B127-01.webp",
+    "/catalog-img/bags/BP-B127-02.webp",
+    "/catalog-img/bags/BP-B127-03.webp",
+    "/catalog-img/bags/BP-B127-04.webp",
+    "/catalog-img/bags/BP-B127-05.webp",
+    "/catalog-img/bags/BP-B127-06.webp",
+    "/catalog-img/bags/BP-B127-07.webp",
+    "/catalog-img/bags/BP-B127-08.webp",
+    "/catalog-img/bags/BP-B127-09.webp",
+    "/catalog-img/bags/BP-B127-10.webp",
+    "/catalog-img/bags/BP-B127-11.webp",
+    "/catalog-img/bags/BP-B127-12.webp",
+    "/catalog-img/bags/BP-B127-13.webp",
+    "/catalog-img/bags/BP-B127-14.webp",
+    "/catalog-img/bags/BP-B127-15.webp",
+    "/catalog-img/bags/BP-B127-16.webp",
+    "/catalog-img/bags/BP-B127-17.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "BP-B128",
+   "name": {
+    "en": "Kids' school backpack",
+    "fr": "Sac à dos scolaire enfant"
+   },
+   "desc": {
+    "en": "Kids' school backpack. Available in 7 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos scolaire enfant. Disponible en 7 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B128-01.webp",
+    "/catalog-img/bags/BP-B128-02.webp",
+    "/catalog-img/bags/BP-B128-03.webp",
+    "/catalog-img/bags/BP-B128-04.webp",
+    "/catalog-img/bags/BP-B128-05.webp",
+    "/catalog-img/bags/BP-B128-06.webp",
+    "/catalog-img/bags/BP-B128-07.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "BP-B129",
+   "name": {
+    "en": "Kids' school backpack",
+    "fr": "Sac à dos scolaire enfant"
+   },
+   "desc": {
+    "en": "Kids' school backpack. Available in 9 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à dos scolaire enfant. Disponible en 9 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/BP-B129-01.webp",
+    "/catalog-img/bags/BP-B129-02.webp",
+    "/catalog-img/bags/BP-B129-03.webp",
+    "/catalog-img/bags/BP-B129-04.webp",
+    "/catalog-img/bags/BP-B129-05.webp",
+    "/catalog-img/bags/BP-B129-06.webp",
+    "/catalog-img/bags/BP-B129-07.webp",
+    "/catalog-img/bags/BP-B129-08.webp",
+    "/catalog-img/bags/BP-B129-09.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  }
+ ]
+}

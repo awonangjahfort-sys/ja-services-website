@@ -1,0 +1,2712 @@
+{
+ "cat": "FSH",
+ "products": [
+  {
+   "id": "HB-B001",
+   "name": {
+    "en": "Faux fur tote bag",
+    "fr": "Sac cabas en fausse fourrure"
+   },
+   "desc": {
+    "en": "Faux fur tote bag. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en fausse fourrure. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B001-01.webp",
+    "/catalog-img/bags/HB-B001-02.webp",
+    "/catalog-img/bags/HB-B001-03.webp",
+    "/catalog-img/bags/HB-B001-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B002",
+   "name": {
+    "en": "Fringed canvas tote with slogan print",
+    "fr": "Sac cabas en toile à franges avec inscription"
+   },
+   "desc": {
+    "en": "Fringed canvas tote with slogan print. Available in 6 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile à franges avec inscription. Disponible en 6 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B002-01.webp",
+    "/catalog-img/bags/HB-B002-02.webp",
+    "/catalog-img/bags/HB-B002-03.webp",
+    "/catalog-img/bags/HB-B002-04.webp",
+    "/catalog-img/bags/HB-B002-05.webp",
+    "/catalog-img/bags/HB-B002-06.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B003",
+   "name": {
+    "en": "Ribbed plush tote bag",
+    "fr": "Sac cabas en peluche côtelée"
+   },
+   "desc": {
+    "en": "Ribbed plush tote bag. Available in 8 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en peluche côtelée. Disponible en 8 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B003-01.webp",
+    "/catalog-img/bags/HB-B003-02.webp",
+    "/catalog-img/bags/HB-B003-03.webp",
+    "/catalog-img/bags/HB-B003-04.webp",
+    "/catalog-img/bags/HB-B003-05.webp",
+    "/catalog-img/bags/HB-B003-06.webp",
+    "/catalog-img/bags/HB-B003-07.webp",
+    "/catalog-img/bags/HB-B003-08.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B004",
+   "name": {
+    "en": "Printed canvas tote bag",
+    "fr": "Sac cabas en toile imprimée"
+   },
+   "desc": {
+    "en": "Printed canvas tote bag. Available in 42 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile imprimée. Disponible en 42 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B004-01.webp",
+    "/catalog-img/bags/HB-B004-02.webp",
+    "/catalog-img/bags/HB-B004-03.webp",
+    "/catalog-img/bags/HB-B004-04.webp",
+    "/catalog-img/bags/HB-B004-05.webp",
+    "/catalog-img/bags/HB-B004-06.webp",
+    "/catalog-img/bags/HB-B004-07.webp",
+    "/catalog-img/bags/HB-B004-08.webp",
+    "/catalog-img/bags/HB-B004-09.webp",
+    "/catalog-img/bags/HB-B004-10.webp",
+    "/catalog-img/bags/HB-B004-11.webp",
+    "/catalog-img/bags/HB-B004-12.webp",
+    "/catalog-img/bags/HB-B004-13.webp",
+    "/catalog-img/bags/HB-B004-14.webp",
+    "/catalog-img/bags/HB-B004-15.webp",
+    "/catalog-img/bags/HB-B004-16.webp",
+    "/catalog-img/bags/HB-B004-17.webp",
+    "/catalog-img/bags/HB-B004-18.webp",
+    "/catalog-img/bags/HB-B004-19.webp",
+    "/catalog-img/bags/HB-B004-20.webp",
+    "/catalog-img/bags/HB-B004-21.webp",
+    "/catalog-img/bags/HB-B004-22.webp",
+    "/catalog-img/bags/HB-B004-23.webp",
+    "/catalog-img/bags/HB-B004-24.webp",
+    "/catalog-img/bags/HB-B004-25.webp",
+    "/catalog-img/bags/HB-B004-26.webp",
+    "/catalog-img/bags/HB-B004-27.webp",
+    "/catalog-img/bags/HB-B004-28.webp",
+    "/catalog-img/bags/HB-B004-29.webp",
+    "/catalog-img/bags/HB-B004-30.webp",
+    "/catalog-img/bags/HB-B004-31.webp",
+    "/catalog-img/bags/HB-B004-32.webp",
+    "/catalog-img/bags/HB-B004-33.webp",
+    "/catalog-img/bags/HB-B004-34.webp",
+    "/catalog-img/bags/HB-B004-35.webp",
+    "/catalog-img/bags/HB-B004-36.webp",
+    "/catalog-img/bags/HB-B004-37.webp",
+    "/catalog-img/bags/HB-B004-38.webp",
+    "/catalog-img/bags/HB-B004-39.webp",
+    "/catalog-img/bags/HB-B004-40.webp",
+    "/catalog-img/bags/HB-B004-41.webp",
+    "/catalog-img/bags/HB-B004-42.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B005",
+   "name": {
+    "en": "Tote bag with plush charm",
+    "fr": "Sac cabas avec breloque peluche"
+   },
+   "desc": {
+    "en": "Tote bag with plush charm. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas avec breloque peluche. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B005-01.webp",
+    "/catalog-img/bags/HB-B005-02.webp",
+    "/catalog-img/bags/HB-B005-03.webp",
+    "/catalog-img/bags/HB-B005-04.webp",
+    "/catalog-img/bags/HB-B005-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B007",
+   "name": {
+    "en": "Printed canvas tote bag",
+    "fr": "Sac cabas en toile imprimée"
+   },
+   "desc": {
+    "en": "Printed canvas tote bag. Available in 19 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile imprimée. Disponible en 19 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B007-01.webp",
+    "/catalog-img/bags/HB-B007-02.webp",
+    "/catalog-img/bags/HB-B007-03.webp",
+    "/catalog-img/bags/HB-B007-04.webp",
+    "/catalog-img/bags/HB-B007-05.webp",
+    "/catalog-img/bags/HB-B007-06.webp",
+    "/catalog-img/bags/HB-B007-07.webp",
+    "/catalog-img/bags/HB-B007-08.webp",
+    "/catalog-img/bags/HB-B007-09.webp",
+    "/catalog-img/bags/HB-B007-10.webp",
+    "/catalog-img/bags/HB-B007-11.webp",
+    "/catalog-img/bags/HB-B007-12.webp",
+    "/catalog-img/bags/HB-B007-13.webp",
+    "/catalog-img/bags/HB-B007-14.webp",
+    "/catalog-img/bags/HB-B007-15.webp",
+    "/catalog-img/bags/HB-B007-16.webp",
+    "/catalog-img/bags/HB-B007-17.webp",
+    "/catalog-img/bags/HB-B007-18.webp",
+    "/catalog-img/bags/HB-B007-19.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B009",
+   "name": {
+    "en": "Quilted shoulder tote",
+    "fr": "Sac cabas matelassé"
+   },
+   "desc": {
+    "en": "Quilted shoulder tote. Available in 7 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas matelassé. Disponible en 7 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B009-01.webp",
+    "/catalog-img/bags/HB-B009-02.webp",
+    "/catalog-img/bags/HB-B009-03.webp",
+    "/catalog-img/bags/HB-B009-04.webp",
+    "/catalog-img/bags/HB-B009-05.webp",
+    "/catalog-img/bags/HB-B009-06.webp",
+    "/catalog-img/bags/HB-B009-07.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B012",
+   "name": {
+    "en": "Printed canvas tote with rope handles",
+    "fr": "Sac cabas en toile imprimée à anses en corde"
+   },
+   "desc": {
+    "en": "Printed canvas tote with rope handles. Available in 26 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile imprimée à anses en corde. Disponible en 26 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B012-01.webp",
+    "/catalog-img/bags/HB-B012-02.webp",
+    "/catalog-img/bags/HB-B012-03.webp",
+    "/catalog-img/bags/HB-B012-04.webp",
+    "/catalog-img/bags/HB-B012-05.webp",
+    "/catalog-img/bags/HB-B012-06.webp",
+    "/catalog-img/bags/HB-B012-07.webp",
+    "/catalog-img/bags/HB-B012-08.webp",
+    "/catalog-img/bags/HB-B012-09.webp",
+    "/catalog-img/bags/HB-B012-10.webp",
+    "/catalog-img/bags/HB-B012-11.webp",
+    "/catalog-img/bags/HB-B012-12.webp",
+    "/catalog-img/bags/HB-B012-13.webp",
+    "/catalog-img/bags/HB-B012-14.webp",
+    "/catalog-img/bags/HB-B012-15.webp",
+    "/catalog-img/bags/HB-B012-16.webp",
+    "/catalog-img/bags/HB-B012-17.webp",
+    "/catalog-img/bags/HB-B012-18.webp",
+    "/catalog-img/bags/HB-B012-19.webp",
+    "/catalog-img/bags/HB-B012-20.webp",
+    "/catalog-img/bags/HB-B012-21.webp",
+    "/catalog-img/bags/HB-B012-22.webp",
+    "/catalog-img/bags/HB-B012-23.webp",
+    "/catalog-img/bags/HB-B012-24.webp",
+    "/catalog-img/bags/HB-B012-25.webp",
+    "/catalog-img/bags/HB-B012-26.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B013",
+   "name": {
+    "en": "Printed canvas tote bag",
+    "fr": "Sac cabas en toile imprimée"
+   },
+   "desc": {
+    "en": "Printed canvas tote bag. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile imprimée. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B013-01.webp",
+    "/catalog-img/bags/HB-B013-02.webp",
+    "/catalog-img/bags/HB-B013-03.webp",
+    "/catalog-img/bags/HB-B013-04.webp",
+    "/catalog-img/bags/HB-B013-05.webp",
+    "/catalog-img/bags/HB-B013-06.webp",
+    "/catalog-img/bags/HB-B013-07.webp",
+    "/catalog-img/bags/HB-B013-08.webp",
+    "/catalog-img/bags/HB-B013-09.webp",
+    "/catalog-img/bags/HB-B013-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B014",
+   "name": {
+    "en": "Striped woven beach tote with rope handles",
+    "fr": "Sac de plage tissé rayé à anses en corde"
+   },
+   "desc": {
+    "en": "Striped woven beach tote with rope handles. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac de plage tissé rayé à anses en corde. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B014-01.webp",
+    "/catalog-img/bags/HB-B014-02.webp",
+    "/catalog-img/bags/HB-B014-03.webp",
+    "/catalog-img/bags/HB-B014-04.webp",
+    "/catalog-img/bags/HB-B014-05.webp",
+    "/catalog-img/bags/HB-B014-06.webp",
+    "/catalog-img/bags/HB-B014-07.webp",
+    "/catalog-img/bags/HB-B014-08.webp",
+    "/catalog-img/bags/HB-B014-09.webp",
+    "/catalog-img/bags/HB-B014-10.webp",
+    "/catalog-img/bags/HB-B014-11.webp",
+    "/catalog-img/bags/HB-B014-12.webp",
+    "/catalog-img/bags/HB-B014-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B015",
+   "name": {
+    "en": "Letter-print jacquard tote with rope handles",
+    "fr": "Sac cabas jacquard à lettres, anses en corde"
+   },
+   "desc": {
+    "en": "Letter-print jacquard tote with rope handles. Available in 12 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas jacquard à lettres, anses en corde. Disponible en 12 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B015-01.webp",
+    "/catalog-img/bags/HB-B015-02.webp",
+    "/catalog-img/bags/HB-B015-03.webp",
+    "/catalog-img/bags/HB-B015-04.webp",
+    "/catalog-img/bags/HB-B015-05.webp",
+    "/catalog-img/bags/HB-B015-06.webp",
+    "/catalog-img/bags/HB-B015-07.webp",
+    "/catalog-img/bags/HB-B015-08.webp",
+    "/catalog-img/bags/HB-B015-09.webp",
+    "/catalog-img/bags/HB-B015-10.webp",
+    "/catalog-img/bags/HB-B015-11.webp",
+    "/catalog-img/bags/HB-B015-12.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B016",
+   "name": {
+    "en": "Canvas tote with bear print",
+    "fr": "Sac cabas en toile imprimé ourson"
+   },
+   "desc": {
+    "en": "Canvas tote with bear print. Available in 29 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile imprimé ourson. Disponible en 29 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B016-01.webp",
+    "/catalog-img/bags/HB-B016-02.webp",
+    "/catalog-img/bags/HB-B016-03.webp",
+    "/catalog-img/bags/HB-B016-04.webp",
+    "/catalog-img/bags/HB-B016-05.webp",
+    "/catalog-img/bags/HB-B016-06.webp",
+    "/catalog-img/bags/HB-B016-07.webp",
+    "/catalog-img/bags/HB-B016-08.webp",
+    "/catalog-img/bags/HB-B016-09.webp",
+    "/catalog-img/bags/HB-B016-10.webp",
+    "/catalog-img/bags/HB-B016-11.webp",
+    "/catalog-img/bags/HB-B016-12.webp",
+    "/catalog-img/bags/HB-B016-13.webp",
+    "/catalog-img/bags/HB-B016-14.webp",
+    "/catalog-img/bags/HB-B016-15.webp",
+    "/catalog-img/bags/HB-B016-16.webp",
+    "/catalog-img/bags/HB-B016-17.webp",
+    "/catalog-img/bags/HB-B016-18.webp",
+    "/catalog-img/bags/HB-B016-19.webp",
+    "/catalog-img/bags/HB-B016-20.webp",
+    "/catalog-img/bags/HB-B016-21.webp",
+    "/catalog-img/bags/HB-B016-22.webp",
+    "/catalog-img/bags/HB-B016-23.webp",
+    "/catalog-img/bags/HB-B016-24.webp",
+    "/catalog-img/bags/HB-B016-25.webp",
+    "/catalog-img/bags/HB-B016-26.webp",
+    "/catalog-img/bags/HB-B016-27.webp",
+    "/catalog-img/bags/HB-B016-28.webp",
+    "/catalog-img/bags/HB-B016-29.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B017",
+   "name": {
+    "en": "Graffiti-print tote with plush charm",
+    "fr": "Sac cabas imprimé graffiti avec breloque peluche"
+   },
+   "desc": {
+    "en": "Graffiti-print tote with plush charm. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas imprimé graffiti avec breloque peluche. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B017-01.webp",
+    "/catalog-img/bags/HB-B017-02.webp",
+    "/catalog-img/bags/HB-B017-03.webp",
+    "/catalog-img/bags/HB-B017-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B018",
+   "name": {
+    "en": "Puffy ribbed mini handbag",
+    "fr": "Mini sac à main côtelé bouffant"
+   },
+   "desc": {
+    "en": "Puffy ribbed mini handbag. Available in 6 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Mini sac à main côtelé bouffant. Disponible en 6 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B018-01.webp",
+    "/catalog-img/bags/HB-B018-02.webp",
+    "/catalog-img/bags/HB-B018-03.webp",
+    "/catalog-img/bags/HB-B018-04.webp",
+    "/catalog-img/bags/HB-B018-05.webp",
+    "/catalog-img/bags/HB-B018-06.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B019",
+   "name": {
+    "en": "Slogan-print canvas tote",
+    "fr": "Sac cabas en toile avec slogan"
+   },
+   "desc": {
+    "en": "Slogan-print canvas tote. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile avec slogan. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B019-01.webp",
+    "/catalog-img/bags/HB-B019-02.webp",
+    "/catalog-img/bags/HB-B019-03.webp",
+    "/catalog-img/bags/HB-B019-04.webp",
+    "/catalog-img/bags/HB-B019-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B020",
+   "name": {
+    "en": "Foldable nylon tote bag",
+    "fr": "Sac cabas pliable en nylon"
+   },
+   "desc": {
+    "en": "Foldable nylon tote bag. Available in 28 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas pliable en nylon. Disponible en 28 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B020-01.webp",
+    "/catalog-img/bags/HB-B020-02.webp",
+    "/catalog-img/bags/HB-B020-03.webp",
+    "/catalog-img/bags/HB-B020-04.webp",
+    "/catalog-img/bags/HB-B020-05.webp",
+    "/catalog-img/bags/HB-B020-06.webp",
+    "/catalog-img/bags/HB-B020-07.webp",
+    "/catalog-img/bags/HB-B020-08.webp",
+    "/catalog-img/bags/HB-B020-09.webp",
+    "/catalog-img/bags/HB-B020-10.webp",
+    "/catalog-img/bags/HB-B020-11.webp",
+    "/catalog-img/bags/HB-B020-12.webp",
+    "/catalog-img/bags/HB-B020-13.webp",
+    "/catalog-img/bags/HB-B020-14.webp",
+    "/catalog-img/bags/HB-B020-15.webp",
+    "/catalog-img/bags/HB-B020-16.webp",
+    "/catalog-img/bags/HB-B020-17.webp",
+    "/catalog-img/bags/HB-B020-18.webp",
+    "/catalog-img/bags/HB-B020-19.webp",
+    "/catalog-img/bags/HB-B020-20.webp",
+    "/catalog-img/bags/HB-B020-21.webp",
+    "/catalog-img/bags/HB-B020-22.webp",
+    "/catalog-img/bags/HB-B020-23.webp",
+    "/catalog-img/bags/HB-B020-24.webp",
+    "/catalog-img/bags/HB-B020-25.webp",
+    "/catalog-img/bags/HB-B020-26.webp",
+    "/catalog-img/bags/HB-B020-27.webp",
+    "/catalog-img/bags/HB-B020-28.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B021",
+   "name": {
+    "en": "Denim tote with bear charm",
+    "fr": "Sac cabas en jean avec breloque ourson"
+   },
+   "desc": {
+    "en": "Denim tote with bear charm. Available in 8 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en jean avec breloque ourson. Disponible en 8 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B021-01.webp",
+    "/catalog-img/bags/HB-B021-02.webp",
+    "/catalog-img/bags/HB-B021-03.webp",
+    "/catalog-img/bags/HB-B021-04.webp",
+    "/catalog-img/bags/HB-B021-05.webp",
+    "/catalog-img/bags/HB-B021-06.webp",
+    "/catalog-img/bags/HB-B021-07.webp",
+    "/catalog-img/bags/HB-B021-08.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B022",
+   "name": {
+    "en": "Printed beach tote with rope handles",
+    "fr": "Sac de plage imprimé à anses en corde"
+   },
+   "desc": {
+    "en": "Printed beach tote with rope handles. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac de plage imprimé à anses en corde. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B022-01.webp",
+    "/catalog-img/bags/HB-B022-02.webp",
+    "/catalog-img/bags/HB-B022-03.webp",
+    "/catalog-img/bags/HB-B022-04.webp",
+    "/catalog-img/bags/HB-B022-05.webp",
+    "/catalog-img/bags/HB-B022-06.webp",
+    "/catalog-img/bags/HB-B022-07.webp",
+    "/catalog-img/bags/HB-B022-08.webp",
+    "/catalog-img/bags/HB-B022-09.webp",
+    "/catalog-img/bags/HB-B022-10.webp",
+    "/catalog-img/bags/HB-B022-11.webp",
+    "/catalog-img/bags/HB-B022-12.webp",
+    "/catalog-img/bags/HB-B022-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B023",
+   "name": {
+    "en": "Quilted nylon tote",
+    "fr": "Sac cabas matelassé en nylon"
+   },
+   "desc": {
+    "en": "Quilted nylon tote. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas matelassé en nylon. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B023-01.webp",
+    "/catalog-img/bags/HB-B023-02.webp",
+    "/catalog-img/bags/HB-B023-03.webp",
+    "/catalog-img/bags/HB-B023-04.webp",
+    "/catalog-img/bags/HB-B023-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B025",
+   "name": {
+    "en": "Quilted bag with matching pouch",
+    "fr": "Sac matelassé avec pochette assortie"
+   },
+   "desc": {
+    "en": "Quilted bag with matching pouch. Available in 11 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac matelassé avec pochette assortie. Disponible en 11 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B025-01.webp",
+    "/catalog-img/bags/HB-B025-02.webp",
+    "/catalog-img/bags/HB-B025-03.webp",
+    "/catalog-img/bags/HB-B025-04.webp",
+    "/catalog-img/bags/HB-B025-05.webp",
+    "/catalog-img/bags/HB-B025-06.webp",
+    "/catalog-img/bags/HB-B025-07.webp",
+    "/catalog-img/bags/HB-B025-08.webp",
+    "/catalog-img/bags/HB-B025-09.webp",
+    "/catalog-img/bags/HB-B025-10.webp",
+    "/catalog-img/bags/HB-B025-11.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B027",
+   "name": {
+    "en": "Canvas tote with logo patch",
+    "fr": "Sac cabas en toile avec écusson"
+   },
+   "desc": {
+    "en": "Canvas tote with logo patch. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile avec écusson. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B027-01.webp",
+    "/catalog-img/bags/HB-B027-02.webp",
+    "/catalog-img/bags/HB-B027-03.webp",
+    "/catalog-img/bags/HB-B027-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B030",
+   "name": {
+    "en": "Checked-print tote bag",
+    "fr": "Sac cabas à carreaux"
+   },
+   "desc": {
+    "en": "Checked-print tote bag. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas à carreaux. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B030-01.webp",
+    "/catalog-img/bags/HB-B030-02.webp",
+    "/catalog-img/bags/HB-B030-03.webp",
+    "/catalog-img/bags/HB-B030-04.webp",
+    "/catalog-img/bags/HB-B030-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B031",
+   "name": {
+    "en": "Canvas tote with teddy charm and badges",
+    "fr": "Sac cabas en toile avec ourson et badges"
+   },
+   "desc": {
+    "en": "Canvas tote with teddy charm and badges. Available in 8 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile avec ourson et badges. Disponible en 8 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B031-01.webp",
+    "/catalog-img/bags/HB-B031-02.webp",
+    "/catalog-img/bags/HB-B031-03.webp",
+    "/catalog-img/bags/HB-B031-04.webp",
+    "/catalog-img/bags/HB-B031-05.webp",
+    "/catalog-img/bags/HB-B031-06.webp",
+    "/catalog-img/bags/HB-B031-07.webp",
+    "/catalog-img/bags/HB-B031-08.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B032",
+   "name": {
+    "en": "Shoulder tote with plush charm",
+    "fr": "Sac cabas avec breloque peluche"
+   },
+   "desc": {
+    "en": "Shoulder tote with plush charm. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas avec breloque peluche. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B032-01.webp",
+    "/catalog-img/bags/HB-B032-02.webp",
+    "/catalog-img/bags/HB-B032-03.webp",
+    "/catalog-img/bags/HB-B032-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B033",
+   "name": {
+    "en": "Printed canvas tote with teddy charm",
+    "fr": "Sac cabas en toile imprimée avec ourson"
+   },
+   "desc": {
+    "en": "Printed canvas tote with teddy charm. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile imprimée avec ourson. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B033-01.webp",
+    "/catalog-img/bags/HB-B033-02.webp",
+    "/catalog-img/bags/HB-B033-03.webp",
+    "/catalog-img/bags/HB-B033-04.webp",
+    "/catalog-img/bags/HB-B033-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B035",
+   "name": {
+    "en": "Top-handle flap bag",
+    "fr": "Sac à main à rabat"
+   },
+   "desc": {
+    "en": "Top-handle flap bag. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main à rabat. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B035-01.webp",
+    "/catalog-img/bags/HB-B035-02.webp",
+    "/catalog-img/bags/HB-B035-03.webp",
+    "/catalog-img/bags/HB-B035-04.webp",
+    "/catalog-img/bags/HB-B035-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B036",
+   "name": {
+    "en": "Two-tone top-handle bag",
+    "fr": "Sac à main bicolore"
+   },
+   "desc": {
+    "en": "Two-tone top-handle bag. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main bicolore. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B036-01.webp",
+    "/catalog-img/bags/HB-B036-02.webp",
+    "/catalog-img/bags/HB-B036-03.webp",
+    "/catalog-img/bags/HB-B036-04.webp",
+    "/catalog-img/bags/HB-B036-05.webp",
+    "/catalog-img/bags/HB-B036-06.webp",
+    "/catalog-img/bags/HB-B036-07.webp",
+    "/catalog-img/bags/HB-B036-08.webp",
+    "/catalog-img/bags/HB-B036-09.webp",
+    "/catalog-img/bags/HB-B036-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B037",
+   "name": {
+    "en": "Cartoon-print drawstring tote",
+    "fr": "Sac cabas à cordon imprimé dessin animé"
+   },
+   "desc": {
+    "en": "Cartoon-print drawstring tote. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas à cordon imprimé dessin animé. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B037-01.webp",
+    "/catalog-img/bags/HB-B037-02.webp",
+    "/catalog-img/bags/HB-B037-03.webp",
+    "/catalog-img/bags/HB-B037-04.webp",
+    "/catalog-img/bags/HB-B037-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B038",
+   "name": {
+    "en": "Leather tote with charm",
+    "fr": "Sac cabas en simili-cuir avec breloque"
+   },
+   "desc": {
+    "en": "Leather tote with charm. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en simili-cuir avec breloque. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B038-01.webp",
+    "/catalog-img/bags/HB-B038-02.webp",
+    "/catalog-img/bags/HB-B038-03.webp",
+    "/catalog-img/bags/HB-B038-04.webp",
+    "/catalog-img/bags/HB-B038-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B039",
+   "name": {
+    "en": "Animal-print tote bag",
+    "fr": "Sac cabas imprimé animal"
+   },
+   "desc": {
+    "en": "Animal-print tote bag. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas imprimé animal. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B039-01.webp",
+    "/catalog-img/bags/HB-B039-02.webp",
+    "/catalog-img/bags/HB-B039-03.webp",
+    "/catalog-img/bags/HB-B039-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B040",
+   "name": {
+    "en": "Tweed tote bag",
+    "fr": "Sac cabas en tweed"
+   },
+   "desc": {
+    "en": "Tweed tote bag. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en tweed. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B040-01.webp",
+    "/catalog-img/bags/HB-B040-02.webp",
+    "/catalog-img/bags/HB-B040-03.webp",
+    "/catalog-img/bags/HB-B040-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B042",
+   "name": {
+    "en": "Patent mini bowling bag",
+    "fr": "Mini sac bowling verni"
+   },
+   "desc": {
+    "en": "Patent mini bowling bag. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Mini sac bowling verni. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B042-01.webp",
+    "/catalog-img/bags/HB-B042-02.webp",
+    "/catalog-img/bags/HB-B042-03.webp",
+    "/catalog-img/bags/HB-B042-04.webp",
+    "/catalog-img/bags/HB-B042-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B044",
+   "name": {
+    "en": "Slogan-print canvas tote",
+    "fr": "Sac cabas en toile avec slogan"
+   },
+   "desc": {
+    "en": "Slogan-print canvas tote. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile avec slogan. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B044-01.webp",
+    "/catalog-img/bags/HB-B044-02.webp",
+    "/catalog-img/bags/HB-B044-03.webp",
+    "/catalog-img/bags/HB-B044-04.webp",
+    "/catalog-img/bags/HB-B044-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B045",
+   "name": {
+    "en": "Plush handbag with pompom chain",
+    "fr": "Sac en peluche avec chaîne à pompons"
+   },
+   "desc": {
+    "en": "Plush handbag with pompom chain. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac en peluche avec chaîne à pompons. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B045-01.webp",
+    "/catalog-img/bags/HB-B045-02.webp",
+    "/catalog-img/bags/HB-B045-03.webp",
+    "/catalog-img/bags/HB-B045-04.webp",
+    "/catalog-img/bags/HB-B045-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B046",
+   "name": {
+    "en": "Half-moon shoulder bag",
+    "fr": "Sac porté épaule demi-lune"
+   },
+   "desc": {
+    "en": "Half-moon shoulder bag. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac porté épaule demi-lune. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B046-01.webp",
+    "/catalog-img/bags/HB-B046-02.webp",
+    "/catalog-img/bags/HB-B046-03.webp",
+    "/catalog-img/bags/HB-B046-04.webp",
+    "/catalog-img/bags/HB-B046-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B047",
+   "name": {
+    "en": "Pleated shoulder bag",
+    "fr": "Sac porté épaule plissé"
+   },
+   "desc": {
+    "en": "Pleated shoulder bag. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac porté épaule plissé. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B047-01.webp",
+    "/catalog-img/bags/HB-B047-02.webp",
+    "/catalog-img/bags/HB-B047-03.webp",
+    "/catalog-img/bags/HB-B047-04.webp",
+    "/catalog-img/bags/HB-B047-05.webp",
+    "/catalog-img/bags/HB-B047-06.webp",
+    "/catalog-img/bags/HB-B047-07.webp",
+    "/catalog-img/bags/HB-B047-08.webp",
+    "/catalog-img/bags/HB-B047-09.webp",
+    "/catalog-img/bags/HB-B047-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B048",
+   "name": {
+    "en": "Mini crossbody bag with pouch",
+    "fr": "Mini sac bandoulière avec pochette"
+   },
+   "desc": {
+    "en": "Mini crossbody bag with pouch. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Mini sac bandoulière avec pochette. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B048-01.webp",
+    "/catalog-img/bags/HB-B048-02.webp",
+    "/catalog-img/bags/HB-B048-03.webp",
+    "/catalog-img/bags/HB-B048-04.webp",
+    "/catalog-img/bags/HB-B048-05.webp",
+    "/catalog-img/bags/HB-B048-06.webp",
+    "/catalog-img/bags/HB-B048-07.webp",
+    "/catalog-img/bags/HB-B048-08.webp",
+    "/catalog-img/bags/HB-B048-09.webp",
+    "/catalog-img/bags/HB-B048-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B049",
+   "name": {
+    "en": "Slouchy mini hobo bag",
+    "fr": "Mini sac hobo souple"
+   },
+   "desc": {
+    "en": "Slouchy mini hobo bag. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Mini sac hobo souple. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B049-01.webp",
+    "/catalog-img/bags/HB-B049-02.webp",
+    "/catalog-img/bags/HB-B049-03.webp",
+    "/catalog-img/bags/HB-B049-04.webp",
+    "/catalog-img/bags/HB-B049-05.webp",
+    "/catalog-img/bags/HB-B049-06.webp",
+    "/catalog-img/bags/HB-B049-07.webp",
+    "/catalog-img/bags/HB-B049-08.webp",
+    "/catalog-img/bags/HB-B049-09.webp",
+    "/catalog-img/bags/HB-B049-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B050",
+   "name": {
+    "en": "Faux fur tote bag (33×25 cm)",
+    "fr": "Sac cabas en fausse fourrure (33×25 cm)"
+   },
+   "desc": {
+    "en": "Faux fur tote bag (33×25 cm). Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en fausse fourrure (33×25 cm). Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B050-01.webp",
+    "/catalog-img/bags/HB-B050-02.webp",
+    "/catalog-img/bags/HB-B050-03.webp",
+    "/catalog-img/bags/HB-B050-04.webp",
+    "/catalog-img/bags/HB-B050-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B051",
+   "name": {
+    "en": "Mini top-handle flap bag",
+    "fr": "Mini sac à main à rabat"
+   },
+   "desc": {
+    "en": "Mini top-handle flap bag. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Mini sac à main à rabat. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B051-01.webp",
+    "/catalog-img/bags/HB-B051-02.webp",
+    "/catalog-img/bags/HB-B051-03.webp",
+    "/catalog-img/bags/HB-B051-04.webp",
+    "/catalog-img/bags/HB-B051-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B052",
+   "name": {
+    "en": "Pompom faux fur tote",
+    "fr": "Sac cabas en fausse fourrure à pompons"
+   },
+   "desc": {
+    "en": "Pompom faux fur tote. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en fausse fourrure à pompons. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B052-01.webp",
+    "/catalog-img/bags/HB-B052-02.webp",
+    "/catalog-img/bags/HB-B052-03.webp",
+    "/catalog-img/bags/HB-B052-04.webp",
+    "/catalog-img/bags/HB-B052-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B053",
+   "name": {
+    "en": "Top-handle bag with lock and scarf",
+    "fr": "Sac à main à cadenas et foulard"
+   },
+   "desc": {
+    "en": "Top-handle bag with lock and scarf. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main à cadenas et foulard. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B053-01.webp",
+    "/catalog-img/bags/HB-B053-02.webp",
+    "/catalog-img/bags/HB-B053-03.webp",
+    "/catalog-img/bags/HB-B053-04.webp",
+    "/catalog-img/bags/HB-B053-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B055",
+   "name": {
+    "en": "Dome bag with cherry charm",
+    "fr": "Sac dôme avec breloque cerises"
+   },
+   "desc": {
+    "en": "Dome bag with cherry charm. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac dôme avec breloque cerises. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B055-01.webp",
+    "/catalog-img/bags/HB-B055-02.webp",
+    "/catalog-img/bags/HB-B055-03.webp",
+    "/catalog-img/bags/HB-B055-04.webp",
+    "/catalog-img/bags/HB-B055-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B057",
+   "name": {
+    "en": "Barrel shoulder bag",
+    "fr": "Sac baril porté épaule"
+   },
+   "desc": {
+    "en": "Barrel shoulder bag. Available in 11 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac baril porté épaule. Disponible en 11 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B057-01.webp",
+    "/catalog-img/bags/HB-B057-02.webp",
+    "/catalog-img/bags/HB-B057-03.webp",
+    "/catalog-img/bags/HB-B057-04.webp",
+    "/catalog-img/bags/HB-B057-05.webp",
+    "/catalog-img/bags/HB-B057-06.webp",
+    "/catalog-img/bags/HB-B057-07.webp",
+    "/catalog-img/bags/HB-B057-08.webp",
+    "/catalog-img/bags/HB-B057-09.webp",
+    "/catalog-img/bags/HB-B057-10.webp",
+    "/catalog-img/bags/HB-B057-11.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B058",
+   "name": {
+    "en": "Plush tote with pompom handles",
+    "fr": "Sac cabas en peluche à anses pompons"
+   },
+   "desc": {
+    "en": "Plush tote with pompom handles. Available in 6 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en peluche à anses pompons. Disponible en 6 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B058-01.webp",
+    "/catalog-img/bags/HB-B058-02.webp",
+    "/catalog-img/bags/HB-B058-03.webp",
+    "/catalog-img/bags/HB-B058-04.webp",
+    "/catalog-img/bags/HB-B058-05.webp",
+    "/catalog-img/bags/HB-B058-06.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B060",
+   "name": {
+    "en": "Tote bag with teddy charm",
+    "fr": "Sac cabas avec breloque ourson"
+   },
+   "desc": {
+    "en": "Tote bag with teddy charm. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas avec breloque ourson. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B060-01.webp",
+    "/catalog-img/bags/HB-B060-02.webp",
+    "/catalog-img/bags/HB-B060-03.webp",
+    "/catalog-img/bags/HB-B060-04.webp",
+    "/catalog-img/bags/HB-B060-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B061",
+   "name": {
+    "en": "Canvas and leather tote",
+    "fr": "Sac cabas toile et simili-cuir"
+   },
+   "desc": {
+    "en": "Canvas and leather tote. Available in 2 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas toile et simili-cuir. Disponible en 2 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B061-01.webp",
+    "/catalog-img/bags/HB-B061-02.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B063",
+   "name": {
+    "en": "Faux fur mini bag",
+    "fr": "Mini sac en fausse fourrure"
+   },
+   "desc": {
+    "en": "Faux fur mini bag. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Mini sac en fausse fourrure. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B063-01.webp",
+    "/catalog-img/bags/HB-B063-02.webp",
+    "/catalog-img/bags/HB-B063-03.webp",
+    "/catalog-img/bags/HB-B063-04.webp",
+    "/catalog-img/bags/HB-B063-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B064",
+   "name": {
+    "en": "Leather tote bag",
+    "fr": "Sac cabas en simili-cuir"
+   },
+   "desc": {
+    "en": "Leather tote bag. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en simili-cuir. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B064-01.webp",
+    "/catalog-img/bags/HB-B064-02.webp",
+    "/catalog-img/bags/HB-B064-03.webp",
+    "/catalog-img/bags/HB-B064-04.webp",
+    "/catalog-img/bags/HB-B064-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B065",
+   "name": {
+    "en": "Tote with chain trim",
+    "fr": "Sac cabas à garniture chaîne"
+   },
+   "desc": {
+    "en": "Tote with chain trim. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas à garniture chaîne. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B065-01.webp",
+    "/catalog-img/bags/HB-B065-02.webp",
+    "/catalog-img/bags/HB-B065-03.webp",
+    "/catalog-img/bags/HB-B065-04.webp",
+    "/catalog-img/bags/HB-B065-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B066",
+   "name": {
+    "en": "Textured tote with teddy charm",
+    "fr": "Sac cabas texturé avec ourson"
+   },
+   "desc": {
+    "en": "Textured tote with teddy charm. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas texturé avec ourson. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B066-01.webp",
+    "/catalog-img/bags/HB-B066-02.webp",
+    "/catalog-img/bags/HB-B066-03.webp",
+    "/catalog-img/bags/HB-B066-04.webp",
+    "/catalog-img/bags/HB-B066-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B067",
+   "name": {
+    "en": "Leather tote with bear charm",
+    "fr": "Sac cabas en simili-cuir avec ourson"
+   },
+   "desc": {
+    "en": "Leather tote with bear charm. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en simili-cuir avec ourson. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B067-01.webp",
+    "/catalog-img/bags/HB-B067-02.webp",
+    "/catalog-img/bags/HB-B067-03.webp",
+    "/catalog-img/bags/HB-B067-04.webp",
+    "/catalog-img/bags/HB-B067-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B071",
+   "name": {
+    "en": "Two-tone tote bag",
+    "fr": "Sac cabas bicolore"
+   },
+   "desc": {
+    "en": "Two-tone tote bag. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas bicolore. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B071-01.webp",
+    "/catalog-img/bags/HB-B071-02.webp",
+    "/catalog-img/bags/HB-B071-03.webp",
+    "/catalog-img/bags/HB-B071-04.webp",
+    "/catalog-img/bags/HB-B071-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B073",
+   "name": {
+    "en": "Quilted tote assortment",
+    "fr": "Assortiment de sacs cabas matelassés"
+   },
+   "desc": {
+    "en": "Quilted tote assortment. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Assortiment de sacs cabas matelassés. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B073-01.webp",
+    "/catalog-img/bags/HB-B073-02.webp",
+    "/catalog-img/bags/HB-B073-03.webp",
+    "/catalog-img/bags/HB-B073-04.webp",
+    "/catalog-img/bags/HB-B073-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B074",
+   "name": {
+    "en": "Mini top-handle bag with buckle",
+    "fr": "Mini sac à main à boucle"
+   },
+   "desc": {
+    "en": "Mini top-handle bag with buckle. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Mini sac à main à boucle. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B074-01.webp",
+    "/catalog-img/bags/HB-B074-02.webp",
+    "/catalog-img/bags/HB-B074-03.webp",
+    "/catalog-img/bags/HB-B074-04.webp",
+    "/catalog-img/bags/HB-B074-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B075",
+   "name": {
+    "en": "Woven straw-look tote",
+    "fr": "Sac cabas tressé effet paille"
+   },
+   "desc": {
+    "en": "Woven straw-look tote. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas tressé effet paille. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B075-01.webp",
+    "/catalog-img/bags/HB-B075-02.webp",
+    "/catalog-img/bags/HB-B075-03.webp",
+    "/catalog-img/bags/HB-B075-04.webp",
+    "/catalog-img/bags/HB-B075-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B080",
+   "name": {
+    "en": "Mini top-handle bag set",
+    "fr": "Ensemble mini sacs à main"
+   },
+   "desc": {
+    "en": "Mini top-handle bag set. Contact us for colours, availability and pricing.",
+    "fr": "Ensemble mini sacs à main. Contactez-nous pour les couleurs, la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B080-01.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B081",
+   "name": {
+    "en": "Leather tote with bear charm",
+    "fr": "Sac cabas en simili-cuir avec ourson"
+   },
+   "desc": {
+    "en": "Leather tote with bear charm. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en simili-cuir avec ourson. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B081-01.webp",
+    "/catalog-img/bags/HB-B081-02.webp",
+    "/catalog-img/bags/HB-B081-03.webp",
+    "/catalog-img/bags/HB-B081-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B082",
+   "name": {
+    "en": "Large leather tote bag",
+    "fr": "Grand sac cabas en simili-cuir"
+   },
+   "desc": {
+    "en": "Large leather tote bag. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Grand sac cabas en simili-cuir. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B082-01.webp",
+    "/catalog-img/bags/HB-B082-02.webp",
+    "/catalog-img/bags/HB-B082-03.webp",
+    "/catalog-img/bags/HB-B082-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B083",
+   "name": {
+    "en": "Leather shoulder tote",
+    "fr": "Sac cabas épaule en simili-cuir"
+   },
+   "desc": {
+    "en": "Leather shoulder tote. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas épaule en simili-cuir. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B083-01.webp",
+    "/catalog-img/bags/HB-B083-02.webp",
+    "/catalog-img/bags/HB-B083-03.webp",
+    "/catalog-img/bags/HB-B083-04.webp",
+    "/catalog-img/bags/HB-B083-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B084",
+   "name": {
+    "en": "Soft leather tote",
+    "fr": "Sac cabas souple en simili-cuir"
+   },
+   "desc": {
+    "en": "Soft leather tote. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas souple en simili-cuir. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B084-01.webp",
+    "/catalog-img/bags/HB-B084-02.webp",
+    "/catalog-img/bags/HB-B084-03.webp",
+    "/catalog-img/bags/HB-B084-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B085",
+   "name": {
+    "en": "Soft tote with plush charm",
+    "fr": "Sac cabas souple avec peluche"
+   },
+   "desc": {
+    "en": "Soft tote with plush charm. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas souple avec peluche. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B085-01.webp",
+    "/catalog-img/bags/HB-B085-02.webp",
+    "/catalog-img/bags/HB-B085-03.webp",
+    "/catalog-img/bags/HB-B085-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B086",
+   "name": {
+    "en": "Faux fur handbag",
+    "fr": "Sac à main en fausse fourrure"
+   },
+   "desc": {
+    "en": "Faux fur handbag. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main en fausse fourrure. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B086-01.webp",
+    "/catalog-img/bags/HB-B086-02.webp",
+    "/catalog-img/bags/HB-B086-03.webp",
+    "/catalog-img/bags/HB-B086-04.webp",
+    "/catalog-img/bags/HB-B086-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B087",
+   "name": {
+    "en": "Leather tote with pompom charm",
+    "fr": "Sac cabas en simili-cuir avec pompon"
+   },
+   "desc": {
+    "en": "Leather tote with pompom charm. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en simili-cuir avec pompon. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B087-01.webp",
+    "/catalog-img/bags/HB-B087-02.webp",
+    "/catalog-img/bags/HB-B087-03.webp",
+    "/catalog-img/bags/HB-B087-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B089",
+   "name": {
+    "en": "Bucket bag with bear charm",
+    "fr": "Sac seau avec breloque ourson"
+   },
+   "desc": {
+    "en": "Bucket bag with bear charm. Available in 4 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac seau avec breloque ourson. Disponible en 4 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B089-01.webp",
+    "/catalog-img/bags/HB-B089-02.webp",
+    "/catalog-img/bags/HB-B089-03.webp",
+    "/catalog-img/bags/HB-B089-04.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B092",
+   "name": {
+    "en": "Mini dome handbag",
+    "fr": "Mini sac dôme"
+   },
+   "desc": {
+    "en": "Mini dome handbag. Available in 6 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Mini sac dôme. Disponible en 6 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B092-01.webp",
+    "/catalog-img/bags/HB-B092-02.webp",
+    "/catalog-img/bags/HB-B092-03.webp",
+    "/catalog-img/bags/HB-B092-04.webp",
+    "/catalog-img/bags/HB-B092-05.webp",
+    "/catalog-img/bags/HB-B092-06.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B093",
+   "name": {
+    "en": "Canvas tote with lettered strap",
+    "fr": "Sac cabas en toile à bandoulière lettrée"
+   },
+   "desc": {
+    "en": "Canvas tote with lettered strap. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile à bandoulière lettrée. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B093-01.webp",
+    "/catalog-img/bags/HB-B093-02.webp",
+    "/catalog-img/bags/HB-B093-03.webp",
+    "/catalog-img/bags/HB-B093-04.webp",
+    "/catalog-img/bags/HB-B093-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B094",
+   "name": {
+    "en": "Canvas tote with embroidered bear",
+    "fr": "Sac cabas en toile brodé ourson"
+   },
+   "desc": {
+    "en": "Canvas tote with embroidered bear. Available in 8 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en toile brodé ourson. Disponible en 8 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B094-01.webp",
+    "/catalog-img/bags/HB-B094-02.webp",
+    "/catalog-img/bags/HB-B094-03.webp",
+    "/catalog-img/bags/HB-B094-04.webp",
+    "/catalog-img/bags/HB-B094-05.webp",
+    "/catalog-img/bags/HB-B094-06.webp",
+    "/catalog-img/bags/HB-B094-07.webp",
+    "/catalog-img/bags/HB-B094-08.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B095",
+   "name": {
+    "en": "Two-tone leather tote",
+    "fr": "Sac cabas bicolore en simili-cuir"
+   },
+   "desc": {
+    "en": "Two-tone leather tote. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas bicolore en simili-cuir. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B095-01.webp",
+    "/catalog-img/bags/HB-B095-02.webp",
+    "/catalog-img/bags/HB-B095-03.webp",
+    "/catalog-img/bags/HB-B095-04.webp",
+    "/catalog-img/bags/HB-B095-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B096",
+   "name": {
+    "en": "Ribbed knit handbag",
+    "fr": "Sac à main en maille côtelée"
+   },
+   "desc": {
+    "en": "Ribbed knit handbag. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main en maille côtelée. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B096-01.webp",
+    "/catalog-img/bags/HB-B096-02.webp",
+    "/catalog-img/bags/HB-B096-03.webp",
+    "/catalog-img/bags/HB-B096-04.webp",
+    "/catalog-img/bags/HB-B096-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B097",
+   "name": {
+    "en": "Faux fur bag and hat set",
+    "fr": "Ensemble sac et chapeau en fausse fourrure"
+   },
+   "desc": {
+    "en": "Faux fur bag and hat set. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Ensemble sac et chapeau en fausse fourrure. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B097-01.webp",
+    "/catalog-img/bags/HB-B097-02.webp",
+    "/catalog-img/bags/HB-B097-03.webp",
+    "/catalog-img/bags/HB-B097-04.webp",
+    "/catalog-img/bags/HB-B097-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B099",
+   "name": {
+    "en": "Faux fur bag and hat set",
+    "fr": "Ensemble sac et chapeau en fausse fourrure"
+   },
+   "desc": {
+    "en": "Faux fur bag and hat set. Available in 9 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Ensemble sac et chapeau en fausse fourrure. Disponible en 9 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B099-01.webp",
+    "/catalog-img/bags/HB-B099-02.webp",
+    "/catalog-img/bags/HB-B099-03.webp",
+    "/catalog-img/bags/HB-B099-04.webp",
+    "/catalog-img/bags/HB-B099-05.webp",
+    "/catalog-img/bags/HB-B099-06.webp",
+    "/catalog-img/bags/HB-B099-07.webp",
+    "/catalog-img/bags/HB-B099-08.webp",
+    "/catalog-img/bags/HB-B099-09.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B100",
+   "name": {
+    "en": "Heart faux fur tote and bucket hat set",
+    "fr": "Ensemble sac cœur et bob en fausse fourrure"
+   },
+   "desc": {
+    "en": "Heart faux fur tote and bucket hat set. Available in 5 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Ensemble sac cœur et bob en fausse fourrure. Disponible en 5 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B100-01.webp",
+    "/catalog-img/bags/HB-B100-02.webp",
+    "/catalog-img/bags/HB-B100-03.webp",
+    "/catalog-img/bags/HB-B100-04.webp",
+    "/catalog-img/bags/HB-B100-05.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B101",
+   "name": {
+    "en": "“Summer” gradient beach tote",
+    "fr": "Sac de plage dégradé « Summer »"
+   },
+   "desc": {
+    "en": "“Summer” gradient beach tote. Available in 7 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac de plage dégradé « Summer ». Disponible en 7 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B101-01.webp",
+    "/catalog-img/bags/HB-B101-02.webp",
+    "/catalog-img/bags/HB-B101-03.webp",
+    "/catalog-img/bags/HB-B101-04.webp",
+    "/catalog-img/bags/HB-B101-05.webp",
+    "/catalog-img/bags/HB-B101-06.webp",
+    "/catalog-img/bags/HB-B101-07.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B103",
+   "name": {
+    "en": "Chain shoulder flap bag",
+    "fr": "Sac épaule à rabat avec chaîne"
+   },
+   "desc": {
+    "en": "Chain shoulder flap bag. Available in 8 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac épaule à rabat avec chaîne. Disponible en 8 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B103-01.webp",
+    "/catalog-img/bags/HB-B103-02.webp",
+    "/catalog-img/bags/HB-B103-03.webp",
+    "/catalog-img/bags/HB-B103-04.webp",
+    "/catalog-img/bags/HB-B103-05.webp",
+    "/catalog-img/bags/HB-B103-06.webp",
+    "/catalog-img/bags/HB-B103-07.webp",
+    "/catalog-img/bags/HB-B103-08.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B105",
+   "name": {
+    "en": "Structured top-handle bag",
+    "fr": "Sac à main structuré"
+   },
+   "desc": {
+    "en": "Structured top-handle bag. Available in 9 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main structuré. Disponible en 9 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B105-01.webp",
+    "/catalog-img/bags/HB-B105-02.webp",
+    "/catalog-img/bags/HB-B105-03.webp",
+    "/catalog-img/bags/HB-B105-04.webp",
+    "/catalog-img/bags/HB-B105-05.webp",
+    "/catalog-img/bags/HB-B105-06.webp",
+    "/catalog-img/bags/HB-B105-07.webp",
+    "/catalog-img/bags/HB-B105-08.webp",
+    "/catalog-img/bags/HB-B105-09.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B107",
+   "name": {
+    "en": "Flap clutch with buckle",
+    "fr": "Pochette à rabat avec boucle"
+   },
+   "desc": {
+    "en": "Flap clutch with buckle. Available in 9 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Pochette à rabat avec boucle. Disponible en 9 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B107-01.webp",
+    "/catalog-img/bags/HB-B107-02.webp",
+    "/catalog-img/bags/HB-B107-03.webp",
+    "/catalog-img/bags/HB-B107-04.webp",
+    "/catalog-img/bags/HB-B107-05.webp",
+    "/catalog-img/bags/HB-B107-06.webp",
+    "/catalog-img/bags/HB-B107-07.webp",
+    "/catalog-img/bags/HB-B107-08.webp",
+    "/catalog-img/bags/HB-B107-09.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B110",
+   "name": {
+    "en": "Two-tone top-handle bag with lock",
+    "fr": "Sac à main bicolore à cadenas"
+   },
+   "desc": {
+    "en": "Two-tone top-handle bag with lock. Available in 9 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main bicolore à cadenas. Disponible en 9 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B110-01.webp",
+    "/catalog-img/bags/HB-B110-02.webp",
+    "/catalog-img/bags/HB-B110-03.webp",
+    "/catalog-img/bags/HB-B110-04.webp",
+    "/catalog-img/bags/HB-B110-05.webp",
+    "/catalog-img/bags/HB-B110-06.webp",
+    "/catalog-img/bags/HB-B110-07.webp",
+    "/catalog-img/bags/HB-B110-08.webp",
+    "/catalog-img/bags/HB-B110-09.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B111",
+   "name": {
+    "en": "Patent top-handle bag with lock",
+    "fr": "Sac à main verni à cadenas"
+   },
+   "desc": {
+    "en": "Patent top-handle bag with lock. Available in 12 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main verni à cadenas. Disponible en 12 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B111-01.webp",
+    "/catalog-img/bags/HB-B111-02.webp",
+    "/catalog-img/bags/HB-B111-03.webp",
+    "/catalog-img/bags/HB-B111-04.webp",
+    "/catalog-img/bags/HB-B111-05.webp",
+    "/catalog-img/bags/HB-B111-06.webp",
+    "/catalog-img/bags/HB-B111-07.webp",
+    "/catalog-img/bags/HB-B111-08.webp",
+    "/catalog-img/bags/HB-B111-09.webp",
+    "/catalog-img/bags/HB-B111-10.webp",
+    "/catalog-img/bags/HB-B111-11.webp",
+    "/catalog-img/bags/HB-B111-12.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B117",
+   "name": {
+    "en": "Mini dome handbag",
+    "fr": "Mini sac dôme"
+   },
+   "desc": {
+    "en": "Mini dome handbag. Available in 6 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Mini sac dôme. Disponible en 6 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B117-01.webp",
+    "/catalog-img/bags/HB-B117-02.webp",
+    "/catalog-img/bags/HB-B117-03.webp",
+    "/catalog-img/bags/HB-B117-04.webp",
+    "/catalog-img/bags/HB-B117-05.webp",
+    "/catalog-img/bags/HB-B117-06.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B118",
+   "name": {
+    "en": "Woven vanity box bag with chain",
+    "fr": "Sac vanity tressé avec chaîne"
+   },
+   "desc": {
+    "en": "Woven vanity box bag with chain. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac vanity tressé avec chaîne. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B118-01.webp",
+    "/catalog-img/bags/HB-B118-02.webp",
+    "/catalog-img/bags/HB-B118-03.webp",
+    "/catalog-img/bags/HB-B118-04.webp",
+    "/catalog-img/bags/HB-B118-05.webp",
+    "/catalog-img/bags/HB-B118-06.webp",
+    "/catalog-img/bags/HB-B118-07.webp",
+    "/catalog-img/bags/HB-B118-08.webp",
+    "/catalog-img/bags/HB-B118-09.webp",
+    "/catalog-img/bags/HB-B118-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B119",
+   "name": {
+    "en": "Vanity box bag",
+    "fr": "Sac vanity"
+   },
+   "desc": {
+    "en": "Vanity box bag. Available in 8 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac vanity. Disponible en 8 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B119-01.webp",
+    "/catalog-img/bags/HB-B119-02.webp",
+    "/catalog-img/bags/HB-B119-03.webp",
+    "/catalog-img/bags/HB-B119-04.webp",
+    "/catalog-img/bags/HB-B119-05.webp",
+    "/catalog-img/bags/HB-B119-06.webp",
+    "/catalog-img/bags/HB-B119-07.webp",
+    "/catalog-img/bags/HB-B119-08.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B120",
+   "name": {
+    "en": "Straw beach tote and sun hat set",
+    "fr": "Ensemble sac de plage et chapeau de paille"
+   },
+   "desc": {
+    "en": "Straw beach tote and sun hat set. Available in 11 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Ensemble sac de plage et chapeau de paille. Disponible en 11 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B120-01.webp",
+    "/catalog-img/bags/HB-B120-02.webp",
+    "/catalog-img/bags/HB-B120-03.webp",
+    "/catalog-img/bags/HB-B120-04.webp",
+    "/catalog-img/bags/HB-B120-05.webp",
+    "/catalog-img/bags/HB-B120-06.webp",
+    "/catalog-img/bags/HB-B120-07.webp",
+    "/catalog-img/bags/HB-B120-08.webp",
+    "/catalog-img/bags/HB-B120-09.webp",
+    "/catalog-img/bags/HB-B120-10.webp",
+    "/catalog-img/bags/HB-B120-11.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B121",
+   "name": {
+    "en": "Faux fur bag and hat set",
+    "fr": "Ensemble sac et chapeau en fausse fourrure"
+   },
+   "desc": {
+    "en": "Faux fur bag and hat set. Available in 7 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Ensemble sac et chapeau en fausse fourrure. Disponible en 7 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B121-01.webp",
+    "/catalog-img/bags/HB-B121-02.webp",
+    "/catalog-img/bags/HB-B121-03.webp",
+    "/catalog-img/bags/HB-B121-04.webp",
+    "/catalog-img/bags/HB-B121-05.webp",
+    "/catalog-img/bags/HB-B121-06.webp",
+    "/catalog-img/bags/HB-B121-07.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B131",
+   "name": {
+    "en": "Leather tote with chain straps",
+    "fr": "Sac cabas en simili-cuir à anses chaîne"
+   },
+   "desc": {
+    "en": "Leather tote with chain straps. Available in 9 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac cabas en simili-cuir à anses chaîne. Disponible en 9 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B131-01.webp",
+    "/catalog-img/bags/HB-B131-02.webp",
+    "/catalog-img/bags/HB-B131-03.webp",
+    "/catalog-img/bags/HB-B131-04.webp",
+    "/catalog-img/bags/HB-B131-05.webp",
+    "/catalog-img/bags/HB-B131-06.webp",
+    "/catalog-img/bags/HB-B131-07.webp",
+    "/catalog-img/bags/HB-B131-08.webp",
+    "/catalog-img/bags/HB-B131-09.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B132",
+   "name": {
+    "en": "Mini bag with ring handle",
+    "fr": "Mini sac à anse anneau"
+   },
+   "desc": {
+    "en": "Mini bag with ring handle. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Mini sac à anse anneau. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B132-01.webp",
+    "/catalog-img/bags/HB-B132-02.webp",
+    "/catalog-img/bags/HB-B132-03.webp",
+    "/catalog-img/bags/HB-B132-04.webp",
+    "/catalog-img/bags/HB-B132-05.webp",
+    "/catalog-img/bags/HB-B132-06.webp",
+    "/catalog-img/bags/HB-B132-07.webp",
+    "/catalog-img/bags/HB-B132-08.webp",
+    "/catalog-img/bags/HB-B132-09.webp",
+    "/catalog-img/bags/HB-B132-10.webp",
+    "/catalog-img/bags/HB-B132-11.webp",
+    "/catalog-img/bags/HB-B132-12.webp",
+    "/catalog-img/bags/HB-B132-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B133",
+   "name": {
+    "en": "Top-handle bag with metal plate",
+    "fr": "Sac à main avec plaque métallique"
+   },
+   "desc": {
+    "en": "Top-handle bag with metal plate. Available in 12 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main avec plaque métallique. Disponible en 12 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B133-01.webp",
+    "/catalog-img/bags/HB-B133-02.webp",
+    "/catalog-img/bags/HB-B133-03.webp",
+    "/catalog-img/bags/HB-B133-04.webp",
+    "/catalog-img/bags/HB-B133-05.webp",
+    "/catalog-img/bags/HB-B133-06.webp",
+    "/catalog-img/bags/HB-B133-07.webp",
+    "/catalog-img/bags/HB-B133-08.webp",
+    "/catalog-img/bags/HB-B133-09.webp",
+    "/catalog-img/bags/HB-B133-10.webp",
+    "/catalog-img/bags/HB-B133-11.webp",
+    "/catalog-img/bags/HB-B133-12.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B134",
+   "name": {
+    "en": "Slouchy bag with ring handle",
+    "fr": "Sac souple à anse anneau"
+   },
+   "desc": {
+    "en": "Slouchy bag with ring handle. Available in 12 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac souple à anse anneau. Disponible en 12 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B134-01.webp",
+    "/catalog-img/bags/HB-B134-02.webp",
+    "/catalog-img/bags/HB-B134-03.webp",
+    "/catalog-img/bags/HB-B134-04.webp",
+    "/catalog-img/bags/HB-B134-05.webp",
+    "/catalog-img/bags/HB-B134-06.webp",
+    "/catalog-img/bags/HB-B134-07.webp",
+    "/catalog-img/bags/HB-B134-08.webp",
+    "/catalog-img/bags/HB-B134-09.webp",
+    "/catalog-img/bags/HB-B134-10.webp",
+    "/catalog-img/bags/HB-B134-11.webp",
+    "/catalog-img/bags/HB-B134-12.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B135",
+   "name": {
+    "en": "Top-handle bag with matching pouch",
+    "fr": "Sac à main avec pochette assortie"
+   },
+   "desc": {
+    "en": "Top-handle bag with matching pouch. Available in 9 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main avec pochette assortie. Disponible en 9 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B135-01.webp",
+    "/catalog-img/bags/HB-B135-02.webp",
+    "/catalog-img/bags/HB-B135-03.webp",
+    "/catalog-img/bags/HB-B135-04.webp",
+    "/catalog-img/bags/HB-B135-05.webp",
+    "/catalog-img/bags/HB-B135-06.webp",
+    "/catalog-img/bags/HB-B135-07.webp",
+    "/catalog-img/bags/HB-B135-08.webp",
+    "/catalog-img/bags/HB-B135-09.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B136",
+   "name": {
+    "en": "Embossed top-handle handbag",
+    "fr": "Sac à main embossé"
+   },
+   "desc": {
+    "en": "Embossed top-handle handbag. Available in 12 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main embossé. Disponible en 12 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B136-01.webp",
+    "/catalog-img/bags/HB-B136-02.webp",
+    "/catalog-img/bags/HB-B136-03.webp",
+    "/catalog-img/bags/HB-B136-04.webp",
+    "/catalog-img/bags/HB-B136-05.webp",
+    "/catalog-img/bags/HB-B136-06.webp",
+    "/catalog-img/bags/HB-B136-07.webp",
+    "/catalog-img/bags/HB-B136-08.webp",
+    "/catalog-img/bags/HB-B136-09.webp",
+    "/catalog-img/bags/HB-B136-10.webp",
+    "/catalog-img/bags/HB-B136-11.webp",
+    "/catalog-img/bags/HB-B136-12.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B137",
+   "name": {
+    "en": "Studded flap crossbody bag",
+    "fr": "Sac bandoulière à rabat clouté"
+   },
+   "desc": {
+    "en": "Studded flap crossbody bag. Available in 12 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac bandoulière à rabat clouté. Disponible en 12 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B137-01.webp",
+    "/catalog-img/bags/HB-B137-02.webp",
+    "/catalog-img/bags/HB-B137-03.webp",
+    "/catalog-img/bags/HB-B137-04.webp",
+    "/catalog-img/bags/HB-B137-05.webp",
+    "/catalog-img/bags/HB-B137-06.webp",
+    "/catalog-img/bags/HB-B137-07.webp",
+    "/catalog-img/bags/HB-B137-08.webp",
+    "/catalog-img/bags/HB-B137-09.webp",
+    "/catalog-img/bags/HB-B137-10.webp",
+    "/catalog-img/bags/HB-B137-11.webp",
+    "/catalog-img/bags/HB-B137-12.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B138",
+   "name": {
+    "en": "Top-handle flap bag with strap",
+    "fr": "Sac à main à rabat avec bandoulière"
+   },
+   "desc": {
+    "en": "Top-handle flap bag with strap. Available in 12 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main à rabat avec bandoulière. Disponible en 12 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B138-01.webp",
+    "/catalog-img/bags/HB-B138-02.webp",
+    "/catalog-img/bags/HB-B138-03.webp",
+    "/catalog-img/bags/HB-B138-04.webp",
+    "/catalog-img/bags/HB-B138-05.webp",
+    "/catalog-img/bags/HB-B138-06.webp",
+    "/catalog-img/bags/HB-B138-07.webp",
+    "/catalog-img/bags/HB-B138-08.webp",
+    "/catalog-img/bags/HB-B138-09.webp",
+    "/catalog-img/bags/HB-B138-10.webp",
+    "/catalog-img/bags/HB-B138-11.webp",
+    "/catalog-img/bags/HB-B138-12.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B139",
+   "name": {
+    "en": "Mini handbag assortment",
+    "fr": "Assortiment de mini sacs à main"
+   },
+   "desc": {
+    "en": "Mini handbag assortment. Available in 14 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Assortiment de mini sacs à main. Disponible en 14 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B139-01.webp",
+    "/catalog-img/bags/HB-B139-02.webp",
+    "/catalog-img/bags/HB-B139-03.webp",
+    "/catalog-img/bags/HB-B139-04.webp",
+    "/catalog-img/bags/HB-B139-05.webp",
+    "/catalog-img/bags/HB-B139-06.webp",
+    "/catalog-img/bags/HB-B139-07.webp",
+    "/catalog-img/bags/HB-B139-08.webp",
+    "/catalog-img/bags/HB-B139-09.webp",
+    "/catalog-img/bags/HB-B139-10.webp",
+    "/catalog-img/bags/HB-B139-11.webp",
+    "/catalog-img/bags/HB-B139-12.webp",
+    "/catalog-img/bags/HB-B139-13.webp",
+    "/catalog-img/bags/HB-B139-14.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B140",
+   "name": {
+    "en": "Polka-dot half-moon bag",
+    "fr": "Sac demi-lune à pois"
+   },
+   "desc": {
+    "en": "Polka-dot half-moon bag. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac demi-lune à pois. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B140-01.webp",
+    "/catalog-img/bags/HB-B140-02.webp",
+    "/catalog-img/bags/HB-B140-03.webp",
+    "/catalog-img/bags/HB-B140-04.webp",
+    "/catalog-img/bags/HB-B140-05.webp",
+    "/catalog-img/bags/HB-B140-06.webp",
+    "/catalog-img/bags/HB-B140-07.webp",
+    "/catalog-img/bags/HB-B140-08.webp",
+    "/catalog-img/bags/HB-B140-09.webp",
+    "/catalog-img/bags/HB-B140-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B143",
+   "name": {
+    "en": "Woven-texture top-handle bag",
+    "fr": "Sac à main effet tressé"
+   },
+   "desc": {
+    "en": "Woven-texture top-handle bag. Available in 12 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main effet tressé. Disponible en 12 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B143-01.webp",
+    "/catalog-img/bags/HB-B143-02.webp",
+    "/catalog-img/bags/HB-B143-03.webp",
+    "/catalog-img/bags/HB-B143-04.webp",
+    "/catalog-img/bags/HB-B143-05.webp",
+    "/catalog-img/bags/HB-B143-06.webp",
+    "/catalog-img/bags/HB-B143-07.webp",
+    "/catalog-img/bags/HB-B143-08.webp",
+    "/catalog-img/bags/HB-B143-09.webp",
+    "/catalog-img/bags/HB-B143-10.webp",
+    "/catalog-img/bags/HB-B143-11.webp",
+    "/catalog-img/bags/HB-B143-12.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B146",
+   "name": {
+    "en": "Top-handle bag with metal plate",
+    "fr": "Sac à main avec plaque métallique"
+   },
+   "desc": {
+    "en": "Top-handle bag with metal plate. Available in 12 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main avec plaque métallique. Disponible en 12 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B146-01.webp",
+    "/catalog-img/bags/HB-B146-02.webp",
+    "/catalog-img/bags/HB-B146-03.webp",
+    "/catalog-img/bags/HB-B146-04.webp",
+    "/catalog-img/bags/HB-B146-05.webp",
+    "/catalog-img/bags/HB-B146-06.webp",
+    "/catalog-img/bags/HB-B146-07.webp",
+    "/catalog-img/bags/HB-B146-08.webp",
+    "/catalog-img/bags/HB-B146-09.webp",
+    "/catalog-img/bags/HB-B146-10.webp",
+    "/catalog-img/bags/HB-B146-11.webp",
+    "/catalog-img/bags/HB-B146-12.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B148",
+   "name": {
+    "en": "Top-handle bag with lock",
+    "fr": "Sac à main à cadenas"
+   },
+   "desc": {
+    "en": "Top-handle bag with lock. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main à cadenas. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B148-01.webp",
+    "/catalog-img/bags/HB-B148-02.webp",
+    "/catalog-img/bags/HB-B148-03.webp",
+    "/catalog-img/bags/HB-B148-04.webp",
+    "/catalog-img/bags/HB-B148-05.webp",
+    "/catalog-img/bags/HB-B148-06.webp",
+    "/catalog-img/bags/HB-B148-07.webp",
+    "/catalog-img/bags/HB-B148-08.webp",
+    "/catalog-img/bags/HB-B148-09.webp",
+    "/catalog-img/bags/HB-B148-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B150",
+   "name": {
+    "en": "Mini handbag assortment",
+    "fr": "Assortiment de mini sacs à main"
+   },
+   "desc": {
+    "en": "Mini handbag assortment. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Assortiment de mini sacs à main. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B150-01.webp",
+    "/catalog-img/bags/HB-B150-02.webp",
+    "/catalog-img/bags/HB-B150-03.webp",
+    "/catalog-img/bags/HB-B150-04.webp",
+    "/catalog-img/bags/HB-B150-05.webp",
+    "/catalog-img/bags/HB-B150-06.webp",
+    "/catalog-img/bags/HB-B150-07.webp",
+    "/catalog-img/bags/HB-B150-08.webp",
+    "/catalog-img/bags/HB-B150-09.webp",
+    "/catalog-img/bags/HB-B150-10.webp",
+    "/catalog-img/bags/HB-B150-11.webp",
+    "/catalog-img/bags/HB-B150-12.webp",
+    "/catalog-img/bags/HB-B150-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B151",
+   "name": {
+    "en": "Assorted tote bags (mixed lot)",
+    "fr": "Sacs cabas assortis (lot mixte)"
+   },
+   "desc": {
+    "en": "Assorted tote bags (mixed lot). Available in 6 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sacs cabas assortis (lot mixte). Disponible en 6 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B151-01.webp",
+    "/catalog-img/bags/HB-B151-02.webp",
+    "/catalog-img/bags/HB-B151-03.webp",
+    "/catalog-img/bags/HB-B151-04.webp",
+    "/catalog-img/bags/HB-B151-05.webp",
+    "/catalog-img/bags/HB-B151-06.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B154",
+   "name": {
+    "en": "Box bag with ring handle",
+    "fr": "Sac boîte à anse anneau"
+   },
+   "desc": {
+    "en": "Box bag with ring handle. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac boîte à anse anneau. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B154-01.webp",
+    "/catalog-img/bags/HB-B154-02.webp",
+    "/catalog-img/bags/HB-B154-03.webp",
+    "/catalog-img/bags/HB-B154-04.webp",
+    "/catalog-img/bags/HB-B154-05.webp",
+    "/catalog-img/bags/HB-B154-06.webp",
+    "/catalog-img/bags/HB-B154-07.webp",
+    "/catalog-img/bags/HB-B154-08.webp",
+    "/catalog-img/bags/HB-B154-09.webp",
+    "/catalog-img/bags/HB-B154-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B155",
+   "name": {
+    "en": "Boxy top-handle bag",
+    "fr": "Sac à main carré"
+   },
+   "desc": {
+    "en": "Boxy top-handle bag. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main carré. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B155-01.webp",
+    "/catalog-img/bags/HB-B155-02.webp",
+    "/catalog-img/bags/HB-B155-03.webp",
+    "/catalog-img/bags/HB-B155-04.webp",
+    "/catalog-img/bags/HB-B155-05.webp",
+    "/catalog-img/bags/HB-B155-06.webp",
+    "/catalog-img/bags/HB-B155-07.webp",
+    "/catalog-img/bags/HB-B155-08.webp",
+    "/catalog-img/bags/HB-B155-09.webp",
+    "/catalog-img/bags/HB-B155-10.webp",
+    "/catalog-img/bags/HB-B155-11.webp",
+    "/catalog-img/bags/HB-B155-12.webp",
+    "/catalog-img/bags/HB-B155-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B157",
+   "name": {
+    "en": "Half-moon bag with knot handle",
+    "fr": "Sac demi-lune à anse nouée"
+   },
+   "desc": {
+    "en": "Half-moon bag with knot handle. Available in 14 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac demi-lune à anse nouée. Disponible en 14 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B157-01.webp",
+    "/catalog-img/bags/HB-B157-02.webp",
+    "/catalog-img/bags/HB-B157-03.webp",
+    "/catalog-img/bags/HB-B157-04.webp",
+    "/catalog-img/bags/HB-B157-05.webp",
+    "/catalog-img/bags/HB-B157-06.webp",
+    "/catalog-img/bags/HB-B157-07.webp",
+    "/catalog-img/bags/HB-B157-08.webp",
+    "/catalog-img/bags/HB-B157-09.webp",
+    "/catalog-img/bags/HB-B157-10.webp",
+    "/catalog-img/bags/HB-B157-11.webp",
+    "/catalog-img/bags/HB-B157-12.webp",
+    "/catalog-img/bags/HB-B157-13.webp",
+    "/catalog-img/bags/HB-B157-14.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B159",
+   "name": {
+    "en": "Tweed top-handle bag",
+    "fr": "Sac à main en tweed"
+   },
+   "desc": {
+    "en": "Tweed top-handle bag. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main en tweed. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B159-01.webp",
+    "/catalog-img/bags/HB-B159-02.webp",
+    "/catalog-img/bags/HB-B159-03.webp",
+    "/catalog-img/bags/HB-B159-04.webp",
+    "/catalog-img/bags/HB-B159-05.webp",
+    "/catalog-img/bags/HB-B159-06.webp",
+    "/catalog-img/bags/HB-B159-07.webp",
+    "/catalog-img/bags/HB-B159-08.webp",
+    "/catalog-img/bags/HB-B159-09.webp",
+    "/catalog-img/bags/HB-B159-10.webp",
+    "/catalog-img/bags/HB-B159-11.webp",
+    "/catalog-img/bags/HB-B159-12.webp",
+    "/catalog-img/bags/HB-B159-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B160",
+   "name": {
+    "en": "Flap top-handle bag with buckle",
+    "fr": "Sac à main à rabat avec boucle"
+   },
+   "desc": {
+    "en": "Flap top-handle bag with buckle. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main à rabat avec boucle. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B160-01.webp",
+    "/catalog-img/bags/HB-B160-02.webp",
+    "/catalog-img/bags/HB-B160-03.webp",
+    "/catalog-img/bags/HB-B160-04.webp",
+    "/catalog-img/bags/HB-B160-05.webp",
+    "/catalog-img/bags/HB-B160-06.webp",
+    "/catalog-img/bags/HB-B160-07.webp",
+    "/catalog-img/bags/HB-B160-08.webp",
+    "/catalog-img/bags/HB-B160-09.webp",
+    "/catalog-img/bags/HB-B160-10.webp",
+    "/catalog-img/bags/HB-B160-11.webp",
+    "/catalog-img/bags/HB-B160-12.webp",
+    "/catalog-img/bags/HB-B160-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B161",
+   "name": {
+    "en": "Polka-dot dome bag set",
+    "fr": "Ensemble sacs dôme à pois"
+   },
+   "desc": {
+    "en": "Polka-dot dome bag set. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Ensemble sacs dôme à pois. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B161-01.webp",
+    "/catalog-img/bags/HB-B161-02.webp",
+    "/catalog-img/bags/HB-B161-03.webp",
+    "/catalog-img/bags/HB-B161-04.webp",
+    "/catalog-img/bags/HB-B161-05.webp",
+    "/catalog-img/bags/HB-B161-06.webp",
+    "/catalog-img/bags/HB-B161-07.webp",
+    "/catalog-img/bags/HB-B161-08.webp",
+    "/catalog-img/bags/HB-B161-09.webp",
+    "/catalog-img/bags/HB-B161-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B169",
+   "name": {
+    "en": "Polka-dot top-handle bag",
+    "fr": "Sac à main à pois"
+   },
+   "desc": {
+    "en": "Polka-dot top-handle bag. Available in 10 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main à pois. Disponible en 10 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B169-01.webp",
+    "/catalog-img/bags/HB-B169-02.webp",
+    "/catalog-img/bags/HB-B169-03.webp",
+    "/catalog-img/bags/HB-B169-04.webp",
+    "/catalog-img/bags/HB-B169-05.webp",
+    "/catalog-img/bags/HB-B169-06.webp",
+    "/catalog-img/bags/HB-B169-07.webp",
+    "/catalog-img/bags/HB-B169-08.webp",
+    "/catalog-img/bags/HB-B169-09.webp",
+    "/catalog-img/bags/HB-B169-10.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B170",
+   "name": {
+    "en": "Flap crossbody with turn-lock",
+    "fr": "Sac bandoulière à rabat fermoir tournant"
+   },
+   "desc": {
+    "en": "Flap crossbody with turn-lock. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac bandoulière à rabat fermoir tournant. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B170-01.webp",
+    "/catalog-img/bags/HB-B170-02.webp",
+    "/catalog-img/bags/HB-B170-03.webp",
+    "/catalog-img/bags/HB-B170-04.webp",
+    "/catalog-img/bags/HB-B170-05.webp",
+    "/catalog-img/bags/HB-B170-06.webp",
+    "/catalog-img/bags/HB-B170-07.webp",
+    "/catalog-img/bags/HB-B170-08.webp",
+    "/catalog-img/bags/HB-B170-09.webp",
+    "/catalog-img/bags/HB-B170-10.webp",
+    "/catalog-img/bags/HB-B170-11.webp",
+    "/catalog-img/bags/HB-B170-12.webp",
+    "/catalog-img/bags/HB-B170-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B171",
+   "name": {
+    "en": "Top-handle flap bag",
+    "fr": "Sac à main à rabat"
+   },
+   "desc": {
+    "en": "Top-handle flap bag. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main à rabat. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B171-01.webp",
+    "/catalog-img/bags/HB-B171-02.webp",
+    "/catalog-img/bags/HB-B171-03.webp",
+    "/catalog-img/bags/HB-B171-04.webp",
+    "/catalog-img/bags/HB-B171-05.webp",
+    "/catalog-img/bags/HB-B171-06.webp",
+    "/catalog-img/bags/HB-B171-07.webp",
+    "/catalog-img/bags/HB-B171-08.webp",
+    "/catalog-img/bags/HB-B171-09.webp",
+    "/catalog-img/bags/HB-B171-10.webp",
+    "/catalog-img/bags/HB-B171-11.webp",
+    "/catalog-img/bags/HB-B171-12.webp",
+    "/catalog-img/bags/HB-B171-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B174",
+   "name": {
+    "en": "Quilted boxy crossbody bag",
+    "fr": "Sac bandoulière carré matelassé"
+   },
+   "desc": {
+    "en": "Quilted boxy crossbody bag. Available in 12 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac bandoulière carré matelassé. Disponible en 12 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B174-01.webp",
+    "/catalog-img/bags/HB-B174-02.webp",
+    "/catalog-img/bags/HB-B174-03.webp",
+    "/catalog-img/bags/HB-B174-04.webp",
+    "/catalog-img/bags/HB-B174-05.webp",
+    "/catalog-img/bags/HB-B174-06.webp",
+    "/catalog-img/bags/HB-B174-07.webp",
+    "/catalog-img/bags/HB-B174-08.webp",
+    "/catalog-img/bags/HB-B174-09.webp",
+    "/catalog-img/bags/HB-B174-10.webp",
+    "/catalog-img/bags/HB-B174-11.webp",
+    "/catalog-img/bags/HB-B174-12.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B175",
+   "name": {
+    "en": "Half-moon top-handle bag",
+    "fr": "Sac à main demi-lune"
+   },
+   "desc": {
+    "en": "Half-moon top-handle bag. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main demi-lune. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B175-01.webp",
+    "/catalog-img/bags/HB-B175-02.webp",
+    "/catalog-img/bags/HB-B175-03.webp",
+    "/catalog-img/bags/HB-B175-04.webp",
+    "/catalog-img/bags/HB-B175-05.webp",
+    "/catalog-img/bags/HB-B175-06.webp",
+    "/catalog-img/bags/HB-B175-07.webp",
+    "/catalog-img/bags/HB-B175-08.webp",
+    "/catalog-img/bags/HB-B175-09.webp",
+    "/catalog-img/bags/HB-B175-10.webp",
+    "/catalog-img/bags/HB-B175-11.webp",
+    "/catalog-img/bags/HB-B175-12.webp",
+    "/catalog-img/bags/HB-B175-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B176",
+   "name": {
+    "en": "Padded top-handle bag",
+    "fr": "Sac à main matelassé bombé"
+   },
+   "desc": {
+    "en": "Padded top-handle bag. Available in 14 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main matelassé bombé. Disponible en 14 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B176-01.webp",
+    "/catalog-img/bags/HB-B176-02.webp",
+    "/catalog-img/bags/HB-B176-03.webp",
+    "/catalog-img/bags/HB-B176-04.webp",
+    "/catalog-img/bags/HB-B176-05.webp",
+    "/catalog-img/bags/HB-B176-06.webp",
+    "/catalog-img/bags/HB-B176-07.webp",
+    "/catalog-img/bags/HB-B176-08.webp",
+    "/catalog-img/bags/HB-B176-09.webp",
+    "/catalog-img/bags/HB-B176-10.webp",
+    "/catalog-img/bags/HB-B176-11.webp",
+    "/catalog-img/bags/HB-B176-12.webp",
+    "/catalog-img/bags/HB-B176-13.webp",
+    "/catalog-img/bags/HB-B176-14.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B177",
+   "name": {
+    "en": "Studded dome handbag",
+    "fr": "Sac dôme clouté"
+   },
+   "desc": {
+    "en": "Studded dome handbag. Available in 14 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac dôme clouté. Disponible en 14 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B177-01.webp",
+    "/catalog-img/bags/HB-B177-02.webp",
+    "/catalog-img/bags/HB-B177-03.webp",
+    "/catalog-img/bags/HB-B177-04.webp",
+    "/catalog-img/bags/HB-B177-05.webp",
+    "/catalog-img/bags/HB-B177-06.webp",
+    "/catalog-img/bags/HB-B177-07.webp",
+    "/catalog-img/bags/HB-B177-08.webp",
+    "/catalog-img/bags/HB-B177-09.webp",
+    "/catalog-img/bags/HB-B177-10.webp",
+    "/catalog-img/bags/HB-B177-11.webp",
+    "/catalog-img/bags/HB-B177-12.webp",
+    "/catalog-img/bags/HB-B177-13.webp",
+    "/catalog-img/bags/HB-B177-14.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B178",
+   "name": {
+    "en": "Patent top-handle bag",
+    "fr": "Sac à main verni"
+   },
+   "desc": {
+    "en": "Patent top-handle bag. Available in 13 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac à main verni. Disponible en 13 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B178-01.webp",
+    "/catalog-img/bags/HB-B178-02.webp",
+    "/catalog-img/bags/HB-B178-03.webp",
+    "/catalog-img/bags/HB-B178-04.webp",
+    "/catalog-img/bags/HB-B178-05.webp",
+    "/catalog-img/bags/HB-B178-06.webp",
+    "/catalog-img/bags/HB-B178-07.webp",
+    "/catalog-img/bags/HB-B178-08.webp",
+    "/catalog-img/bags/HB-B178-09.webp",
+    "/catalog-img/bags/HB-B178-10.webp",
+    "/catalog-img/bags/HB-B178-11.webp",
+    "/catalog-img/bags/HB-B178-12.webp",
+    "/catalog-img/bags/HB-B178-13.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  },
+  {
+   "id": "HB-B179",
+   "name": {
+    "en": "Pleated half-moon bag with knot handle",
+    "fr": "Sac demi-lune plissé à anse nouée"
+   },
+   "desc": {
+    "en": "Pleated half-moon bag with knot handle. Available in 11 styles/colours — swipe the photos to see each one. Contact us for availability and pricing.",
+    "fr": "Sac demi-lune plissé à anse nouée. Disponible en 11 modèles/couleurs — faites glisser les photos pour les voir. Contactez-nous pour la disponibilité et le prix."
+   },
+   "images": [
+    "/catalog-img/bags/HB-B179-01.webp",
+    "/catalog-img/bags/HB-B179-02.webp",
+    "/catalog-img/bags/HB-B179-03.webp",
+    "/catalog-img/bags/HB-B179-04.webp",
+    "/catalog-img/bags/HB-B179-05.webp",
+    "/catalog-img/bags/HB-B179-06.webp",
+    "/catalog-img/bags/HB-B179-07.webp",
+    "/catalog-img/bags/HB-B179-08.webp",
+    "/catalog-img/bags/HB-B179-09.webp",
+    "/catalog-img/bags/HB-B179-10.webp",
+    "/catalog-img/bags/HB-B179-11.webp"
+   ],
+   "cost": "Contact supplier",
+   "moq": "Contact supplier"
+  }
+ ]
+}
